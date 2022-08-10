@@ -22,7 +22,7 @@ I am a Frontend Developer @everythingJS
 - 🔭 I’m currently working on an ***investment platform***
 - 🌱 I’m currently learning ***✨JavaScript✨***
 - 👯 I’m looking to collaborate on ***Frontend Projects***
-- 💬 Ask me about any issues you have with ***Vanila JS***
+- 💬 Ask me about any issues you have with ***Vanilla JS***
 - 📫 You can reach me at udonsichisom02@gmail.com
 
 ---
