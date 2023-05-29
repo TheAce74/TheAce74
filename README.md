@@ -13,7 +13,7 @@
 ---
 ### 👨‍💻 About Me:
 
-I am a Frontend Developer @everythingJS
+I am a Frontend Developer ***@everythingJS***
 
 - 🔭 I’m currently working on improving my skills
 - 🌱 I’m currently learning ***✨React✨***
