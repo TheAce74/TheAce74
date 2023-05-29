@@ -5,13 +5,14 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="min(100%, 20em)"/>
 </div>
-
+<br/>
 <div align="center">
  <img src="https://komarev.com/ghpvc/?username=TheAce74&style=flat-square&color=blue" alt="The Ace"  height="30em" display="block">
 </div>
 
 ---
 ### 👨‍💻 About Me:
+
 I am a Frontend Developer @everythingJS
 
 - 🔭 I’m currently working on improving my skills
@@ -22,6 +23,7 @@ I am a Frontend Developer @everythingJS
 
 ---
 ### 📱 Connect with me:
+
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/chisom-udonsi-45196b216)
 [![WhatsApp Badge](https://img.shields.io/badge/-WhatsApp-success?style=flat&logo=WhatsApp&logoColor=white)](https://api.whatsapp.com/send?phone=2347063265056)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-blue?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/TheAce74)
@@ -29,26 +31,43 @@ I am a Frontend Developer @everythingJS
 
 ---
 ### 🛠 Languages and Tools:
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" title="VS Code" alt="VSCode" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" title="SASS" alt="SASS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" title="GitHub" alt="GitHub" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="NPM" alt="NPM" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/yarn/yarn-original.svg" title="Yarn" alt="Yarn" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-original.svg" title="jQuery" alt="jQuery" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="40" height="40"/>&nbsp;
-</div>
+
+<details>
+<summary>👩‍💻 Languages</summary>
+  <br/>
+  <img src="https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="html" />
+  <img src="https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=1572B6" alt="css" />
+  <img src="https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E&background=F7DF1E" alt="js" />
+</details>
+
+<details>
+<summary> ⭐ Tools</summary>
+  <br/>
+  <img src="https://img.shields.io/badge/VS_Code-20232A?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="vscode" />
+  <img src="https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032" alt="git" />
+  <img src="https://img.shields.io/badge/GitHub-20232A?style=for-the-badge&logo=github&logoColor=181717" alt="github" />
+  <img src="https://img.shields.io/badge/jQuery-20232A?style=for-the-badge&logo=jquery&logoColor=0769AD" alt="jquery" />
+  <img src="https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo=sass&logoColor=CC6699" alt="sass" />
+  <br/>
+  <img src="https://img.shields.io/badge/NPM-20232A?style=for-the-badge&logo=npm&logoColor=CB3837" alt="npm" />
+  <img src="https://img.shields.io/badge/Yarn-20232A?style=for-the-badge&logo=yarn&logoColor=2C8EBB" alt="yarn" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router&logoColor=CA4245" alt="React router" />
+  <img src="https://img.shields.io/badge/redux-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="Redux" />
+</details>
 
 ---
 ### 🔥 My Stats:
 
-![TheAce74 GitHub stats](https://github-readme-stats.vercel.app/api?username=TheAce74&show_icons=true&theme=vision-friendly-dark&background=000000&border=FDFFFE)
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=TheAce74&theme=vision-friendly-dark&background=000000&border=FDFFFE)](https://git.io/streak-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TheAce74&layout=compact&theme=vision-friendly-dark&background=000000&border=FDFFFE)](https://github.com/TheAce74/github-readme-stats)
+<br/>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TheAce74&show_icons=true&theme=vision-friendly-dark&background=000000&border=FDFFFE" width="80%" alt="TheAce74 GitHub stats">
+</div>
+<br/>
+<div align="center">
+  <img src="http://github-readme-streak-stats.herokuapp.com?user=TheAce74&theme=vision-friendly-dark&background=000000&border=FDFFFE" width="80%" alt="GitHub Streak">
+</div>
+<br/>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheAce74&layout=compact&theme=vision-friendly-dark&background=000000&border=FDFFFE" width="80%" alt="Top Langs">
+</div>
