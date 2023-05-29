@@ -4,7 +4,9 @@
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="min(100%, 20em)"/>
+</div>
 
+<div align="center">
  <img src="https://komarev.com/ghpvc/?username=TheAce74&style=flat-square&color=blue" alt="The Ace"  height="30em" display="block">
 </div>
 
