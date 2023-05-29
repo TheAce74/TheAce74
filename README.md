@@ -1,15 +1,9 @@
-{
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="100%"/>
-</div>
-}
-
 <h1 align="center">Hello there👋, I'm The Ace</h1>
 
 <h3 align="center">The "Senku Ishigami" of the Dev World 🧠</h3>
 
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%"/>
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="min(100%, 20em)"/>
 </div>
 
 <img src="https://komarev.com/ghpvc/?username=TheAce74&style=flat-square&color=blue" alt="The Ace"/>
