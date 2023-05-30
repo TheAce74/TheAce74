@@ -1,2 +1,21 @@
+@use "../base" as *;
+
 .body {
+  padding-right: 10em;
+
+  & > section {
+    @extend %fill;
+  }
+}
+
+.id {
+  @extend .flex;
+  justify-content: center;
+  border: 1px solid var(--clr-neutral-200);
+  gap: 0.5em;
+  width: fit-content;
+  border-radius: 100vmax;
+  padding: 0.5em 2em;
+  text-transform: capitalize;
+  margin-top: 1.5em;
 }

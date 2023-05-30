@@ -1,0 +1,17 @@
+.home {
+  &__heading {
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-block: 1em 0.5em;
+    line-height: 1.2;
+
+    span {
+      color: var(--clr-primary-400);
+    }
+  }
+
+  &__info {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
