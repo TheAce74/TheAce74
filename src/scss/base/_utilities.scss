@@ -1,1 +1,34 @@
 //utility classes, sass placeholders and css custom properties
+@use "../abstracts" as *;
+:root {
+  @each $key, $value in $clr-neutral {
+    --clr-neutral-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $clr-primary {
+    --clr-primary-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $tools {
+    --clr-#{$key}: #{$value};
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2em;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
