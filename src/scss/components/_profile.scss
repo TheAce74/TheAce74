@@ -1,14 +1,14 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 .profile {
-  height: min-content;
   padding: 1.5em;
-  position: sticky;
 
   &__wrapper {
     border: 1px solid var(--clr-neutral-100);
     border-radius: 1em;
     padding: 1em 2em;
+    position: sticky;
+    top: 1.5em;
   }
 
   &__title {
