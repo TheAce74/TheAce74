@@ -29,11 +29,15 @@
   }
 
   &__img {
-    filter: grayscale(50%);
     width: 90%;
     aspect-ratio: 1.2;
+    overflow: hidden;
     margin: 1em auto;
     border-radius: 1em;
+
+    & img {
+      filter: grayscale(50%);
+    }
   }
 
   &__wrapper > p {

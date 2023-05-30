@@ -12,7 +12,9 @@ function Profile() {
           </h1>
           <p>Developer</p>
         </div>
-        <img src={profilePic} alt="profile picture" className="profile__img" />
+        <div className="profile__img">
+          <img src={profilePic} alt="profile picture" />
+        </div>
         <p aria-label="email">udonsichisom02@gmail.com</p>
         <p aria-label="location">Based in Imo, Nigeria</p>
         <p>&copy; 2023 Chisom. All Rights Reserved</p>
