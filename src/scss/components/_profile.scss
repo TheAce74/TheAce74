@@ -63,6 +63,14 @@
     justify-content: center;
     margin-block: 1em;
     color: var(--clr-neutral-200);
+
+    a:is(:hover, :focus-visible) {
+      color: var(--clr-primary-400);
+    }
+
+    a:is(:hover, :focus-visible) * {
+      border-color: var(--clr-primary-400);
+    }
   }
 
   &__icon {
