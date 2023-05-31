@@ -11,6 +11,10 @@
   font-size: 1.5rem;
 
   & a {
+    &:is(:hover, :focus-visible) {
+      color: var(--clr-primary-400);
+    }
+
     &:not(:last-child) {
       margin-bottom: 0.8em;
       display: block;
