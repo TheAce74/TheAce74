@@ -1,9 +1,14 @@
 /* eslint-disable react/prop-types */
-function Home({ title, render }) {
+function Home({ title, icon, handleOpenMenu }) {
   return (
-    <section className="home" aria-label="home">
+    <section
+      className="home"
+      aria-label="home"
+      id="home"
+      onClick={() => handleOpenMenu(false)}
+    >
       <p className="id">
-        <span>{render()}</span>
+        <span>{icon()}</span>
         <span>{title}</span>
       </p>
 

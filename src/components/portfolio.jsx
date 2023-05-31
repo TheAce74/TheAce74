@@ -1,9 +1,14 @@
 /* eslint-disable react/prop-types */
-function Portfolio({ title, render }) {
+function Portfolio({ title, icon, handleOpenMenu }) {
   return (
-    <section className="portfolio" aria-label="portfolio">
+    <section
+      className="portfolio"
+      aria-label="portfolio"
+      id="portfolio"
+      onClick={() => handleOpenMenu(false)}
+    >
       <p className="id">
-        <span>{render()}</span>
+        <span>{icon()}</span>
         <span>{title}</span>
       </p>
     </section>

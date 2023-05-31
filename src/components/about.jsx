@@ -1,9 +1,14 @@
 /* eslint-disable react/prop-types */
-function About({ title, render }) {
+function About({ title, icon, handleOpenMenu }) {
   return (
-    <section className="about" aria-label="about">
+    <section
+      className="about"
+      aria-label="about"
+      id="about"
+      onClick={() => handleOpenMenu(false)}
+    >
       <p className="id">
-        <span>{render()}</span>
+        <span>{icon()}</span>
         <span>{title}</span>
       </p>
     </section>

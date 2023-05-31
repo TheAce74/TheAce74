@@ -1,10 +1,12 @@
+/* eslint-disable react/prop-types */
 import profilePic from "../assets/image.webp";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
-function Profile() {
+
+function Profile({ handleOpenMenu }) {
   return (
-    <section className="profile" aria-label="profile">
+    <section className="profile" aria-label="profile" onClick={handleOpenMenu}>
       <div className="profile__wrapper">
         <div className="profile__title">
           <h1>

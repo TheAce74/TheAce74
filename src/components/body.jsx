@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Home from "./home";
 import MenuIcon from "./menuIcon";
 import IconBar from "./iconBar";
@@ -13,24 +14,56 @@ import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
+import { useState } from "react";
 
-function Body() {
+function Body({ openMenu, handleOpenMenu }) {
+  const [currentSection, setCurrentSection] = useState(0);
+
+  const handleTravel = val => {
+    setCurrentSection(val);
+  };
   return (
     <section className="body" aria-label="body">
-      <Home title="introduce" render={() => <HiOutlineHome />} />
-      <div className="body__wrapper">
-        <MenuIcon />
-        <IconBar />
+      <Home
+        title="introduction"
+        icon={() => <HiOutlineHome />}
+        handleOpenMenu={handleOpenMenu}
+      />
+      <div className="icon__wrapper">
+        <MenuIcon handleOpenMenu={handleOpenMenu} />
+        <IconBar currentSection={currentSection} handleTravel={handleTravel} />
       </div>
-      <Menu />
-      <About title="about" render={() => <CgProfile />} />
-      <Skills title="my skills" render={() => <GiSmallFire />} />
-      <Portfolio title="portfolio" render={() => <BsLightningCharge />} />
+      <Menu
+        openMenu={openMenu}
+        handleOpenMenu={handleOpenMenu}
+        currentSection={currentSection}
+        handleTravel={handleTravel}
+      />
+      <About
+        title="about"
+        icon={() => <CgProfile />}
+        handleOpenMenu={handleOpenMenu}
+      />
+      <Skills
+        title="my skills"
+        icon={() => <GiSmallFire />}
+        handleOpenMenu={handleOpenMenu}
+      />
+      <Portfolio
+        title="portfolio"
+        icon={() => <BsLightningCharge />}
+        handleOpenMenu={handleOpenMenu}
+      />
       <Testimonial
         title="testimonial"
-        render={() => <BiMessageSquareDetail />}
+        icon={() => <BiMessageSquareDetail />}
+        handleOpenMenu={handleOpenMenu}
       />
-      <Contact title="contact" render={() => <FiMail />} />
+      <Contact
+        title="contact"
+        icon={() => <FiMail />}
+        handleOpenMenu={handleOpenMenu}
+      />
     </section>
   );
 }

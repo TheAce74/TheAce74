@@ -1,8 +1,15 @@
-function MenuIcon() {
+/* eslint-disable react/prop-types */
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
+function MenuIcon({ handleOpenMenu }) {
   return (
-    <section className="menuIcon" aria-label="menuIcon">
-      <h1>MenuIcon</h1>
-    </section>
+    <button
+      className="menuIcon"
+      aria-controls="menu"
+      aria-label="open menu"
+      onClick={() => handleOpenMenu(true)}
+    >
+      <HiOutlineMenuAlt4 />
+    </button>
   );
 }
 
