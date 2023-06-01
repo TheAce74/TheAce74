@@ -11,6 +11,8 @@ function Contact({ title, icon, handleOpenMenu }) {
         <span>{icon()}</span>
         <span>{title}</span>
       </p>
+
+      {/* content: Ready to embark on this adventure together? Let's make some frontend magic! */}
     </section>
   );
 }

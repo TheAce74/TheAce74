@@ -1,0 +1,57 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+.about {
+  &__heading {
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-block: 1em 0.3em;
+    line-height: 1.2;
+
+    span {
+      color: var(--clr-primary-400);
+    }
+  }
+
+  &__info {
+    font-size: 1.12rem;
+    line-height: 1.6;
+  }
+
+  &__extra {
+    @extend .flex;
+    margin-top: 1em;
+
+    h3 {
+      color: var(--clr-primary-400);
+      font-size: 3rem;
+      font-weight: 500;
+    }
+
+    p {
+      color: var(--clr-neutral-200);
+      font-size: 0.9rem;
+    }
+
+    a {
+      background-color: var(--clr-primary-400);
+      color: var(--clr-neutral-900);
+      border-radius: 0.4em;
+      text-decoration: none;
+      padding: 1em 2em;
+      border: 2px solid var(--clr-primary-400);
+      font: {
+        weight: 500;
+        size: 1.1rem;
+      }
+
+      &:is(:hover, :focus-visible) {
+        background-color: transparent;
+        color: var(--clr-primary-400);
+      }
+
+      @include motion {
+        transition: color 0.3s, background-color 0.3s;
+      }
+    }
+  }
+}
