@@ -10,7 +10,7 @@
   color: var(--clr-neutral-200);
 
   @include motion {
-    transition: inset 0.3s;
+    transition: inset 0.3s, visibility 0.3s;
   }
 
   &--open {
