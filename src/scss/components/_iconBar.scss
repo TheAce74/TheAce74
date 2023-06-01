@@ -32,5 +32,31 @@
         transition: color 0.3s;
       }
     }
+
+    // tooltip stuff
+    &:is(:hover, :focus-visible)::before {
+      opacity: 1;
+      visibility: visible;
+
+      @include motion {
+        transition: all 0.3s;
+      }
+    }
+
+    &::before {
+      content: attr(data-title);
+      background-color: var(--clr-neutral-300);
+      border-radius: 0.3em;
+      color: var(--clr-neutral-100);
+      font-size: 0.8rem;
+      position: absolute;
+      padding: 0.25em 0.5em;
+      left: 0;
+      translate: calc(-1 * (100% + 0.1em)) 0;
+      white-space: nowrap;
+      opacity: 0;
+      z-index: 1;
+      visibility: hidden;
+    }
   }
 }
