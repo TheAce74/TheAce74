@@ -9,7 +9,7 @@ import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
 
-function Menu({ openMenu, handleOpenMenu, currentSection, handleTravel }) {
+function Menu({ openMenu, handleOpenMenu, currentSection }) {
   return (
     <section
       className={openMenu ? "menu menu--open" : "menu"}
@@ -31,10 +31,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection, handleTravel }) {
                   ? "menu__links menu__links--current"
                   : "menu__links"
               }
-              onClick={() => {
-                handleOpenMenu(false);
-                handleTravel(0);
-              }}
+              onClick={() => handleOpenMenu(false)}
             >
               <HiOutlineHome className="icon" />
               <span>Home</span>
@@ -48,10 +45,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection, handleTravel }) {
                   ? "menu__links menu__links--current"
                   : "menu__links"
               }
-              onClick={() => {
-                handleOpenMenu(false);
-                handleTravel(1);
-              }}
+              onClick={() => handleOpenMenu(false)}
             >
               <CgProfile className="icon" />
               <span>About</span>
@@ -65,10 +59,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection, handleTravel }) {
                   ? "menu__links menu__links--current"
                   : "menu__links"
               }
-              onClick={() => {
-                handleOpenMenu(false);
-                handleTravel(2);
-              }}
+              onClick={() => handleOpenMenu(false)}
             >
               <GiSmallFire className="icon" />
               <span>Skills</span>
@@ -82,10 +73,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection, handleTravel }) {
                   ? "menu__links menu__links--current"
                   : "menu__links"
               }
-              onClick={() => {
-                handleOpenMenu(false);
-                handleTravel(3);
-              }}
+              onClick={() => handleOpenMenu(false)}
             >
               <BsLightningCharge className="icon" />
               <span>Portfolio</span>
@@ -99,10 +87,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection, handleTravel }) {
                   ? "menu__links menu__links--current"
                   : "menu__links"
               }
-              onClick={() => {
-                handleOpenMenu(false);
-                handleTravel(4);
-              }}
+              onClick={() => handleOpenMenu(false)}
             >
               <BiMessageSquareDetail className="icon" />
               <span>Testimonial</span>
@@ -116,10 +101,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection, handleTravel }) {
                   ? "menu__links menu__links--current"
                   : "menu__links"
               }
-              onClick={() => {
-                handleOpenMenu(false);
-                handleTravel(5);
-              }}
+              onClick={() => handleOpenMenu(false)}
             >
               <FiMail className="icon" />
               <span>Contact</span>

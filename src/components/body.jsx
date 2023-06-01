@@ -14,14 +14,50 @@ import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Body({ openMenu, handleOpenMenu }) {
   const [currentSection, setCurrentSection] = useState(0);
 
-  const handleTravel = val => {
-    setCurrentSection(val);
-  };
+  useEffect(() => {
+    const section = {
+      home: 0,
+      about: 1,
+      skills: 2,
+      portfolio: 3,
+      testimonial: 4,
+      contact: 5,
+    };
+
+    const home = document.querySelector(".home");
+    const about = document.querySelector(".about");
+    const skills = document.querySelector(".skills");
+    const portfolio = document.querySelector(".portfolio");
+    const testimonial = document.querySelector(".testimonial");
+    const contact = document.querySelector(".contact");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const value = entry.target.className;
+            setCurrentSection(section[value]);
+          }
+        });
+      },
+      {
+        threshold: 0.6,
+      },
+    );
+
+    observer.observe(home);
+    observer.observe(about);
+    observer.observe(skills);
+    observer.observe(portfolio);
+    observer.observe(testimonial);
+    observer.observe(contact);
+  }, []);
+
   return (
     <section className="body" aria-label="body">
       <Home
@@ -31,13 +67,12 @@ function Body({ openMenu, handleOpenMenu }) {
       />
       <div className="icon__wrapper">
         <MenuIcon handleOpenMenu={handleOpenMenu} />
-        <IconBar currentSection={currentSection} handleTravel={handleTravel} />
+        <IconBar currentSection={currentSection} />
       </div>
       <Menu
         openMenu={openMenu}
         handleOpenMenu={handleOpenMenu}
         currentSection={currentSection}
-        handleTravel={handleTravel}
       />
       <About
         title="about"

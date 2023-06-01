@@ -6,57 +6,31 @@ import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 
-function IconBar({ currentSection, handleTravel }) {
+function IconBar({ currentSection }) {
   return (
     <aside className="iconBar" aria-label="menu icon bar">
-      <a
-        href="#home"
-        aria-label="go to home"
-        onClick={() => handleTravel(0)}
-        data-title="Home"
-      >
+      <a href="#home" aria-label="go to home" data-title="Home">
         <HiOutlineHome className={currentSection === 0 ? "current" : ""} />
       </a>
-      <a
-        href="#about"
-        aria-label="go to about"
-        onClick={() => handleTravel(1)}
-        data-title="About"
-      >
+      <a href="#about" aria-label="go to about" data-title="About">
         <CgProfile className={currentSection === 1 ? "current" : ""} />
       </a>
-      <a
-        href="#skills"
-        aria-label="go to skills"
-        onClick={() => handleTravel(2)}
-        data-title="Skills"
-      >
+      <a href="#skills" aria-label="go to skills" data-title="Skills">
         <GiSmallFire className={currentSection === 2 ? "current" : ""} />
       </a>
-      <a
-        href="#portfolio"
-        aria-label="go to portfolio"
-        onClick={() => handleTravel(3)}
-        data-title="Portfolio"
-      >
+      <a href="#portfolio" aria-label="go to portfolio" data-title="Portfolio">
         <BsLightningCharge className={currentSection === 3 ? "current" : ""} />
       </a>
       <a
         href="#testimonial"
         aria-label="go to testimonial"
-        onClick={() => handleTravel(4)}
         data-title="Testimonial"
       >
         <BiMessageSquareDetail
           className={currentSection === 4 ? "current" : ""}
         />
       </a>
-      <a
-        href="#contact"
-        aria-label="go to contact"
-        onClick={() => handleTravel(5)}
-        data-title="Contact"
-      >
+      <a href="#contact" aria-label="go to contact" data-title="Contact">
         <FiMail className={currentSection === 5 ? "current" : ""} />
       </a>
     </aside>
