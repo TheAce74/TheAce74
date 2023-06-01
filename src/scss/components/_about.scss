@@ -2,9 +2,9 @@
 @use "../base" as *;
 .about {
   &__heading {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 500;
-    margin-block: 1em 0.3em;
+    margin-block: 0.5em 0.3em;
     line-height: 1.2;
 
     span {
@@ -43,6 +43,7 @@
         weight: 500;
         size: 1.1rem;
       }
+      text-align: center;
 
       &:is(:hover, :focus-visible) {
         background-color: transparent;
