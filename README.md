@@ -51,8 +51,10 @@ I am a Frontend Developer ***@everythingJS***
   <br/>
   <img src="https://img.shields.io/badge/NPM-20232A?style=for-the-badge&logo=npm&logoColor=CB3837" alt="npm" />
   <img src="https://img.shields.io/badge/Yarn-20232A?style=for-the-badge&logo=yarn&logoColor=2C8EBB" alt="yarn" />
+  <img src="https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="vite" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router&logoColor=CA4245" alt="React router" />
+  <br/>
   <img src="https://img.shields.io/badge/redux-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="Redux" />
 </details>
 
