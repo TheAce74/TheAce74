@@ -46,7 +46,7 @@ function Body({ openMenu, handleOpenMenu }) {
         });
       },
       {
-        threshold: 0.6,
+        threshold: 0,
       },
     );
 

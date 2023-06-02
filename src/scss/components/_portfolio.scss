@@ -2,7 +2,6 @@
 @use "../base" as *;
 .portfolio {
   margin-bottom: 10em;
-  isolation: isolate;
 
   &__heading {
     font: {
@@ -18,11 +17,12 @@
 
   &__project {
     position: relative;
+    width: 95%;
   }
 
   &__img {
     border-radius: 1.5em;
-    filter: brightness(70%);
+    filter: brightness(80%);
   }
 
   &__container {
@@ -38,16 +38,19 @@
   &__links {
     @extend .flex;
     gap: 0.7em;
+    text-align: center;
+    font-size: 0.9rem;
   }
 
-  &__tags span {
+  &__tags span,
+  &__links {
     border-radius: 100vmax;
     background-color: var(--clr-neutral-300);
     padding: 0.4em 1em;
   }
 
   &__links {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 
     & * {
       @include motion {
@@ -63,5 +66,7 @@
   &__title {
     font-size: 1.5rem;
     margin-block: 0.7em 2.3em;
+    border-bottom: 5px dotted var(--clr-primary-400);
+    width: max-content;
   }
 }

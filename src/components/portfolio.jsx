@@ -6,7 +6,7 @@ import ecommerce from "../assets/e-commerce.webp";
 import todoApp from "../assets/todo-app.webp";
 import huddle from "../assets/huddle.webp";
 import miniLibrary from "../assets/mini-library.webp";
-import crowdfunding from "../assets/shortly.webp";
+import crowdfunding from "../assets/crowdfunding.webp";
 import { v4 as uuidv4 } from "uuid";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
@@ -23,7 +23,7 @@ function Portfolio({ title, icon, handleOpenMenu }) {
     },
     {
       title: "REST Countries API",
-      tools: ["React", "React Router", "Sass", "Vite", "JSON"],
+      tools: ["React", "React Router", "Sass", "Vite"],
       pic: femCountries,
       link: "https://fem-countries.netlify.app",
       github: "https://github.com/TheAce74/fem-countries",
@@ -107,10 +107,22 @@ function Portfolio({ title, icon, handleOpenMenu }) {
                   ))}
                 </div>
                 <div className="portfolio__links">
-                  <a href={project.github} aria-label="View on GitHub">
+                  <a
+                    href={project.github}
+                    aria-label="View on GitHub"
+                    title="View on GitHub"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <BsGithub />
                   </a>
-                  <a href={project.link} aria-label="View Live">
+                  <a
+                    href={project.link}
+                    aria-label="View Live Site"
+                    title="View Live Site"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <BiLinkExternal />
                   </a>
                 </div>
