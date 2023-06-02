@@ -15,6 +15,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
       className={openMenu ? "menu menu--open" : "menu"}
       aria-label="menu"
       id="menu"
+      aria-expanded={openMenu}
     >
       <div className="menu__wrapper">
         <button className="menu__close" onClick={() => handleOpenMenu(false)}>
