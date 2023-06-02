@@ -1,7 +1,13 @@
 /* eslint-disable react/prop-types */
 import { FaHtml5, FaCss3Alt, FaReact, FaYarn } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoNpm } from "react-icons/io";
-import { SiSass, SiReactrouter, SiRedux, SiJquery } from "react-icons/si";
+import {
+  SiSass,
+  SiReactrouter,
+  SiRedux,
+  SiJquery,
+  SiVite,
+} from "react-icons/si";
 import { BsGit, BsGithub } from "react-icons/bs";
 import { TbBrandVscode } from "react-icons/tb";
 import { v4 as uuidv4 } from "uuid";
@@ -67,6 +73,11 @@ function Skills({ title, icon, handleOpenMenu }) {
       title: "jQuery",
       icon: () => <SiJquery />,
       level: 62,
+    },
+    {
+      title: "Vite",
+      icon: () => <SiVite />,
+      level: 51,
     },
     {
       title: "VS Code",
