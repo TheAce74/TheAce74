@@ -36,3 +36,10 @@
 %fill {
   min-height: 100dvh;
 }
+
+@each $key, $value in $tools {
+  .#{$key} {
+    --clr-tool: #{$value};
+    color: var(--clr-tool);
+  }
+}
