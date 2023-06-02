@@ -1,0 +1,67 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+.portfolio {
+  margin-bottom: 10em;
+  isolation: isolate;
+
+  &__heading {
+    font: {
+      weight: 500;
+      size: 4rem;
+    }
+    margin-block: 0.3em;
+
+    span {
+      color: var(--clr-primary-400);
+    }
+  }
+
+  &__project {
+    position: relative;
+  }
+
+  &__img {
+    border-radius: 1.5em;
+    filter: brightness(70%);
+  }
+
+  &__container {
+    @extend .flex;
+    justify-content: space-between;
+    width: calc(100% - 2.5em);
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+  }
+
+  &__tags,
+  &__links {
+    @extend .flex;
+    gap: 0.7em;
+  }
+
+  &__tags span {
+    border-radius: 100vmax;
+    background-color: var(--clr-neutral-300);
+    padding: 0.4em 1em;
+  }
+
+  &__links {
+    font-size: 1.8rem;
+
+    & * {
+      @include motion {
+        transition: color 0.3s;
+      }
+    }
+
+    & *:is(:hover, :focus-visible) {
+      color: var(--clr-primary-400);
+    }
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-block: 0.7em 2.3em;
+  }
+}
