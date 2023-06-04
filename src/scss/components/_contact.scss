@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 .contact {
-  margin-bottom: 5em;
+  padding-bottom: 5em;
 
   &__heading {
     font: {
@@ -17,7 +17,8 @@
   }
 
   &__form {
-    @extend .grid;
+    display: grid;
+    gap: 2em;
     grid-template-columns: repeat(2, 1fr);
 
     & label,
