@@ -1,3 +1,4 @@
+@use "../abstracts" as *;
 @use "../base" as *;
 .app {
   &__overlay {
@@ -8,6 +9,13 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(0.5px);
     -webkit-backdrop-filter: blur(0.5px);
+
+    @include max(special) {
+      & > * {
+        width: 70%;
+        margin-inline: auto;
+      }
+    }
   }
 
   &__video {

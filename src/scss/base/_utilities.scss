@@ -25,6 +25,10 @@
   display: grid;
   grid-template-columns: 400px 1fr;
   gap: 2em;
+
+  @include max(special) {
+    display: block;
+  }
 }
 
 .btn {

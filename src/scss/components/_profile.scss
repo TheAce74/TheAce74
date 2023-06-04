@@ -38,6 +38,10 @@
     & img {
       filter: grayscale(70%);
     }
+
+    @include max(special) {
+      width: 35%;
+    }
   }
 
   &__wrapper > p {

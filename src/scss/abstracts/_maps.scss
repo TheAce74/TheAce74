@@ -1,8 +1,9 @@
+@use "./functions";
 $breakpoints: (
   "small": 44em,
   "medium": 50em,
   "large": 75em,
-  //1230px
+  "special": functions.em(1230),
 );
 
 $clr-neutral: (
