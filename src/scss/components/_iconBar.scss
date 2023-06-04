@@ -59,4 +59,8 @@
       visibility: hidden;
     }
   }
+
+  @include max(special) {
+    display: none;
+  }
 }

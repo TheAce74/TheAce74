@@ -1,3 +1,4 @@
+@use "../abstracts" as *;
 @use "../base" as *;
 
 .body {
@@ -5,6 +6,10 @@
 
   & > section {
     @extend %fill;
+  }
+
+  @include max(special) {
+    padding-right: 0;
   }
 }
 
@@ -30,4 +35,8 @@
   width: 3em;
   text-align: center;
   font-size: 2rem;
+
+  @include max(special) {
+    padding-top: 1em;
+  }
 }
