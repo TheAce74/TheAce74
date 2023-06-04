@@ -1,5 +1,39 @@
 /* eslint-disable react/prop-types */
+import { useRef } from "react";
+import axios from "axios";
+
 function Contact({ title, icon, handleOpenMenu }) {
+  const name = useRef(null);
+  const email = useRef(null);
+  const tel = useRef(null);
+  const budget = useRef(null);
+  const message = useRef(null);
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    // const [name, email, phone, budget, message] = [
+    //   name.current.value,
+    //   email.current.value,
+    //   phone.current.value,
+    //   budget.current.value,
+    //   message.current.value,
+    // ];
+    const name = "test";
+    const email = "test";
+    const phone = "test";
+    const budget = "test";
+    const message = "test";
+    axios
+      .post("https://aceserver.onrender.com/contact", {
+        name,
+        email,
+        phone,
+        budget,
+        message,
+      })
+      .then(res => console.log(res.data))
+      .catch(err => console.log(err));
+  };
   return (
     <section
       className="contact"
@@ -17,7 +51,7 @@ function Contact({ title, icon, handleOpenMenu }) {
         <span>frontend magic!</span>
       </h2>
 
-      <form action="" className="contact__form">
+      <form className="contact__form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">
             Full Name <span className="important">*</span>
@@ -28,6 +62,7 @@ function Contact({ title, icon, handleOpenMenu }) {
             id="name"
             placeholder="Your full name"
             required
+            ref={name}
           />
         </div>
         <div>
@@ -40,6 +75,7 @@ function Contact({ title, icon, handleOpenMenu }) {
             id="email"
             placeholder="Your email address"
             required
+            ref={email}
           />
         </div>
         <div>
@@ -51,6 +87,7 @@ function Contact({ title, icon, handleOpenMenu }) {
             name="tel"
             id="tel"
             placeholder="Your phone number"
+            ref={tel}
           />
         </div>
         <div>
@@ -63,6 +100,7 @@ function Contact({ title, icon, handleOpenMenu }) {
             id="budget"
             inputMode="number"
             placeholder="Your budget in dollars"
+            ref={budget}
           />
         </div>
         <div>
@@ -76,6 +114,7 @@ function Contact({ title, icon, handleOpenMenu }) {
             rows="10"
             placeholder="Write your message here..."
             required
+            ref={message}
           ></textarea>
         </div>
         <button type="submit">Send Message</button>

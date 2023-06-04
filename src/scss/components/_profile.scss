@@ -67,10 +67,6 @@
   &__wrapper > p[aria-label] {
     font-size: 1.3rem;
 
-    @include max(mini) {
-      font-size: 1.1rem;
-    }
-
     &:nth-of-type(2) {
       margin-bottom: 0.5em;
 
@@ -82,6 +78,10 @@
           font-size: 0.8rem;
         }
       }
+    }
+
+    @include max(mini) {
+      font-size: 1.1rem;
     }
   }
 

@@ -29,10 +29,6 @@
     height: max-content !important;
     width: 90%;
 
-    @include max(small) {
-      width: 100%;
-    }
-
     & > li {
       & > div:first-child {
         display: flex;
@@ -58,6 +54,10 @@
         font-weight: 300;
         text-align: justify;
       }
+    }
+
+    @include max(small) {
+      width: 100%;
     }
   }
 
@@ -124,7 +124,7 @@
   }
 
   @include max(small) {
-    min-height: max-content;
+    min-height: max-content !important;
     margin-bottom: 6em;
   }
 }
