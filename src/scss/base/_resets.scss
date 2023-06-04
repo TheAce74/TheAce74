@@ -1,3 +1,4 @@
+@use "../abstracts" as *;
 *,
 *::before,
 *::after {
@@ -48,4 +49,8 @@ ol[role="list"] {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 1.5em;
+
+  @include max(special) {
+    font-size: 15px;
+  }
 }

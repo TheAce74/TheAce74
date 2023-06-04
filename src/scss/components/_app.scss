@@ -16,6 +16,12 @@
         margin-inline: auto;
       }
     }
+
+    @include max(medium) {
+      & > * {
+        width: 90%;
+      }
+    }
   }
 
   &__video {

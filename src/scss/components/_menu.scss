@@ -19,6 +19,13 @@
     visibility: visible;
   }
 
+  @include max(special) {
+    &--open {
+      inset: 0 0 0 40%;
+      visibility: visible;
+    }
+  }
+
   &__wrapper {
     position: sticky;
     top: 3.8em;

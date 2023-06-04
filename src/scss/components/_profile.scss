@@ -42,6 +42,10 @@
     @include max(special) {
       width: 35%;
     }
+
+    @include max(medium) {
+      width: 45%;
+    }
   }
 
   &__wrapper > p {
