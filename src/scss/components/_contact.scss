@@ -1,0 +1,80 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+.contact {
+  margin-bottom: 5em;
+
+  &__heading {
+    font: {
+      weight: 500;
+      size: 3rem;
+    }
+    line-height: 1.2;
+    margin-block: 0.7em;
+
+    span {
+      color: var(--clr-primary-400);
+    }
+  }
+
+  &__form {
+    @extend .grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    & label,
+    & input {
+      display: block;
+    }
+
+    & label {
+      margin-bottom: 0.5em;
+    }
+
+    & input,
+    & textarea {
+      background: transparent;
+      border: none;
+      width: 100%;
+      padding: 0.3em;
+      resize: none;
+
+      &::placeholder {
+        color: var(--clr-neutral-200);
+      }
+    }
+
+    .important {
+      color: var(--clr-primary-500);
+      font-size: 1.2rem;
+    }
+
+    .optional {
+      color: var(--clr-neutral-200);
+      font-size: 0.9rem;
+      font-style: oblique;
+    }
+
+    & > div:nth-child(5) {
+      grid-column: 1 / -1;
+    }
+
+    & button {
+      @extend .btn;
+      width: max-content;
+      background-color: var(--clr-primary-400);
+      color: var(--clr-neutral-300);
+      padding: 1em 2em;
+      border-radius: 0.5em;
+      font-weight: 500;
+      border: 2px solid var(--clr-primary-400);
+
+      &:is(:hover, :focus-visible) {
+        background-color: transparent;
+        color: var(--clr-primary-400);
+      }
+
+      @include motion {
+        transition: color 0.3s, background-color 0.3s;
+      }
+    }
+  }
+}
