@@ -12,6 +12,10 @@
     span {
       color: var(--clr-primary-400);
     }
+
+    @include max(small) {
+      font-size: 2.7rem;
+    }
   }
 
   &__grid {
@@ -71,5 +75,10 @@
     @include motion {
       transition: color 0.3s;
     }
+  }
+
+  @include max(small) {
+    min-height: max-content !important;
+    margin-bottom: 3em;
   }
 }

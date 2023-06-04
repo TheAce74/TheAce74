@@ -22,7 +22,12 @@
   @include max(special) {
     &--open {
       inset: 0 0 0 40%;
-      visibility: visible;
+    }
+  }
+
+  @include max(small) {
+    &--open {
+      inset: 0 0 0 20%;
     }
   }
 

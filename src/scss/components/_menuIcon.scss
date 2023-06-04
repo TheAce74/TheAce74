@@ -7,6 +7,7 @@
   padding: 0.3em;
   background-color: var(--clr-neutral-900);
   margin-bottom: 0.7em;
+  z-index: 3;
 
   &:is(:hover, :focus-visible) {
     border-color: var(--clr-primary-400);
@@ -20,5 +21,9 @@
   @include max(special) {
     position: sticky;
     top: 1em;
+  }
+
+  @include max(small) {
+    margin-right: -3em;
   }
 }

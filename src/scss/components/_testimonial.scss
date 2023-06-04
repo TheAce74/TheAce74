@@ -14,6 +14,10 @@
     span {
       color: var(--clr-primary-400);
     }
+
+    @include max(small) {
+      font-size: 2.7rem;
+    }
   }
 
   // a11y slider stuff
@@ -24,6 +28,10 @@
     border-radius: 1.2em;
     height: max-content !important;
     width: 90%;
+
+    @include max(small) {
+      width: 100%;
+    }
 
     & > li {
       & > div:first-child {
@@ -113,5 +121,10 @@
 
   .a11y-slider-container {
     position: relative;
+  }
+
+  @include max(small) {
+    min-height: max-content;
+    margin-bottom: 6em;
   }
 }

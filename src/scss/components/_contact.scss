@@ -14,6 +14,10 @@
     span {
       color: var(--clr-primary-400);
     }
+
+    @include max(small) {
+      font-size: 2.7rem;
+    }
   }
 
   &__form {
@@ -77,5 +81,17 @@
         transition: color 0.3s, background-color 0.3s;
       }
     }
+
+    @include max(small) {
+      display: block;
+
+      & > * {
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  @include max(small) {
+    min-height: max-content !important;
   }
 }
