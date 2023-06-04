@@ -28,6 +28,12 @@ function Testimonial({ title, icon, handleOpenMenu }) {
       body: '"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, maxime dolore? Quae est commodi incidunt cumque quo exercitationem nihil rerum ullam ex laudantium, officia, eaque quisquam quibusdam natus libero voluptate!"',
     },
     {
+      name: "Christopher Asor",
+      handle: "@asor_christopher",
+      icon: () => <BsInstagram />,
+      body: "\"Chisom is a very unique and talented frontend developer. He combines effective and efficient implementation of functionalities with great attention to detail. He's a great team player and always tries to keep up good communication with his client, thanks to his great communication skill. He has shown a great sense of responsibility in the few projects he's worked on with me and I'll recommend him to every hiring manager because he'll be an excellent addition and improvement to any team!\"",
+    },
+    {
       name: "Jeffrey Adjari",
       handle: "@Walter-Tronics",
       icon: () => <BsGithub />,
@@ -38,12 +44,6 @@ function Testimonial({ title, icon, handleOpenMenu }) {
       handle: "@Stan545",
       icon: () => <BsGithub />,
       body: '"Chisom, also known as the "Senku Ishigami of the Dev World", is a tech enthusiast and highly skilled frontend developer. His relentless pursuit of knowledge and unwavering determination have made a profound impact on my programming journey. Chisom\'s mastery of frontend development is awe-inspiring, as he effortlessly translates complex concepts into elegant code. With his guidance and expertise, I have experienced tremendous growth and gained invaluable insights. Chisom\'s exceptional mentorship inspires positive change, making him a source of inspiration in my life."',
-    },
-    {
-      name: "Christopher Asor",
-      handle: "@asor_christopher",
-      icon: () => <BsInstagram />,
-      body: '"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, maxime dolore? Quae est commodi incidunt cumque quo exercitationem nihil rerum ullam ex laudantium, officia, eaque quisquam quibusdam natus libero voluptate!"',
     },
     {
       name: "Tochukwu Nwankwo",
