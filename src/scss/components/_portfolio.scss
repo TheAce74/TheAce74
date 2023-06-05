@@ -29,7 +29,7 @@
   }
 
   &__img {
-    border-radius: 1.5em;
+    border-radius: 0.75em;
     filter: brightness(80%);
   }
 
@@ -82,9 +82,9 @@
     min-height: max-content !important;
     margin-bottom: 3em;
 
-     &__container {
+    &__container {
       justify-content: center;
-     }
+    }
 
     &__tags {
       display: none;
