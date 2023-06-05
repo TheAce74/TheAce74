@@ -8,8 +8,21 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
+import { useEffect } from "react";
 
 function Menu({ openMenu, handleOpenMenu, currentSection }) {
+  useEffect(() => {
+    // since "display: none;" isn't transitionable, i came up with this hack
+    const menu = document.querySelector(".menu");
+    const timer = setTimeout(() => {
+      menu.className = openMenu ? "menu menu--open slide" : "menu";
+    }, 0);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [openMenu]);
+
   return (
     <section
       className={openMenu ? "menu menu--open" : "menu"}

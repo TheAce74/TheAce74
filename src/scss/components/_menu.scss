@@ -4,15 +4,20 @@
   background-color: var(--clr-neutral-900);
   position: fixed;
   z-index: 2;
+  display: none;
   inset: 0 0 0 100%;
   visibility: hidden;
   min-width: max-content;
   padding: 3.8em 4.8em;
   color: var(--clr-neutral-200);
 
-  &--open {
+  &.slide {
     inset: 0 0 0 70%;
     visibility: visible;
+  }
+
+  &--open {
+    display: block;
   }
 
   &__wrapper {
@@ -96,13 +101,13 @@
   }
 
   @include max(special) {
-    &--open {
+    &.slide {
       inset: 0 0 0 40%;
     }
   }
 
   @include max(small) {
-    &--open {
+    &.slide {
       inset: 0 0 0 20%;
     }
   }
