@@ -26,7 +26,7 @@ function Testimonial({ title, icon, handleOpenMenu }) {
       handle: "@ProCode47",
       icon: () => <BsGithub />,
       platform: "GitHub",
-      body: '"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, maxime dolore? Quae est commodi incidunt cumque quo exercitationem nihil rerum ullam ex laudantium, officia, eaque quisquam quibusdam natus libero voluptate!"',
+      body: "\"Chisom is a brilliant developer in every definition of the word, he is well versed in the technologies he utilizes and can analyze tricky problems and implement amazing solutions. He's a lifelong learner obsessed with perfecting his craft. He's definitely the guy for the job. Whatever it is, he can crack it\"",
     },
     {
       name: "Christopher Asor",
