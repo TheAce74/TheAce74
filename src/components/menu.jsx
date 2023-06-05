@@ -18,97 +18,104 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
       aria-expanded={openMenu}
     >
       <div className="menu__wrapper">
-        <button className="menu__close" onClick={() => handleOpenMenu(false)}>
+        <button
+          className="menu__close"
+          onClick={() => handleOpenMenu(false)}
+          aria-label="close menu"
+          aria-controls="menu"
+        >
           <IoMdClose />
         </button>
 
         <h2>Menu</h2>
-        <ul role="list" className="menu__list">
-          <li>
-            <a
-              href="#home"
-              className={
-                currentSection === 0
-                  ? "menu__links menu__links--current"
-                  : "menu__links"
-              }
-              onClick={() => handleOpenMenu(false)}
-            >
-              <HiOutlineHome className="icon" />
-              <span>Home</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#about"
-              className={
-                currentSection === 1
-                  ? "menu__links menu__links--current"
-                  : "menu__links"
-              }
-              onClick={() => handleOpenMenu(false)}
-            >
-              <CgProfile className="icon" />
-              <span>About</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#skills"
-              className={
-                currentSection === 2
-                  ? "menu__links menu__links--current"
-                  : "menu__links"
-              }
-              onClick={() => handleOpenMenu(false)}
-            >
-              <GiSmallFire className="icon" />
-              <span>Skills</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#portfolio"
-              className={
-                currentSection === 3
-                  ? "menu__links menu__links--current"
-                  : "menu__links"
-              }
-              onClick={() => handleOpenMenu(false)}
-            >
-              <BsLightningCharge className="icon" />
-              <span>Portfolio</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#testimonial"
-              className={
-                currentSection === 4
-                  ? "menu__links menu__links--current"
-                  : "menu__links"
-              }
-              onClick={() => handleOpenMenu(false)}
-            >
-              <BiMessageSquareDetail className="icon" />
-              <span>Testimonial</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#contact"
-              className={
-                currentSection === 5
-                  ? "menu__links menu__links--current"
-                  : "menu__links"
-              }
-              onClick={() => handleOpenMenu(false)}
-            >
-              <FiMail className="icon" />
-              <span>Contact</span>
-            </a>
-          </li>
-        </ul>
+        <nav aria-label="primary navigation">
+          <ul role="list" className="menu__list">
+            <li>
+              <a
+                href="#home"
+                className={
+                  currentSection === 0
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => handleOpenMenu(false)}
+              >
+                <HiOutlineHome className="icon" />
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                className={
+                  currentSection === 1
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => handleOpenMenu(false)}
+              >
+                <CgProfile className="icon" />
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#skills"
+                className={
+                  currentSection === 2
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => handleOpenMenu(false)}
+              >
+                <GiSmallFire className="icon" />
+                <span>Skills</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                className={
+                  currentSection === 3
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => handleOpenMenu(false)}
+              >
+                <BsLightningCharge className="icon" />
+                <span>Portfolio</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#testimonial"
+                className={
+                  currentSection === 4
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => handleOpenMenu(false)}
+              >
+                <BiMessageSquareDetail className="icon" />
+                <span>Testimonial</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className={
+                  currentSection === 5
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => handleOpenMenu(false)}
+              >
+                <FiMail className="icon" />
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
 
         <h2>Social</h2>
         <ul role="list" className="menu__socials" aria-label="social links">
