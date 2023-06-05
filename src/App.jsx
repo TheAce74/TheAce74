@@ -15,7 +15,14 @@ function App() {
         <Profile handleOpenMenu={() => handleOpenMenu(false)} />
         <Body openMenu={openMenu} handleOpenMenu={handleOpenMenu} />
       </div>
-      <video src={video} muted loop autoPlay className="app__video"></video>
+      <video
+        src={video}
+        muted
+        loop
+        autoPlay
+        className="app__video"
+        aria-hidden="true"
+      ></video>
     </main>
   );
 }
