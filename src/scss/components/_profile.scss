@@ -9,6 +9,10 @@
     padding: 1em 2em;
     position: sticky;
     top: 1.5em;
+
+    @include max(small) {
+      padding: 1em;
+    }
   }
 
   &__title {
@@ -26,8 +30,14 @@
         padding: 0.4em 0.7em;
       }
 
-      @include max(mini) {
-        font-size: 1.7rem;
+      @include max(small) {
+        font-size: 1.3rem;
+      }
+    }
+
+    @include max(mini) {
+      p {
+        font-size: 0.8rem;
       }
     }
   }
@@ -81,7 +91,7 @@
     }
 
     @include max(mini) {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
 
@@ -140,5 +150,9 @@
     @include motion {
       transition: color 0.3s, background-color 0.3s;
     }
+  }
+
+  @include max(micro) {
+    padding: 1.5em 0.2em;
   }
 }
