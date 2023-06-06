@@ -11,13 +11,13 @@ function App() {
   };
 
   useEffect(() => {
-    const reveal = () => {
-      document.querySelector(".pl").style.display = "none";
+    const leave = () => {
+      document.querySelector(".pl").classList.add("leave");
     };
-    window.addEventListener("load", reveal);
+    window.addEventListener("load", leave);
 
     return () => {
-      window.removeEventListener("load", reveal);
+      window.removeEventListener("load", leave);
     };
   }, []);
 

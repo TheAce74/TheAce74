@@ -17,6 +17,7 @@ $xGridOffset: 0.5em;
 $animDur: 2s;
 
 .pl {
+  transition: left 1s, width 0.1s 1s;
   background: linear-gradient(
     hsl(151, 94%, 7%) calc(50% + 1.5em),
     hsl(152, 93%, 11%) calc(50% + 2.5em) calc(50% + 10.5em),
@@ -139,4 +140,9 @@ $animDur: 2s;
   50% {
     transform: translateY(4em) translateZ(-10em) rotateX(90deg);
   }
+}
+
+.leave {
+  left: 100%;
+  width: 0;
 }
