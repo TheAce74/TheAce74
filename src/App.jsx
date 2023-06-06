@@ -1,7 +1,7 @@
 import Body from "./components/body";
 import Profile from "./components/profile";
 import video from "./assets/video.mp4";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Loader from "./components/loader";
 
 function App() {
@@ -9,6 +9,17 @@ function App() {
   const handleOpenMenu = bool => {
     setOpenMenu(bool);
   };
+
+  useEffect(() => {
+    const reveal = () => {
+      document.querySelector(".pl").style.display = "none";
+    };
+    window.addEventListener("load", reveal);
+
+    return () => {
+      window.removeEventListener("load", reveal);
+    };
+  }, []);
 
   return (
     <main className="app">
