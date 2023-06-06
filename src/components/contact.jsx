@@ -20,6 +20,7 @@ function Contact({ title, icon, handleOpenMenu }) {
       budgetRef.current.value,
       messageRef.current.value,
     ];
+
     axios
       .post("https://aceserver.onrender.com/contact", {
         name,
@@ -30,11 +31,15 @@ function Contact({ title, icon, handleOpenMenu }) {
       })
       .then(res => {
         console.log(res.data);
-        toast("Message sent");
+        toast.success("Message sent", {
+          className: "toast--success",
+        });
       })
       .catch(err => {
         console.log(err);
-        toast("Message not sent, please try again");
+        toast.error("Message not sent, try again", {
+          className: "toast--error",
+        });
       });
   };
   return (
@@ -123,7 +128,7 @@ function Contact({ title, icon, handleOpenMenu }) {
         <button type="submit">Send Message</button>
       </form>
       {/* for alerts */}
-      <ToastContainer />
+      <ToastContainer position="bottom-right" />
     </section>
   );
 }

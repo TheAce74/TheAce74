@@ -2,6 +2,7 @@
 @use "../base" as *;
 .contact {
   padding-bottom: 5em;
+  position: relative;
 
   &__heading {
     font: {
@@ -94,4 +95,12 @@
   @include max(small) {
     min-height: max-content !important;
   }
+}
+
+.toast--error,
+.toast--success {
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
+  font-weight: 500;
+  bottom: 10em !important;
 }
