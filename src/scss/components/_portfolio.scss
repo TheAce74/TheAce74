@@ -76,6 +76,10 @@
     margin-block: 0.7em 2.3em;
     border-bottom: 5px dotted var(--clr-primary-400);
     width: max-content;
+
+    @include max(small) {
+      font-size: 1.1rem;
+    }
   }
 
   @include max(small) {
