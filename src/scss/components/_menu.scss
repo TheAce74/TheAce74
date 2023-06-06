@@ -111,4 +111,10 @@
       inset: 0 0 0 20%;
     }
   }
+
+  @include max(micro) {
+    &.slide {
+      inset: 0 0 0 0;
+    }
+  }
 }
