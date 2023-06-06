@@ -2,6 +2,7 @@ import Body from "./components/body";
 import Profile from "./components/profile";
 import video from "./assets/video.mp4";
 import { useState } from "react";
+import Loader from "./components/loader";
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -23,6 +24,7 @@ function App() {
         className="app__video"
         aria-hidden="true"
       ></video>
+      <Loader />
     </main>
   );
 }

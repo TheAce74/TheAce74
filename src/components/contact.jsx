@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
 import { useRef } from "react";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact({ title, icon, handleOpenMenu }) {
   const nameRef = useRef(null);
@@ -26,8 +28,14 @@ function Contact({ title, icon, handleOpenMenu }) {
         budget,
         message,
       })
-      .then(res => console.log(res.data))
-      .catch(err => console.log(err));
+      .then(res => {
+        console.log(res.data);
+        toast("Message sent");
+      })
+      .catch(err => {
+        console.log(err);
+        toast("Message not sent, please try again");
+      });
   };
   return (
     <section
@@ -114,6 +122,8 @@ function Contact({ title, icon, handleOpenMenu }) {
         </div>
         <button type="submit">Send Message</button>
       </form>
+      {/* for alerts */}
+      <ToastContainer />
     </section>
   );
 }

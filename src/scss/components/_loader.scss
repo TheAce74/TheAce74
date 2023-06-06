@@ -1,0 +1,145 @@
+// Mixins
+@mixin moveFilter($brightness, $blur) {
+  filter: brightness($brightness) blur($blur);
+  -webkit-filter: brightness($brightness) blur($blur);
+}
+@mixin sphere($color) {
+  background: lighten($color, 15%);
+  box-shadow: 0 -0.75em 0.5em $color inset,
+    0 0 0.5em fade-out(lighten($color, 10%), 0.3);
+}
+* {
+  color: hsl(152, 93%, 11%);
+}
+
+// Normal styles
+$sphereDiam: 2em;
+$spaceBetween: 1em;
+$sphereCount: 4;
+$xGridOffset: 0.5em;
+$animDur: 2s;
+
+.pl {
+  background: linear-gradient(
+    hsl(151, 94%, 7%) calc(50% + 1.5em),
+    hsl(152, 93%, 11%) calc(50% + 2.5em) calc(50% + 10.5em),
+    hsl(151, 94%, 7%)
+  );
+  position: fixed;
+  inset: 0;
+  z-index: 4;
+  overflow: hidden;
+  perspective: 300px;
+  transform-style: preserve-3d;
+  &,
+  &:before {
+    width: 100%;
+    height: 100%;
+  }
+  &:before,
+  &__sphere,
+  &__sphere-shadow {
+    position: absolute;
+  }
+  &:before,
+  &__sphere-shadow {
+    display: block;
+  }
+  &:before {
+    background: linear-gradient(hsl(152, 93%, 11%), hsla(223, 91%, 25%, 0)),
+      radial-gradient(
+        100% 100% at 50% 50%,
+        hsla(223, 91%, 25%, 0) 37.5%,
+        hsl(152, 93%, 11%) 50%
+      ),
+      repeating-linear-gradient(
+        0deg,
+        hsla(223, 91%, 35%, 0) 0 0.95em,
+        hsl(151, 92%, 29%) 0.95em 1em
+      ),
+      repeating-linear-gradient(
+          90deg,
+          hsla(223, 91%, 35%, 0) 0 0.9em,
+          hsl(151, 92%, 29%) 0.9em 1em
+        )
+        $xGridOffset 0;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(90deg) translateZ(-4em);
+    width: 34em;
+    height: 34em;
+  }
+  &__sphere {
+    animation-name: moveSphere;
+    @include sphere(hsl(151, 85%, 24%));
+    transform: translateZ(10em);
+    &,
+    &-shadow {
+      animation: {
+        duration: $animDur;
+        timing-function: ease-in-out;
+        iteration-count: infinite;
+      }
+      border-radius: 50%;
+      top: calc(50% - #{$sphereDiam / 2});
+      left: calc(50% - #{$sphereDiam / 2});
+      width: $sphereDiam;
+      height: $sphereDiam;
+      z-index: 1;
+    }
+    &-shadow {
+      animation-name: moveSphereShadow;
+      background-image: radial-gradient(
+        100% 100% at center,
+        rgba(0, 0, 0, 0.2) 45%,
+        rgba(0, 0, 0, 0) 50%
+      );
+      transform: translateY(4em) translateZ(10em) rotateX(90deg);
+    }
+    @for $s from 1 through $sphereCount {
+      &:nth-of-type(#{$s}),
+      &-shadow:nth-of-type(#{$s}) {
+        left: calc(
+          50% -
+            #{($sphereDiam + $spaceBetween) *
+            (($sphereCount - ($s - 1)) - ($sphereCount / 2)) -
+            ($spaceBetween / 2)}
+        );
+        @if $s > 1 {
+          animation-delay: ($animDur * 0.05) * ($s - 1);
+        }
+      }
+    }
+  }
+}
+// Animations
+@keyframes moveSphere {
+  from,
+  to {
+    @include moveFilter(100%, 0);
+    transform: translateZ(10em);
+  }
+  25%,
+  75% {
+    @include moveFilter(100%, 0);
+    transform: translateZ(12em);
+  }
+  50% {
+    @include moveFilter(80%, 4px);
+    transform: translateZ(-10em);
+  }
+}
+@keyframes moveSphereShadow {
+  from,
+  to {
+    transform: translateY(4em) translateZ(10em) rotateX(90deg);
+  }
+  25%,
+  75% {
+    transform: translateY(4em) translateZ(12em) rotateX(90deg);
+  }
+  50% {
+    transform: translateY(4em) translateZ(-10em) rotateX(90deg);
+  }
+}
