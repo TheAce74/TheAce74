@@ -29,14 +29,12 @@ function Contact({ title, icon, handleOpenMenu }) {
         budget,
         message,
       })
-      .then(res => {
-        console.log(res.data);
+      .then(() => {
         toast.success("Message sent", {
           className: "toast--success",
         });
       })
-      .catch(err => {
-        console.log(err);
+      .catch(() => {
         toast.error("Message not sent, try again", {
           className: "toast--error",
         });
