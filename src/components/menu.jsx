@@ -51,7 +51,11 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
+                onClick={() => {
+                  setTimeout(() => {
+                    return handleOpenMenu(false);
+                  }, 0);
+                }}
               >
                 <HiOutlineHome className="icon" />
                 <span>Home</span>
@@ -65,7 +69,11 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
+                onClick={() => {
+                  setTimeout(() => {
+                    return handleOpenMenu(false);
+                  }, 0);
+                }}
               >
                 <CgProfile className="icon" />
                 <span>About</span>
@@ -79,7 +87,11 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
+                onClick={() => {
+                  setTimeout(() => {
+                    return handleOpenMenu(false);
+                  }, 0);
+                }}
               >
                 <GiSmallFire className="icon" />
                 <span>Skills</span>
@@ -93,7 +105,11 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
+                onClick={() => {
+                  setTimeout(() => {
+                    return handleOpenMenu(false);
+                  }, 0);
+                }}
               >
                 <BsLightningCharge className="icon" />
                 <span>Portfolio</span>
@@ -107,7 +123,11 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
+                onClick={() => {
+                  setTimeout(() => {
+                    return handleOpenMenu(false);
+                  }, 0);
+                }}
               >
                 <BiMessageSquareDetail className="icon" />
                 <span>Testimonial</span>
@@ -121,7 +141,11 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
+                onClick={() => {
+                  setTimeout(() => {
+                    return handleOpenMenu(false);
+                  }, 0);
+                }}
               >
                 <FiMail className="icon" />
                 <span>Contact</span>

@@ -38,5 +38,7 @@
 
   @include max(special) {
     padding-top: 1em;
+    width: 0;
+    right: 3em;
   }
 }

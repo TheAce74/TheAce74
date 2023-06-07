@@ -21,6 +21,7 @@
   @include max(special) {
     position: sticky;
     top: 1em;
+    min-width: max-content;
   }
 
   @include max(small) {
