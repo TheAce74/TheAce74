@@ -34,6 +34,7 @@ function App() {
         autoPlay
         className="app__video"
         aria-hidden="true"
+        preload="none"
       ></video>
       <Loader />
     </main>
