@@ -16,9 +16,9 @@ function App() {
     };
     window.addEventListener("load", leave);
 
-    return () => {
-      window.removeEventListener("load", leave);
-    };
+    // return () => {
+    //   window.removeEventListener("load", leave);
+    // };
   }, []);
 
   return (
