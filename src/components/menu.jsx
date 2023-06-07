@@ -51,7 +51,6 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
               >
                 <HiOutlineHome className="icon" />
                 <span>Home</span>
@@ -65,7 +64,6 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
               >
                 <CgProfile className="icon" />
                 <span>About</span>
@@ -79,7 +77,6 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
               >
                 <GiSmallFire className="icon" />
                 <span>Skills</span>
@@ -93,7 +90,6 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
               >
                 <BsLightningCharge className="icon" />
                 <span>Portfolio</span>
@@ -107,7 +103,6 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
               >
                 <BiMessageSquareDetail className="icon" />
                 <span>Testimonial</span>
@@ -121,7 +116,6 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
                     ? "menu__links menu__links--current"
                     : "menu__links"
                 }
-                onClick={() => handleOpenMenu(false)}
               >
                 <FiMail className="icon" />
                 <span>Contact</span>
