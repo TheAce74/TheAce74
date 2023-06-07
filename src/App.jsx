@@ -11,15 +11,18 @@ function App() {
   };
 
   useEffect(() => {
-    const leave = () => {
-      document.querySelector(".pl").classList.add("leave");
-    };
-    window.addEventListener("load", leave);
+    // const leave = () => {
+    //   document.querySelector(".pl").classList.add("leave");
+    // };
+    // window.addEventListener("load", leave);
 
-    return () => {
-      window.removeEventListener("load", leave);
-      document.querySelector(".pl").style["z-index"] = -2;
-    };
+    // return () => {
+    //   window.removeEventListener("load", leave);
+    //   document.querySelector(".pl").style["z-index"] = -2;
+    // };
+    setTimeout(() => {
+      document.querySelector(".pl").classList.add("leave");
+    }, 10000);
   }, []);
 
   return (
