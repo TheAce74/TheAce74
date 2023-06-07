@@ -33,6 +33,11 @@ function Contact({ title, icon, handleOpenMenu }) {
         toast.success("Message sent", {
           className: "toast--success",
         });
+        nameRef.current.value = "";
+        emailRef.current.value = "";
+        telRef.current.value = "";
+        budgetRef.current.value = "";
+        messageRef.current.value = "";
       })
       .catch(() => {
         toast.error("Message not sent, try again", {
