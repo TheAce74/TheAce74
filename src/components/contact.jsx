@@ -21,6 +21,11 @@ function Contact({ title, icon, handleOpenMenu }) {
       messageRef.current.value,
     ];
 
+    toast.info("Sending Message", {
+      className: "toast--info",
+      autoClose: 10000,
+    });
+
     axios
       .post("https://aceserver.onrender.com/contact", {
         name,
