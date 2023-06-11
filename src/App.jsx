@@ -3,10 +3,11 @@ import Profile from "./components/profile";
 import video from "./assets/video.mp4";
 import { useEffect, useState } from "react";
 import Loader from "./components/loader";
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 
 function App() {
   const [openMenu, setOpenMenu] = useState(false);
-  const handleOpenMenu = bool => {
+  const handleOpenMenu = (bool) => {
     setOpenMenu(bool);
   };
 
@@ -31,6 +32,7 @@ function App() {
         aria-hidden="true"
       ></video>
       <Loader />
+      <ScrollToTopBtn />
     </main>
   );
 }
