@@ -23,7 +23,7 @@ function Contact({ title, icon, handleOpenMenu }) {
 
     toast.info("Sending Message", {
       className: "toast--info",
-      autoClose: 10000,
+      autoClose: 20000,
     });
 
     axios
@@ -35,6 +35,7 @@ function Contact({ title, icon, handleOpenMenu }) {
         message,
       })
       .then(() => {
+        toast.dismiss();
         toast.success("Message sent", {
           className: "toast--success",
         });
@@ -45,6 +46,7 @@ function Contact({ title, icon, handleOpenMenu }) {
         messageRef.current.value = "";
       })
       .catch(() => {
+        toast.dismiss();
         toast.error("Message not sent, try again", {
           className: "toast--error",
         });
