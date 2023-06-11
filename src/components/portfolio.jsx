@@ -93,8 +93,8 @@ function Portfolio({ title, icon, handleOpenMenu }) {
 
       <div className="portfolio__projects">
         {projects.map(project => (
-          <>
-            <div className="portfolio__project" key={uuidv4()}>
+          <div key={uuidv4()}>
+            <div className="portfolio__project">
               <img
                 src={project.pic}
                 alt={`${project.title} image`}
@@ -129,7 +129,7 @@ function Portfolio({ title, icon, handleOpenMenu }) {
               </div>
             </div>
             <p className="portfolio__title">{project.title}</p>
-          </>
+          </div>
         ))}
       </div>
     </section>
