@@ -63,13 +63,5 @@ I am a Frontend Developer ***@everythingJS***
 
 <br/>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TheAce74&show_icons=true&theme=vision-friendly-dark&background=000000&border=FDFFFE" width="80%" alt="TheAce74 GitHub stats">
-</div>
-<br/>
-<div align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=TheAce74&theme=vision-friendly-dark&background=000000&border=FDFFFE" width="80%" alt="GitHub Streak">
-</div>
-<br/>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheAce74&layout=compact&theme=vision-friendly-dark&background=000000&border=FDFFFE" width="80%" alt="Top Langs">
 </div>
