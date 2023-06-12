@@ -54,3 +54,13 @@ html {
     font-size: 15px;
   }
 }
+
+::-moz-selection {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-300);
+}
+
+::selection {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-300);
+}
