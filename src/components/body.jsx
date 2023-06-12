@@ -14,11 +14,9 @@ import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 function Body({ openMenu, handleOpenMenu }) {
-  const [currentSection, setCurrentSection] = useState(0);
-
   useEffect(() => {
     const section = {
       home: 0,
@@ -35,13 +33,16 @@ function Body({ openMenu, handleOpenMenu }) {
     const portfolio = document.querySelector(".portfolio");
     const testimonial = document.querySelector(".testimonial");
     const contact = document.querySelector(".contact");
+    const menu = document.querySelector(".menu");
+    const iconBar = document.querySelector(".iconBar");
 
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             const value = entry.target.className;
-            setCurrentSection(section[value]);
+            menu.setAttribute("data-section", section[value]);
+            iconBar.setAttribute("data-section", section[value]);
           }
         });
       },
@@ -67,12 +68,11 @@ function Body({ openMenu, handleOpenMenu }) {
       />
       <div className="icon__wrapper">
         <MenuIcon handleOpenMenu={handleOpenMenu} />
-        <IconBar currentSection={currentSection} />
+        <IconBar />
       </div>
       <Menu
         openMenu={openMenu}
         handleOpenMenu={handleOpenMenu}
-        currentSection={currentSection}
       />
       <About
         title="about"

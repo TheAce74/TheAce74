@@ -10,13 +10,24 @@ import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
 import { useEffect } from "react";
 
-function Menu({ openMenu, handleOpenMenu, currentSection }) {
+function Menu({ openMenu, handleOpenMenu}) {
   useEffect(() => {
     // since "display: none;" isn't transitionable, i came up with this hack
     const menu = document.querySelector(".menu");
     const timer = setTimeout(() => {
       menu.className = openMenu ? "menu menu--open slide" : "menu";
     }, 0);
+
+    const links = menu.querySelectorAll(".menu__links");
+    setInterval(() => {
+      links.forEach((link, index) => {
+        if (Number(menu.getAttribute("data-section")) === index) {
+          link.classList.add("menu__links--current");
+        } else {
+          link.classList.remove("menu__links--current");
+        }
+      });
+    }, 300);
 
     return () => {
       clearTimeout(timer);
@@ -29,6 +40,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
       aria-label="menu"
       id="menu"
       aria-expanded={openMenu}
+      data-section="0"
     >
       <div className="menu__wrapper">
         <button
@@ -46,11 +58,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
             <li>
               <a
                 href="#home"
-                className={
-                  currentSection === 0
-                    ? "menu__links menu__links--current"
-                    : "menu__links"
-                }
+                className="menu__links"
               >
                 <HiOutlineHome className="icon" />
                 <span>Home</span>
@@ -59,11 +67,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
             <li>
               <a
                 href="#about"
-                className={
-                  currentSection === 1
-                    ? "menu__links menu__links--current"
-                    : "menu__links"
-                }
+                className="menu__links"
               >
                 <CgProfile className="icon" />
                 <span>About</span>
@@ -72,11 +76,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
             <li>
               <a
                 href="#skills"
-                className={
-                  currentSection === 2
-                    ? "menu__links menu__links--current"
-                    : "menu__links"
-                }
+                className="menu__links"
               >
                 <GiSmallFire className="icon" />
                 <span>Skills</span>
@@ -85,11 +85,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
             <li>
               <a
                 href="#portfolio"
-                className={
-                  currentSection === 3
-                    ? "menu__links menu__links--current"
-                    : "menu__links"
-                }
+                className="menu__links"
               >
                 <BsLightningCharge className="icon" />
                 <span>Portfolio</span>
@@ -98,11 +94,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
             <li>
               <a
                 href="#testimonial"
-                className={
-                  currentSection === 4
-                    ? "menu__links menu__links--current"
-                    : "menu__links"
-                }
+                className="menu__links"
               >
                 <BiMessageSquareDetail className="icon" />
                 <span>Testimonial</span>
@@ -111,11 +103,7 @@ function Menu({ openMenu, handleOpenMenu, currentSection }) {
             <li>
               <a
                 href="#contact"
-                className={
-                  currentSection === 5
-                    ? "menu__links menu__links--current"
-                    : "menu__links"
-                }
+                className="menu__links"
               >
                 <FiMail className="icon" />
                 <span>Contact</span>
