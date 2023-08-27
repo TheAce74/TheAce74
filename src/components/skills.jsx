@@ -135,7 +135,7 @@ function Skills({ title, icon, handleOpenMenu }) {
             <motion.div
               className="skills__card"
               key={uuidv4()}
-              transition={{ duration: 0.5, delay: (index + 1) * 0.5 }}
+              transition={{ duration: 0.5, delay: (index + 1) * 0.2 }}
               initial={{ opacity: 0, scale: 0 }}
               animate={{ opacity: 1, scale: 1 }}
             >
