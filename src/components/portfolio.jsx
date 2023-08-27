@@ -10,6 +10,8 @@ import crowdfunding from "../assets/crowdfunding.webp";
 import { v4 as uuidv4 } from "uuid";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function Portfolio({ title, icon, handleOpenMenu }) {
   const projects = [
@@ -82,12 +84,16 @@ function Portfolio({ title, icon, handleOpenMenu }) {
         "https://github.com/TheAce74/Frontend-Mentor-Projects/tree/main/crowdfunding-product-page",
     },
   ];
+
+  const { ref, inView } = useInView();
+
   return (
     <section
       className="portfolio"
       aria-label="portfolio"
       id="portfolio"
       onClick={() => handleOpenMenu(false)}
+      ref={ref}
     >
       <p className="id">
         <span>{icon()}</span>
@@ -98,47 +104,54 @@ function Portfolio({ title, icon, handleOpenMenu }) {
         Featured <span>Projects</span>
       </h2>
 
-      <div className="portfolio__projects">
-        {projects.map((project) => (
-          <div key={uuidv4()}>
-            <div className="portfolio__project">
-              <img
-                src={project.pic}
-                alt={`${project.title} image`}
-                className="portfolio__img"
-              />
-              <div className="portfolio__container">
-                <div className="portfolio__tags" aria-label="tools used">
-                  {project.tools.map((tool) => (
-                    <span key={uuidv4()}>{tool}</span>
-                  ))}
-                </div>
-                <div className="portfolio__links">
-                  <a
-                    href={project.github}
-                    aria-label="View on GitHub"
-                    title="View on GitHub"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <BsGithub />
-                  </a>
-                  <a
-                    href={project.link}
-                    aria-label="View Live Site"
-                    title="View Live Site"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <BiLinkExternal />
-                  </a>
+      {inView && (
+        <div className="portfolio__projects">
+          {projects.map((project, index) => (
+            <motion.div
+              key={uuidv4()}
+              transition={{ duration: 0.5, delay: (index + 1) * 0.4 }}
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+            >
+              <div className="portfolio__project">
+                <img
+                  src={project.pic}
+                  alt={`${project.title} image`}
+                  className="portfolio__img"
+                />
+                <div className="portfolio__container">
+                  <div className="portfolio__tags" aria-label="tools used">
+                    {project.tools.map((tool) => (
+                      <span key={uuidv4()}>{tool}</span>
+                    ))}
+                  </div>
+                  <div className="portfolio__links">
+                    <a
+                      href={project.github}
+                      aria-label="View on GitHub"
+                      title="View on GitHub"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <BsGithub />
+                    </a>
+                    <a
+                      href={project.link}
+                      aria-label="View Live Site"
+                      title="View Live Site"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <BiLinkExternal />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <p className="portfolio__title">{project.title}</p>
-          </div>
-        ))}
-      </div>
+              <p className="portfolio__title">{project.title}</p>
+            </motion.div>
+          ))}
+        </div>
+      )}
     </section>
   );
 }

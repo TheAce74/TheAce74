@@ -1,10 +1,27 @@
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+const sectionVariant = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
+  hidden: { opacity: 0, scale: 0 },
+};
+
 function Home({ title, icon, handleOpenMenu }) {
+  const control = useAnimation();
+  const [ref] = useInView();
+
   return (
-    <section
+    <motion.section
       className="home"
       aria-label="home"
       id="home"
       onClick={() => handleOpenMenu(false)}
+      ref={ref}
+      initial="hidden"
+      whileInView="visible"
+      variants={sectionVariant}
+      animate={control}
+      viewport={{ once: true }}
     >
       <p className="id">
         <span>{icon()}</span>
@@ -22,7 +39,7 @@ function Home({ title, icon, handleOpenMenu }) {
         innovation meets design, and let&apos;s create remarkable digital
         landscapes together.
       </p>
-    </section>
+    </motion.section>
   );
 }
 

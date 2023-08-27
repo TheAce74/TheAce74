@@ -1,12 +1,28 @@
 import resume from "../assets/Chisom Udonsi's Resume.pdf";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+const sectionVariant = {
+  visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
+  hidden: { opacity: 0, scale: 0 },
+};
 
 function About({ title, icon, handleOpenMenu }) {
+  const control = useAnimation();
+  const { ref } = useInView();
+
   return (
-    <section
+    <motion.section
       className="about"
       aria-label="about"
       id="about"
       onClick={() => handleOpenMenu(false)}
+      ref={ref}
+      initial="hidden"
+      whileInView="visible"
+      variants={sectionVariant}
+      animate={control}
+      viewport={{ once: true }}
     >
       <p className="id">
         <span>{icon()}</span>
@@ -35,7 +51,7 @@ function About({ title, icon, handleOpenMenu }) {
           Download Resume
         </a>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

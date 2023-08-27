@@ -14,6 +14,8 @@ import {
 import { BsGit, BsGithub } from "react-icons/bs";
 import { TbBrandVscode } from "react-icons/tb";
 import { v4 as uuidv4 } from "uuid";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function Skills({ title, icon, handleOpenMenu }) {
   const skills = [
@@ -108,12 +110,16 @@ function Skills({ title, icon, handleOpenMenu }) {
       level: 100,
     },
   ];
+
+  const { ref, inView } = useInView();
+
   return (
     <section
       className="skills"
       aria-label="skills"
       id="skills"
       onClick={() => handleOpenMenu(false)}
+      ref={ref}
     >
       <p className="id">
         <span>{icon()}</span>
@@ -123,22 +129,30 @@ function Skills({ title, icon, handleOpenMenu }) {
       <h2 className="skills__heading">
         My <span>Savvy</span>
       </h2>
-      <div className="skills__grid">
-        {skills.map((skill) => (
-          <div className="skills__card" key={uuidv4()}>
-            <div
-              className={`skills__icon ${skill.title
-                .split(" ")
-                .join("")
-                .toLowerCase()}`}
+      {inView && (
+        <div className="skills__grid">
+          {skills.map((skill, index) => (
+            <motion.div
+              className="skills__card"
+              key={uuidv4()}
+              transition={{ duration: 0.5, delay: (index + 1) * 0.5 }}
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
             >
-              {skill.icon()}
-            </div>
-            <h3 className="skills__title">{skill.title}</h3>
-            <p className="skills__level">{`${skill.level}%`}</p>
-          </div>
-        ))}
-      </div>
+              <div
+                className={`skills__icon ${skill.title
+                  .split(" ")
+                  .join("")
+                  .toLowerCase()}`}
+              >
+                {skill.icon()}
+              </div>
+              <h3 className="skills__title">{skill.title}</h3>
+              <p className="skills__level">{`${skill.level}%`}</p>
+            </motion.div>
+          ))}
+        </div>
+      )}
     </section>
   );
 }
