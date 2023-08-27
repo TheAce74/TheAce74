@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Home from "./home";
 import MenuIcon from "./menuIcon";
 import IconBar from "./iconBar";

@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import techverse from "../assets/techverse.webp";
 import shortly from "../assets/shortly.webp";
 import femCountries from "../assets/fem-countries.webp";
 import musicPlayer from "../assets/music-player.webp";
@@ -13,6 +13,13 @@ import { BiLinkExternal } from "react-icons/bi";
 
 function Portfolio({ title, icon, handleOpenMenu }) {
   const projects = [
+    {
+      title: "Techverse",
+      tools: ["React", "PayStack API", "Framer Motion"],
+      pic: techverse,
+      link: "https://techverseconference.netlify.app",
+      github: "https://github.com/TheAce74/Techverse",
+    },
     {
       title: "Shortly",
       tools: ["JavaScript", "ShrtCode API", "Sweet Alert"],
@@ -92,7 +99,7 @@ function Portfolio({ title, icon, handleOpenMenu }) {
       </h2>
 
       <div className="portfolio__projects">
-        {projects.map(project => (
+        {projects.map((project) => (
           <div key={uuidv4()}>
             <div className="portfolio__project">
               <img
@@ -102,7 +109,7 @@ function Portfolio({ title, icon, handleOpenMenu }) {
               />
               <div className="portfolio__container">
                 <div className="portfolio__tags" aria-label="tools used">
-                  {project.tools.map(tool => (
+                  {project.tools.map((tool) => (
                     <span key={uuidv4()}>{tool}</span>
                   ))}
                 </div>

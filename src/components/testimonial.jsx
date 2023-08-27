@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useEffect, useRef } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { BsGithub, BsInstagram } from "react-icons/bs";
@@ -74,7 +73,7 @@ function Testimonial({ title, icon, handleOpenMenu }) {
         What people say about <span>me</span>
       </h2>
       <ul role="list" className="slider">
-        {testimonials.map(testimonial => (
+        {testimonials.map((testimonial) => (
           <li key={uuidv4()}>
             <div>
               <div>

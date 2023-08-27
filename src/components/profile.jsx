@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import profilePic from "../assets/image.webp";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";

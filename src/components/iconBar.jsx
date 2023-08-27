@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { HiOutlineHome } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { GiSmallFire } from "react-icons/gi";

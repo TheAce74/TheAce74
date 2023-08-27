@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useRef } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";

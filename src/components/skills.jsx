@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { FaHtml5, FaCss3Alt, FaReact, FaYarn } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoNpm } from "react-icons/io";
 import {
@@ -7,6 +6,10 @@ import {
   SiRedux,
   SiJquery,
   SiVite,
+  SiFramer,
+  SiSwiper,
+  SiAxios,
+  SiJson,
 } from "react-icons/si";
 import { BsGit, BsGithub } from "react-icons/bs";
 import { TbBrandVscode } from "react-icons/tb";
@@ -42,7 +45,7 @@ function Skills({ title, icon, handleOpenMenu }) {
     {
       title: "React Router",
       icon: () => <SiReactrouter />,
-      level: 90,
+      level: 100,
     },
     {
       title: "NPM",
@@ -57,12 +60,12 @@ function Skills({ title, icon, handleOpenMenu }) {
     {
       title: "Git",
       icon: () => <BsGit />,
-      level: 65,
+      level: 75,
     },
     {
       title: "GitHub",
       icon: () => <BsGithub />,
-      level: 75,
+      level: 80,
     },
     {
       title: "Redux",
@@ -77,12 +80,32 @@ function Skills({ title, icon, handleOpenMenu }) {
     {
       title: "Vite",
       icon: () => <SiVite />,
-      level: 51,
+      level: 70,
     },
     {
       title: "VS Code",
       icon: () => <TbBrandVscode />,
-      level: 75,
+      level: 80,
+    },
+    {
+      title: "Framer Motion",
+      icon: () => <SiFramer />,
+      level: 50,
+    },
+    {
+      title: "Swiper JS",
+      icon: () => <SiSwiper />,
+      level: 90,
+    },
+    {
+      title: "Axios",
+      icon: () => <SiAxios />,
+      level: 96,
+    },
+    {
+      title: "JSON",
+      icon: () => <SiJson />,
+      level: 100,
     },
   ];
   return (
@@ -101,7 +124,7 @@ function Skills({ title, icon, handleOpenMenu }) {
         My <span>Savvy</span>
       </h2>
       <div className="skills__grid">
-        {skills.map(skill => (
+        {skills.map((skill) => (
           <div className="skills__card" key={uuidv4()}>
             <div
               className={`skills__icon ${skill.title

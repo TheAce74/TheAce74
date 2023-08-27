@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 function Home({ title, icon, handleOpenMenu }) {
   return (
     <section

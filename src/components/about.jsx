@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import resume from "../assets/Chisom Udonsi's Resume.pdf";
 
 function About({ title, icon, handleOpenMenu }) {

@@ -16,8 +16,9 @@ $clr-neutral: (
 );
 
 $clr-primary: (
-  400: hsl(151, 81%, 54%),
-  500: hsl(354, 70%, 54%),
+  // 400: hsl(151, 81%, 54%),
+  400: hsl(199.57, 83.86%, 43.73%),
+  500: hsl(354, 70%, 54%)
 );
 
 $tools: (
@@ -35,4 +36,8 @@ $tools: (
   reactrouter: hsl(359, 56%, 53%),
   redux: hsl(263, 46%, 51%),
   vite: hsl(237, 100%, 70%),
+  framermotion: hsl(220, 100%, 50%),
+  swiperjs: hsl(255, 92%, 58%),
+  axios: hsl(256, 78%, 53%),
+  json: hsl(0, 0%, 24%),
 );

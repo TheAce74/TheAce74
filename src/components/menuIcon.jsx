@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 function MenuIcon({ handleOpenMenu }) {
   return (
