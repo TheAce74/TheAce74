@@ -1,4 +1,4 @@
-import resume from "../assets/Chisom Udonsi's Resume.pdf";
+import resume from "../assets/Chisom Raphael Udonsi's Resume.pdf";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
