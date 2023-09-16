@@ -56,10 +56,13 @@ I am a Frontend Developer ***@everythingJS***
   <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router&logoColor=CA4245" alt="React router" />
   <br/>
   <img src="https://img.shields.io/badge/redux-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="Redux" />
-  <img src="https://img.shields.io/badge/framer-20232A.svg?style=for-the-badge&logo=redux&logoColor=0055FF" alt="Framer" />
-  <img src="https://img.shields.io/badge/swiper-20232A.svg?style=for-the-badge&logo=redux&logoColor=6332F6" alt="Swiper" />
-  <img src="https://img.shields.io/badge/axios-20232A.svg?style=for-the-badge&logo=redux&logoColor=5A29E4" alt="Axios" />
-  <img src="https://img.shields.io/badge/json-20232A.svg?style=for-the-badge&logo=redux&logoColor=000000" alt="JSON" />
+  <img src="https://img.shields.io/badge/framer-20232A.svg?style=for-the-badge&logo=framer&logoColor=0055FF" alt="Framer" />
+  <img src="https://img.shields.io/badge/swiper-20232A.svg?style=for-the-badge&logo=swiper&logoColor=6332F6" alt="Swiper" />
+  <img src="https://img.shields.io/badge/axios-20232A.svg?style=for-the-badge&logo=axios&logoColor=5A29E4" alt="Axios" />
+  <img src="https://img.shields.io/badge/json-20232A.svg?style=for-the-badge&logo=json&logoColor=000000" alt="JSON" />
+  <br/>
+  <img src="https://img.shields.io/badge/supabase-20232A.svg?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
+  <img src="https://img.shields.io/badge/bootstrap-20232A.svg?style=for-the-badge&logo=bootstrap&logoColor=7952B3" alt="Bootstrap" />
 </details>
 
 ---
