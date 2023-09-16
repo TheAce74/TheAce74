@@ -10,6 +10,8 @@ import {
   SiSwiper,
   SiAxios,
   SiJson,
+  SiSupabase,
+  SiBootstrap,
 } from "react-icons/si";
 import { BsGit, BsGithub } from "react-icons/bs";
 import { TbBrandVscode } from "react-icons/tb";
@@ -108,6 +110,16 @@ function Skills({ title, icon, handleOpenMenu }) {
       title: "JSON",
       icon: () => <SiJson />,
       level: 100,
+    },
+    {
+      title: "Supabase",
+      icon: () => <SiSupabase />,
+      level: 50,
+    },
+    {
+      title: "Bootstrap",
+      icon: () => <SiBootstrap />,
+      level: 80,
     },
   ];
 
