@@ -5,7 +5,7 @@ import Menu from "./menu";
 import About from "./about";
 import Skills from "./skills";
 import Portfolio from "./portfolio";
-import Testimonials from "./testimonials";
+import Testimonial from "./testimonial";
 import Contact from "./contact";
 import { HiOutlineHome } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
@@ -27,7 +27,7 @@ function Body() {
       <About title="about" icon={<CgProfile />} />
       <Skills title="my skills" icon={<GiSmallFire />} />
       <Portfolio title="portfolio" icon={<BsLightningCharge />} />
-      <Testimonials title="testimonials" icon={<BiMessageSquareDetail />} />
+      <Testimonial title="testimonials" icon={<BiMessageSquareDetail />} />
       <Contact title="contact" icon={<FiMail />} />
     </section>
   );
