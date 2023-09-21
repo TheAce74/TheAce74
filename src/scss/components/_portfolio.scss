@@ -24,7 +24,13 @@
     width: 95%;
 
     &:has(> .spinner-show) {
-      height: em(210);
+      height: em(420);
+    }
+
+    @include max(special) {
+      &:has(> .spinner-show) {
+        height: em(210);
+      }
     }
 
     @include max(small) {
