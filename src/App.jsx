@@ -1,15 +1,15 @@
-import Body from "./components/body";
-import Profile from "./components/profile";
+import Body from "./components/Body";
+import Profile from "./components/Profile";
 import video from "./assets/video.mp4";
 import { useEffect, useState } from "react";
-import Loader from "./components/loader";
+import Loader from "./components/Loader";
+import Arrow from "./components/Arrow";
 import AppContextProvider from "./context/AppContext";
-import Scroll from "./components/scroll";
 
 function App() {
   const [UI, setUI] = useState({
     loader: true,
-    scroll: false,
+    arrow: false,
   });
 
   useEffect(() => {
@@ -24,14 +24,14 @@ function App() {
         setUI((prevUI) => {
           return {
             ...prevUI,
-            scroll: true,
+            arrow: true,
           };
         });
       } else {
         setUI((prevUI) => {
           return {
             ...prevUI,
-            scroll: false,
+            arrow: false,
           };
         });
       }
@@ -64,7 +64,7 @@ function App() {
         ></video>
         <div className="pagination"></div>
         {UI.loader && <Loader />}
-        <Scroll scroll={UI.scroll} />
+        <Arrow arrow={UI.arrow} />
       </main>
     </AppContextProvider>
   );
