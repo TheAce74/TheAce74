@@ -23,6 +23,10 @@
     position: relative;
     width: 95%;
 
+    &:has(> .spinner-show) {
+      height: em(210);
+    }
+
     @include max(small) {
       width: 100%;
     }
@@ -31,6 +35,13 @@
   &__img {
     border-radius: 0.75em;
     filter: brightness(80%);
+    transition: opacity 0.5s;
+
+    &.spinner-show {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
   }
 
   &__container {

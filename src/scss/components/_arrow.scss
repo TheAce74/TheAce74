@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 
-.scroll {
+.arrow {
   @extend .flex;
   position: fixed;
   width: 2em;
@@ -18,6 +18,8 @@
   border-radius: 50%;
   border: 2px solid var(--clr-primary-400);
   cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
 
   &:is(:hover, :focus-visible) {
     background-color: transparent;
@@ -25,6 +27,11 @@
   }
 
   @include motion {
-    transition: color 0.3s, background-color 0.3s;
+    transition: all 0.3s;
+  }
+
+  &--shown {
+    visibility: visible;
+    opacity: 1;
   }
 }

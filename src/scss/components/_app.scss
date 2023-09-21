@@ -4,6 +4,8 @@
   &__overlay {
     @extend .grid;
     min-height: 100dvh;
+    max-width: em(1700);
+    margin-inline: auto;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.03);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -32,5 +34,15 @@
     inset: 0;
     z-index: -1;
     object-fit: cover;
+  }
+
+  .pagination {
+    background-color: var(--clr-primary-400);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0.2em;
+    width: 0;
+    z-index: 4;
   }
 }

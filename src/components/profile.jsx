@@ -2,10 +2,20 @@ import profilePic from "../assets/image.webp";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
+import { memo } from "react";
+import { useSpinner } from "../hooks/useSpinner";
+import { useAppContext } from "../context/AppContext";
 
-function Profile({ handleOpenMenu }) {
+function Profile() {
+  const { spinner, spinnerRef, loading } = useSpinner();
+  const { setOpenMenu } = useAppContext();
+
   return (
-    <section className="profile" aria-label="profile" onClick={handleOpenMenu}>
+    <section
+      className="profile"
+      aria-label="profile"
+      onClick={() => setOpenMenu(false)}
+    >
       <div className="profile__wrapper">
         <div className="profile__title">
           <h1>
@@ -14,7 +24,13 @@ function Profile({ handleOpenMenu }) {
           <p>Developer</p>
         </div>
         <div className="profile__img">
-          <img src={profilePic} alt="profile picture" />
+          {spinner()}
+          <img
+            src={profilePic}
+            alt="profile picture"
+            ref={spinnerRef}
+            className={loading ? "spinner-show" : ""}
+          />
         </div>
         <p aria-label="email">udonsichisom02@gmail.com</p>
         <p aria-label="location">Based in Imo, Nigeria</p>
@@ -73,4 +89,4 @@ function Profile({ handleOpenMenu }) {
   );
 }
 
-export default Profile;
+export default memo(Profile);

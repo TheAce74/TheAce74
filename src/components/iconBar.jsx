@@ -4,39 +4,27 @@ import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import { useEffect } from "react";
+import { useAppContext } from "../context/AppContext";
 
-function IconBar() {
-  useEffect(() => {
-    const iconBar = document.querySelector(".iconBar");
-    const links = iconBar.querySelectorAll("svg");
-    setInterval(() => {
-      links.forEach((link, index) => {
-        if (Number(iconBar.getAttribute("data-section")) === index) {
-          link.classList.add("current");
-        } else {
-          link.classList.remove("current");
-        }
-      });
-    }, 300);
-  }, []);
+export default function IconBar() {
+  const { section } = useAppContext();
 
   return (
-    <nav className="iconBar" aria-label="menu icon bar" data-section="0">
+    <nav className="iconBar" aria-label="menu icon bar">
       <ul role="list" aria-label="secondary navigation">
         <li>
           <a href="#home" aria-label="go to home" data-title="Home">
-            <HiOutlineHome />
+            <HiOutlineHome className={section === 0 ? "current" : ""} />
           </a>
         </li>
         <li>
           <a href="#about" aria-label="go to about" data-title="About">
-            <CgProfile />
+            <CgProfile className={section === 1 ? "current" : ""} />
           </a>
         </li>
         <li>
           <a href="#skills" aria-label="go to skills" data-title="Skills">
-            <GiSmallFire />
+            <GiSmallFire className={section === 2 ? "current" : ""} />
           </a>
         </li>
         <li>
@@ -45,26 +33,24 @@ function IconBar() {
             aria-label="go to portfolio"
             data-title="Portfolio"
           >
-            <BsLightningCharge />
+            <BsLightningCharge className={section === 3 ? "current" : ""} />
           </a>
         </li>
         <li>
           <a
-            href="#testimonial"
-            aria-label="go to testimonial"
-            data-title="Testimonial"
+            href="#testimonials"
+            aria-label="go to testimonials"
+            data-title="Testimonials"
           >
-            <BiMessageSquareDetail />
+            <BiMessageSquareDetail className={section === 4 ? "current" : ""} />
           </a>
         </li>
         <li>
           <a href="#contact" aria-label="go to contact" data-title="Contact">
-            <FiMail />
+            <FiMail className={section === 5 ? "current" : ""} />
           </a>
         </li>
       </ul>
     </nav>
   );
 }
-
-export default IconBar;

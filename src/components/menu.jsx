@@ -7,31 +7,11 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
-import { useEffect } from "react";
+import { useAppContext } from "../context/AppContext";
+import { memo } from "react";
 
-function Menu({ openMenu, handleOpenMenu}) {
-  useEffect(() => {
-    // since "display: none;" isn't transitionable, i came up with this hack
-    const menu = document.querySelector(".menu");
-    const timer = setTimeout(() => {
-      menu.className = openMenu ? "menu menu--open slide" : "menu";
-    }, 0);
-
-    const links = menu.querySelectorAll(".menu__links");
-    setInterval(() => {
-      links.forEach((link, index) => {
-        if (Number(menu.getAttribute("data-section")) === index) {
-          link.classList.add("menu__links--current");
-        } else {
-          link.classList.remove("menu__links--current");
-        }
-      });
-    }, 300);
-
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [openMenu]);
+function Menu() {
+  const { openMenu, setOpenMenu, section } = useAppContext();
 
   return (
     <section
@@ -39,25 +19,28 @@ function Menu({ openMenu, handleOpenMenu}) {
       aria-label="menu"
       id="menu"
       aria-expanded={openMenu}
-      data-section="0"
     >
       <div className="menu__wrapper">
         <button
           className="menu__close"
-          onClick={() => handleOpenMenu(false)}
+          onClick={() => setOpenMenu(false)}
           aria-label="close menu"
           aria-controls="menu"
         >
           <IoMdClose />
         </button>
-
         <h2>Menu</h2>
         <nav aria-label="primary navigation">
           <ul role="list" className="menu__list">
             <li>
               <a
                 href="#home"
-                className="menu__links"
+                className={
+                  section === 0
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => setOpenMenu(false)}
               >
                 <HiOutlineHome className="icon" />
                 <span>Home</span>
@@ -66,7 +49,12 @@ function Menu({ openMenu, handleOpenMenu}) {
             <li>
               <a
                 href="#about"
-                className="menu__links"
+                className={
+                  section === 1
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => setOpenMenu(false)}
               >
                 <CgProfile className="icon" />
                 <span>About</span>
@@ -75,7 +63,12 @@ function Menu({ openMenu, handleOpenMenu}) {
             <li>
               <a
                 href="#skills"
-                className="menu__links"
+                className={
+                  section === 2
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => setOpenMenu(false)}
               >
                 <GiSmallFire className="icon" />
                 <span>Skills</span>
@@ -84,7 +77,12 @@ function Menu({ openMenu, handleOpenMenu}) {
             <li>
               <a
                 href="#portfolio"
-                className="menu__links"
+                className={
+                  section === 3
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => setOpenMenu(false)}
               >
                 <BsLightningCharge className="icon" />
                 <span>Portfolio</span>
@@ -92,17 +90,27 @@ function Menu({ openMenu, handleOpenMenu}) {
             </li>
             <li>
               <a
-                href="#testimonial"
-                className="menu__links"
+                href="#testimonials"
+                className={
+                  section === 4
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => setOpenMenu(false)}
               >
                 <BiMessageSquareDetail className="icon" />
-                <span>Testimonial</span>
+                <span>Testimonials</span>
               </a>
             </li>
             <li>
               <a
                 href="#contact"
-                className="menu__links"
+                className={
+                  section === 5
+                    ? "menu__links menu__links--current"
+                    : "menu__links"
+                }
+                onClick={() => setOpenMenu(false)}
               >
                 <FiMail className="icon" />
                 <span>Contact</span>
@@ -119,7 +127,7 @@ function Menu({ openMenu, handleOpenMenu}) {
               aria-label="linkedin"
               target="_blank"
               rel="noreferrer"
-              onClick={() => handleOpenMenu(false)}
+              onClick={() => setOpenMenu(false)}
             >
               <FaLinkedin className="menu__icon" />
             </a>
@@ -130,7 +138,7 @@ function Menu({ openMenu, handleOpenMenu}) {
               aria-label="frontendmentor"
               target="_blank"
               rel="noreferrer"
-              onClick={() => handleOpenMenu(false)}
+              onClick={() => setOpenMenu(false)}
             >
               <SiFrontendmentor className="menu__icon" />
             </a>
@@ -141,7 +149,7 @@ function Menu({ openMenu, handleOpenMenu}) {
               aria-label="twitter"
               target="_blank"
               rel="noreferrer"
-              onClick={() => handleOpenMenu(false)}
+              onClick={() => setOpenMenu(false)}
             >
               <FaTwitter className="menu__icon" />
             </a>
@@ -152,4 +160,4 @@ function Menu({ openMenu, handleOpenMenu}) {
   );
 }
 
-export default Menu;
+export default memo(Menu);

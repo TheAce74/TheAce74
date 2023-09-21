@@ -1,4 +1,4 @@
-function Loader() {
+export default function Loader() {
   return (
     <div className="loader">
       <div className="blobs">
@@ -31,5 +31,3 @@ function Loader() {
     </div>
   );
 }
-
-export default Loader;

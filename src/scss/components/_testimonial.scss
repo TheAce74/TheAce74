@@ -1,129 +1,41 @@
 @use "../abstracts" as *;
 @use "../base" as *;
+
 .testimonial {
-  margin-bottom: 5em;
+  min-width: 100%;
+  height: max-content;
+  padding-block: 2em;
+  align-self: center;
 
-  &__heading {
-    font: {
-      weight: 500;
-      size: 3rem;
+  &__flex {
+    @extend .flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+
+    p {
+      color: var(--clr-neutral-200);
     }
-    line-height: 1.2;
-    margin-block: 0.7em;
 
-    span {
+    svg {
+      font-size: 1.8rem;
       color: var(--clr-primary-400);
-    }
-
-    @include max(small) {
-      font-size: 2.7rem;
     }
   }
 
-  // a11y slider stuff
-  .slider {
-    display: flex;
-    margin-top: 1rem;
-    border: 2px solid var(--clr-neutral-200);
-    border-radius: 1.2em;
-    height: max-content !important;
+  > div {
     width: 90%;
+    margin-inline: auto;
 
-    & > li {
-      & > div:first-child {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 90%;
-        margin-inline: auto;
-        margin-block: 1.3em 0.8em;
-        & p {
-          color: var(--clr-neutral-200);
-        }
-
-        & svg {
-          font-size: 1.8rem;
-          color: var(--clr-primary-400);
-        }
-      }
-
-      & > div:last-child {
-        width: 90%;
-        margin-inline: auto;
-        margin-bottom: 1.3em;
-        font-weight: 300;
-      }
+    @include max(special) {
+      width: 83%;
     }
 
     @include max(small) {
-      width: 100%;
+      width: 80%;
     }
-  }
 
-  .slider > * {
-    width: 100%;
-    flex: 0 0 auto;
-  }
-
-  .a11y-slider-prev,
-  .a11y-slider-next {
-    @extend .btn;
-    color: transparent;
-    position: absolute;
-    bottom: -3.2em;
-    width: 2.5em;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px solid var(--clr-neutral-200);
-
-    @include motion {
-      transition: border-color 0.3s;
+    @include max(micro) {
+      width: 75%;
     }
-  }
-
-  .a11y-slider-next {
-    left: 4em;
-  }
-
-  .a11y-slider-prev::before,
-  .a11y-slider-next::before {
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    font-size: 1.4rem;
-    color: var(--clr-neutral-200);
-
-    @include motion {
-      transition: color 0.3s;
-    }
-  }
-
-  .a11y-slider-prev:is(:hover, :focus-visible),
-  .a11y-slider-next:is(:hover, :focus-visible) {
-    border-color: var(--clr-primary-400);
-
-    &::before {
-      color: var(--clr-primary-400);
-    }
-  }
-
-  .a11y-slider-prev::before {
-    content: "<";
-    translate: -0.05em 0;
-  }
-
-  .a11y-slider-next::before {
-    content: ">";
-    translate: 0.05em 0;
-  }
-
-  .a11y-slider-container {
-    position: relative;
-  }
-
-  @include max(small) {
-    min-height: max-content !important;
-    margin-bottom: 6em;
   }
 }

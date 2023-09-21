@@ -1,16 +1,20 @@
-import { useRef } from "react";
-import axios from "axios";
+import { memo, useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useFetch } from "../hooks/useFetch";
+import { useAppContext } from "../context/AppContext";
+import { InView } from "react-intersection-observer";
 
-function Contact({ title, icon, handleOpenMenu }) {
+function Contact({ title, icon }) {
   const nameRef = useRef(null);
   const emailRef = useRef(null);
   const telRef = useRef(null);
   const budgetRef = useRef(null);
   const messageRef = useRef(null);
+  const { post } = useFetch();
+  const { setOpenMenu, setSection } = useAppContext();
 
-  const handleSubmit = e => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const [name, email, phone, budget, message] = [
       nameRef.current.value,
@@ -19,55 +23,56 @@ function Contact({ title, icon, handleOpenMenu }) {
       budgetRef.current.value,
       messageRef.current.value,
     ];
-
     toast.info("Sending Message", {
       className: "toast--info",
       autoClose: 20000,
     });
-
-    axios
-      .post("https://aceserver.onrender.com/contact", {
-        name,
-        email,
-        phone,
-        budget,
-        message,
-      })
-      .then(() => {
-        toast.dismiss();
-        toast.success("Message sent", {
-          className: "toast--success",
-        });
-        nameRef.current.value = "";
-        emailRef.current.value = "";
-        telRef.current.value = "";
-        budgetRef.current.value = "";
-        messageRef.current.value = "";
-      })
-      .catch(() => {
-        toast.dismiss();
-        toast.error("Message not sent, try again", {
-          className: "toast--error",
-        });
+    const response = await post("https://aceserver.onrender.com/contact", {
+      name,
+      email,
+      phone,
+      budget,
+      message,
+    });
+    if (response.success) {
+      toast.dismiss();
+      toast.success("Message sent", {
+        className: "toast--success",
       });
+      nameRef.current.value = "";
+      emailRef.current.value = "";
+      telRef.current.value = "";
+      budgetRef.current.value = "";
+      messageRef.current.value = "";
+    } else {
+      toast.dismiss();
+      toast.error("Message not sent, try again", {
+        className: "toast--error",
+      });
+    }
   };
+
   return (
-    <section
+    <InView
+      as="section"
       className="contact"
       aria-label="contact"
       id="contact"
-      onClick={() => handleOpenMenu(false)}
+      onClick={() => setOpenMenu(false)}
+      onChange={(inView) => {
+        if (inView) {
+          setSection(5);
+        }
+      }}
     >
       <p className="id">
-        <span>{icon()}</span>
+        <span>{icon}</span>
         <span>{title}</span>
       </p>
-
       <h2 className="contact__heading">
         Ready to embark on this adventure together? Let&apos;s make some{" "}
         <span>frontend magic!</span>
       </h2>
-
       <form className="contact__form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">
@@ -136,10 +141,9 @@ function Contact({ title, icon, handleOpenMenu }) {
         </div>
         <button type="submit">Send Message</button>
       </form>
-      {/* for alerts */}
       <ToastContainer position="bottom-right" />
-    </section>
+    </InView>
   );
 }
 
-export default Contact;
+export default memo(Contact);

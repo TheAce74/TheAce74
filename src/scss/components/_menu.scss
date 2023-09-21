@@ -4,26 +4,23 @@
   background-color: var(--clr-neutral-900);
   position: fixed;
   z-index: 2;
-  display: none;
-  inset: 0 0 0 100%;
-  visibility: hidden;
+  inset: 0 0 0 70%;
   min-width: max-content;
   padding: 3.8em 4.8em 0em 4.8em;
   color: var(--clr-neutral-200);
-
-  &.slide {
-    inset: 0 0 0 70%;
-    visibility: visible;
-  }
+  translate: 100% 0;
+  opacity: 0;
 
   &--open {
-    display: block;
+    display: block !important;
+    translate: 0 0;
+    opacity: 1;
   }
 
   &__wrapper {
     position: sticky;
-    top: 3.8em;
-    height: 100dvh;
+    top: 4em;
+    padding-top: 1.5em;
   }
 
   &__close {
@@ -31,7 +28,7 @@
     font-size: 3rem;
     position: absolute;
     right: -1.1em;
-    top: -1.1em;
+    top: -0.5em;
     color: var(--clr-neutral-100);
 
     &:is(:hover, :focus-visible) {
@@ -97,24 +94,19 @@
   }
 
   @include motion {
-    transition: inset 0.3s, visibility 0.3s;
+    transition: translate 0.3s, opacity 0.3s;
   }
 
   @include max(special) {
-    &.slide {
-      inset: 0 0 0 40%;
-    }
+    inset: 0 0 0 40%;
+    display: none;
   }
 
   @include max(small) {
-    &.slide {
-      inset: 0 0 0 20%;
-    }
+    inset: 0 0 0 20%;
   }
 
   @include max(micro) {
-    &.slide {
-      inset: 0 0 0 0;
-    }
+    inset: 0 0 0 0;
   }
 }
