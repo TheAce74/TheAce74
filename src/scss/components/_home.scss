@@ -1,0 +1,27 @@
+@use "../abstracts" as *;
+.home {
+  &__heading {
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin-block: 1em 0.3em;
+    line-height: 1.2;
+
+    span {
+      color: var(--clr-primary-400);
+    }
+
+    @include max(small) {
+      font-size: 2.7rem;
+    }
+  }
+
+  &__info {
+    font-size: 1.12rem;
+    line-height: 1.6;
+  }
+
+  @include max(small) {
+    min-height: max-content !important;
+    margin-bottom: 3em;
+  }
+}
