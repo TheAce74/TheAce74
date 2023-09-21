@@ -1,9 +1,9 @@
-import Body from "./components/Body";
-import Profile from "./components/Profile";
+import Body from "./components/body";
+import Profile from "./components/profile";
 import video from "./assets/video.mp4";
 import { useEffect, useState } from "react";
-import Loader from "./components/Loader";
-import Arrow from "./components/Arrow";
+import Loader from "./components/loader";
+import Arrow from "./components/arrow";
 import AppContextProvider from "./context/AppContext";
 
 function App() {

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Spinner from "../components/Spinner";
+import Spinner from "../components/spinner";
 
 function useSpinner() {
   const [loading, setLoading] = useState(true);
