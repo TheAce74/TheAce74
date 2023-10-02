@@ -63,6 +63,7 @@ I am a Frontend Developer ***@everythingJS***
   <br/>
   <img src="https://img.shields.io/badge/supabase-20232A.svg?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
   <img src="https://img.shields.io/badge/bootstrap-20232A.svg?style=for-the-badge&logo=bootstrap&logoColor=7952B3" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/tailwind-20232A.svg?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind" />
 </details>
 
 ---

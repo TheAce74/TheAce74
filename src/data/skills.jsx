@@ -12,6 +12,7 @@ import {
   SiJson,
   SiSupabase,
   SiBootstrap,
+  SiTailwindcss,
 } from "react-icons/si";
 import { BsGit, BsGithub } from "react-icons/bs";
 import { TbBrandVscode } from "react-icons/tb";
@@ -116,6 +117,11 @@ const skills = [
     title: "Bootstrap",
     icon: <SiBootstrap />,
     level: 80,
+  },
+  {
+    title: "Tailwind",
+    icon: <SiTailwindcss />,
+    level: 90,
   },
 ];
 
