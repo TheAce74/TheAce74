@@ -9,7 +9,7 @@ import { InView } from "react-intersection-observer";
 
 function Portfolio({ title, icon }) {
   const { spinner, spinnerRef, loading } = useSpinner();
-  const { setOpenMenu, setSection } = useAppContext();
+  const { setSection } = useAppContext();
 
   return (
     <InView
@@ -17,7 +17,6 @@ function Portfolio({ title, icon }) {
       className="portfolio"
       aria-label="portfolio"
       id="portfolio"
-      onClick={() => setOpenMenu(false)}
       onChange={(inView) => {
         if (inView) {
           setSection(3);

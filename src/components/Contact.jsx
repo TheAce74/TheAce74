@@ -12,7 +12,7 @@ function Contact({ title, icon }) {
   const budgetRef = useRef(null);
   const messageRef = useRef(null);
   const { post } = useFetch();
-  const { setOpenMenu, setSection } = useAppContext();
+  const { setSection } = useAppContext();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -58,7 +58,6 @@ function Contact({ title, icon }) {
       className="contact"
       aria-label="contact"
       id="contact"
-      onClick={() => setOpenMenu(false)}
       onChange={(inView) => {
         if (inView) {
           setSection(5);

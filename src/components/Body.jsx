@@ -1,7 +1,4 @@
 import Home from "./Home";
-import MenuIcon from "./MenuIcon";
-import IconBar from "./IconBar";
-import Menu from "./Menu";
 import About from "./About";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
@@ -13,17 +10,13 @@ import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import { memo } from "react";
+import MenuItemsWrapper from "./MenuItemsWrapper";
 
 function Body() {
   return (
     <section className="body" aria-label="body">
       <Home title="introduction" icon={<HiOutlineHome />} />
-      <div className="icon__wrapper">
-        <MenuIcon />
-        <IconBar />
-      </div>
-      <Menu />
+      <MenuItemsWrapper />
       <About title="about" icon={<CgProfile />} />
       <Skills title="my skills" icon={<GiSmallFire />} />
       <Portfolio title="portfolio" icon={<BsLightningCharge />} />
@@ -33,4 +26,4 @@ function Body() {
   );
 }
 
-export default memo(Body);
+export default Body;

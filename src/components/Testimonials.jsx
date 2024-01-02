@@ -10,7 +10,7 @@ function Testimonials({ title, icon }) {
   const [slides, setSlides] = useState(0);
   const slidesRef = useRef(testimonials.length - 1);
   const sliderRef = useRef(null);
-  const { setOpenMenu, setSection } = useAppContext();
+  const { setSection } = useAppContext();
 
   const showSlides = (value) => {
     if (typeof value === "number") {
@@ -40,7 +40,6 @@ function Testimonials({ title, icon }) {
       className="testimonials"
       aria-label="testimonials"
       id="testimonials"
-      onClick={() => setOpenMenu(false)}
       onChange={(inView) => {
         if (inView) {
           setSection(4);
@@ -68,7 +67,7 @@ function Testimonials({ title, icon }) {
         </button>
       </div>
       <div className="dot-container">
-        {testimonials.map((testimonial, index) => (
+        {testimonials.map((_, index) => (
           <button
             key={uuidv4()}
             className={index === slides ? "dot dot--active" : "dot"}

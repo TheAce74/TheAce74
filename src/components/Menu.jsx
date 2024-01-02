@@ -8,10 +8,14 @@ import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
 import { useAppContext } from "../context/AppContext";
-import { memo } from "react";
+import { memo, useRef } from "react";
+import { useClickAway } from "../hooks/useClickAway";
 
-function Menu() {
-  const { openMenu, setOpenMenu, section } = useAppContext();
+function Menu({ openMenu, setOpenMenu }) {
+  const { section } = useAppContext();
+  const clickAwayRef = useRef(null);
+
+  useClickAway(clickAwayRef, () => setOpenMenu(false));
 
   return (
     <section
@@ -19,6 +23,7 @@ function Menu() {
       aria-label="menu"
       id="menu"
       aria-expanded={openMenu}
+      ref={clickAwayRef}
     >
       <div className="menu__wrapper">
         <button

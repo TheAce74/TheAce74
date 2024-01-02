@@ -1,9 +1,10 @@
+import { memo } from "react";
 import resume from "../assets/Chisom Raphael Udonsi's Resume.pdf";
 import { useAppContext } from "../context/AppContext";
 import { InView } from "react-intersection-observer";
 
 function About({ title, icon }) {
-  const { setOpenMenu, setSection } = useAppContext();
+  const { setSection } = useAppContext();
 
   return (
     <InView
@@ -11,7 +12,6 @@ function About({ title, icon }) {
       className="about"
       aria-label="about"
       id="about"
-      onClick={() => setOpenMenu(false)}
       onChange={(inView) => {
         if (inView) {
           setSection(1);
@@ -48,4 +48,4 @@ function About({ title, icon }) {
   );
 }
 
-export default About;
+export default memo(About);

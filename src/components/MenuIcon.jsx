@@ -1,10 +1,7 @@
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { useAppContext } from "../context/AppContext";
 import { memo } from "react";
 
-export default memo(function MenuIcon() {
-  const { setOpenMenu } = useAppContext();
-
+export default memo(function MenuIcon({ setOpenMenu }) {
   return (
     <button
       className="menuIcon"

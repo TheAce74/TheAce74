@@ -2,20 +2,13 @@ import profilePic from "../assets/image.webp";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
-import { memo } from "react";
 import { useSpinner } from "../hooks/useSpinner";
-import { useAppContext } from "../context/AppContext";
 
 function Profile() {
   const { spinner, spinnerRef, loading } = useSpinner();
-  const { setOpenMenu } = useAppContext();
 
   return (
-    <section
-      className="profile"
-      aria-label="profile"
-      onClick={() => setOpenMenu(false)}
-    >
+    <section className="profile" aria-label="profile">
       <div className="profile__wrapper">
         <div className="profile__title">
           <h1>
@@ -89,4 +82,4 @@ function Profile() {
   );
 }
 
-export default memo(Profile);
+export default Profile;

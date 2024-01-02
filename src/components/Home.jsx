@@ -3,7 +3,7 @@ import { useAppContext } from "../context/AppContext";
 import { InView } from "react-intersection-observer";
 
 function Home({ title, icon }) {
-  const { setOpenMenu, setSection } = useAppContext();
+  const { setSection } = useAppContext();
 
   return (
     <InView
@@ -11,7 +11,6 @@ function Home({ title, icon }) {
       className="home"
       aria-label="home"
       id="home"
-      onClick={() => setOpenMenu(false)}
       onChange={(inView) => {
         if (inView) {
           setSection(0);
