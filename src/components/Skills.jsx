@@ -31,7 +31,7 @@ function Skills({ title, icon }) {
           <div className="skills__card" key={uuidv4()}>
             <div
               className={`skills__icon ${skill.title
-                .split(" ")
+                .split(/\s+|\./)
                 .join("")
                 .toLowerCase()}`}
             >

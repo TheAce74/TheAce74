@@ -50,6 +50,10 @@
       background-color: var(--clr-neutral-100);
     }
 
+    &:is(:hover) .nextjs {
+      background-color: var(--clr-neutral-100);
+    }
+
     @include motion {
       transition: border-color 0.3s;
     }
@@ -66,7 +70,7 @@
     }
   }
 
-  .github {
+  .github, .nextjs  {
     border-radius: 50%;
   }
 
