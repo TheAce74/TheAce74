@@ -33,11 +33,11 @@ function About({ title, icon }) {
       </p>
       <div className="about__extra">
         <div>
-          <h3>1+</h3>
+          <h3>2+</h3>
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <div>
-          <h3>60+</h3>
+          <h3>70+</h3>
           <p>PROJECTS COMPLETED</p>
         </div>
         <a href={resume} className="resume" download="Chisom Udonsi's Resume">
