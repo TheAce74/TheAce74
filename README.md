@@ -67,32 +67,32 @@ I am a Frontend Developer ***@everythingJS***
   <img src="https://img.shields.io/badge/firebase-20232A.svg?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" />
   <img src="https://img.shields.io/badge/mui-20232A.svg?style=for-the-badge&logo=mui&logoColor=007FFF" alt="MUI" />
   <br/>
-  <img src="https://img.shields.io/badge/createreactapp-20232A.svg?style=for-the-badge&logo=createreactapp&logoColor=09D3AC" alt="CreateReactApp" />
-  <img src="https://img.shields.io/badge/reacthookform-20232A.svg?style=for-the-badge&logo=reacthookform&logoColor=EC5990" alt="ReactHookForm" />
+  <img src="https://img.shields.io/badge/create_react_app-20232A.svg?style=for-the-badge&logo=createreactapp&logoColor=09D3AC" alt="CreateReactApp" />
+  <img src="https://img.shields.io/badge/react_hook_form-20232A.svg?style=for-the-badge&logo=reacthookform&logoColor=EC5990" alt="ReactHookForm" />
   <img src="https://img.shields.io/badge/formik-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Formik" />
-  <img src="https://img.shields.io/badge/tanstackquery-20232A.svg?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="TanstackQuery" />
+  <img src="https://img.shields.io/badge/tanstack_query-20232A.svg?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="TanstackQuery" />
   <img src="https://img.shields.io/badge/zustand-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Zustand" />
   <br/>
-  <img src="https://img.shields.io/badge/styledcomponents-20232A.svg?style=for-the-badge&logo=styledcomponents&logoColor=DB7093" alt="StyledComponents" />
+  <img src="https://img.shields.io/badge/styled_components-20232A.svg?style=for-the-badge&logo=styledcomponents&logoColor=DB7093" alt="StyledComponents" />
   <img src="https://img.shields.io/badge/emotion-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Emotion" />
-  <img src="https://img.shields.io/badge/reduxtoolkit-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="ReduxToolkit" />
+  <img src="https://img.shields.io/badge/redux_toolkit-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="ReduxToolkit" />
   <img src="https://img.shields.io/badge/typescript-20232A.svg?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="Typescript" />
   <img src="https://img.shields.io/badge/next.js-20232A.svg?style=for-the-badge&logo=nextdotjs&logoColor=000000" alt="Next.js" />
   <br/>
-  <img src="https://img.shields.io/badge/apexcharts-20232A.svg?style=for-the-badge&logo=soundcharts&logoColor=0C1528" alt="ApexCharts" />
+  <img src="https://img.shields.io/badge/apex_charts-20232A.svg?style=for-the-badge&logo=soundcharts&logoColor=0C1528" alt="ApexCharts" />
   <img src="https://img.shields.io/badge/chart.js-20232A.svg?style=for-the-badge&logo=chartdotjs&logoColor=FF6384" alt="Chart.js" />
   <img src="https://img.shields.io/badge/postman-20232A.svg?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
   <img src="https://img.shields.io/badge/cypress-20232A.svg?style=for-the-badge&logo=cypress&logoColor=69D3A7" alt="Cypress" />
   <img src="https://img.shields.io/badge/jest-20232A.svg?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest" />
   <br/>
-  <img src="https://img.shields.io/badge/reacttestinglibrary-20232A.svg?style=for-the-badge&logo=testinglibrary&logoColor=E33332" alt="ReactTestingLibrary" />
-  <img src="https://img.shields.io/badge/reactspring-20232A.svg?style=for-the-badge&logo=spring&logoColor=6DB33F" alt="reactspring" />
+  <img src="https://img.shields.io/badge/react_testing_library-20232A.svg?style=for-the-badge&logo=testinglibrary&logoColor=E33332" alt="ReactTestingLibrary" />
+  <img src="https://img.shields.io/badge/react_spring-20232A.svg?style=for-the-badge&logo=spring&logoColor=6DB33F" alt="reactspring" />
   <img src="https://img.shields.io/badge/auth0-20232A.svg?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="auth0" />
   <img src="https://img.shields.io/badge/mantine-20232A.svg?style=for-the-badge&logo=mantine&logoColor=339AF0" alt="mantine" />
-  <img src="https://img.shields.io/badge/chakraui-20232A.svg?style=for-the-badge&logo=chakraui&logoColor=319795" alt="chakraui" />
+  <img src="https://img.shields.io/badge/chakra_ui-20232A.svg?style=for-the-badge&logo=chakraui&logoColor=319795" alt="chakraui" />
   <br/>
   <img src="https://img.shields.io/badge/jotai-20232A.svg?style=for-the-badge&logo=ghostery&logoColor=00AEF0" alt="jotai" />
-  <img src="https://img.shields.io/badge/reacthelmet-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Helmet" />
+  <img src="https://img.shields.io/badge/react_helmet-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Helmet" />
   <img src="https://img.shields.io/badge/yup-20232A.svg?style=for-the-badge&logo=pyup&logoColor=9F55FF" alt="yup" />
   <img src="https://img.shields.io/badge/zod-20232A.svg?style=for-the-badge&logo=zod&logoColor=3E67B1" alt="zod" />
 </details>
