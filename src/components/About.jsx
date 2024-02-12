@@ -1,5 +1,5 @@
 import { memo } from "react";
-import resume from "../assets/Chisom Raphael Udonsi's Resume.pdf";
+import resume from "../assets/Chisom Udonsi's Resume.pdf";
 import { useAppContext } from "../context/AppContext";
 import { InView } from "react-intersection-observer";
 
