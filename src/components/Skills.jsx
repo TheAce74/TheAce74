@@ -24,7 +24,7 @@ function Skills({ title, icon }) {
         <span>{title}</span>
       </p>
       <h2 className="skills__heading">
-        My <span>Savvy</span>
+        My <span>Tech Savvy</span>
       </h2>
       <div className="skills__grid">
         {skills.map((skill) => (

@@ -61,7 +61,7 @@ const skills = [
   {
     title: "React",
     icon: <FaReact />,
-    level: 70,
+    level: 90,
   },
   {
     title: "Sass",
@@ -201,7 +201,7 @@ const skills = [
   {
     title: "Typescript",
     icon: <SiTypescript />,
-    level: 94,
+    level: 95,
   },
   {
     title: "Next.js",
@@ -256,7 +256,7 @@ const skills = [
   {
     title: "Chakra UI",
     icon: <SiChakraui />,
-    level: 60,
+    level: 92,
   },
   {
     title: "Jotai",

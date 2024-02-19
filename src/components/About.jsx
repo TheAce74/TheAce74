@@ -27,9 +27,9 @@ function About({ title, icon }) {
       </h2>
       <p className="about__info">
         Since the early days of my coding adventure, I have immersed myself in
-        the world of frontend development. From tinkering with HTML and CSS to
-        exploring the dynamic realms of JavaScript and modern frameworks, my
-        journey has been a fascinating exploration of endless possibilities.
+        the world of frontend software engineering. From tinkering with HTML and
+        CSS to exploring the dynamic realms of JavaScript and modern frameworks,
+        my journey has been a fascinating exploration of endless possibilities.
       </p>
       <div className="about__extra">
         <div>

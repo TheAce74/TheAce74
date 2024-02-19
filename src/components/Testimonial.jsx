@@ -4,9 +4,14 @@ export default function Testimonial({ testimonial }) {
       <div className="testimonial__flex">
         <div>
           <h3>{testimonial.name}</h3>
-          <p aria-label={`${testimonial.platform} handle`}>
+          <a
+            aria-label={`${testimonial.platform} handle`}
+            href={testimonial.link}
+            target="_blank"
+            rel="noreferrer"
+          >
             {testimonial.handle}
-          </p>
+          </a>
         </div>
         {testimonial.icon}
       </div>
