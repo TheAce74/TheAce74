@@ -1,11 +1,11 @@
 import techverse from "../assets/techverse.webp";
 import movieBox from "../assets/movie-box.webp";
+import kreator from "../assets/kreator.webp";
 import shortly from "../assets/shortly.webp";
 import femCountries from "../assets/fem-countries.webp";
 import musicPlayer from "../assets/music-player.webp";
 import ecommerce from "../assets/e-commerce.webp";
 import todoApp from "../assets/todo-app.webp";
-import huddle from "../assets/huddle.webp";
 import miniLibrary from "../assets/mini-library.webp";
 import crowdfunding from "../assets/crowdfunding.webp";
 
@@ -23,6 +23,13 @@ const projects = [
     pic: movieBox,
     link: "https://hngxsecondtask.netlify.app",
     github: "https://github.com/TheAce74/HNGx/tree/main/Second%20Task",
+  },
+  {
+    title: "The Kreator's Portfolio",
+    tools: ["React", "Typescript", "React Spring", "Tailwind"],
+    pic: kreator,
+    link: "https://thekreator.vercel.app/",
+    github: "https://github.com/TheAce74/TheKreatorPortfolio",
   },
   {
     title: "Shortly",
@@ -61,14 +68,6 @@ const projects = [
     link: "https://frontendmentorlibrary.netlify.app/todo-app/index.html",
     github:
       "https://github.com/TheAce74/Frontend-Mentor-Projects/tree/main/todo-app",
-  },
-  {
-    title: "Huddle Landing Page",
-    tools: ["HTML", "CSS"],
-    pic: huddle,
-    link: "https://frontendmentorlibrary.netlify.app/huddle-landing-page-with-curved-sections/index.html",
-    github:
-      "https://github.com/TheAce74/Frontend-Mentor-Projects/tree/main/huddle-landing-page-with-curved-sections",
   },
   {
     title: "Mini Library",
