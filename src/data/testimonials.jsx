@@ -2,6 +2,14 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 
 const testimonials = [
   {
+    name: "Wisdom Chima",
+    handle: "@kreatorgraphics",
+    icon: <BsInstagram />,
+    platform: "Instagram",
+    body: "I needed a portfolio as a designer with which I could begin my cold outreach to prospective clients. I reached out to Chisom to help me out with the development, and at every step of the development phase, he inquired for feedback showing how detailed and committed to project he was. He eventually ended up over delivering on the design I sent to him with amazing insights & suggestions, and the site was very optimized and clean. 100% recommend him.",
+    link: "http://instagram.com/kreatorgraphics",
+  },
+  {
     name: "Victor Iloenyenwa",
     handle: "@ProCode47",
     icon: <BsGithub />,
