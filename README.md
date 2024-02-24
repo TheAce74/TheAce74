@@ -95,6 +95,7 @@ I am a Frontend Developer ***@everythingJS***
   <img src="https://img.shields.io/badge/react_helmet-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Helmet" />
   <img src="https://img.shields.io/badge/yup-20232A.svg?style=for-the-badge&logo=pyup&logoColor=9F55FF" alt="yup" />
   <img src="https://img.shields.io/badge/zod-20232A.svg?style=for-the-badge&logo=zod&logoColor=3E67B1" alt="zod" />
+  <img src="https://img.shields.io/badge/vitest-20232A.svg?style=for-the-badge&logo=vitest&logoColor=6E9F18" alt="vitest" />
 </details>
 
 ---

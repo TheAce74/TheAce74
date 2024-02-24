@@ -31,6 +31,7 @@ import {
   SiChakraui,
   SiPyup,
   SiReact,
+  SiVitest,
 } from "react-icons/si";
 import { BsGit, BsGithub, BsBarChartFill } from "react-icons/bs";
 import {
@@ -277,6 +278,11 @@ const skills = [
     title: "Zod",
     icon: <FaReact />,
     level: 87,
+  },
+  {
+    title: "Vitest",
+    icon: <SiVitest />,
+    level: 95,
   },
 ];
 
