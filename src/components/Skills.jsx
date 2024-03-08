@@ -38,7 +38,6 @@ function Skills({ title, icon }) {
               {skill.icon}
             </div>
             <h3 className="skills__title">{skill.title}</h3>
-            <p className="skills__level">{`${skill.level}%`}</p>
           </div>
         ))}
       </div>

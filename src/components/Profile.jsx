@@ -1,5 +1,6 @@
 import profilePic from "../assets/image.webp";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { SiFrontendmentor } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
 import { useSpinner } from "../hooks/useSpinner";
@@ -66,7 +67,7 @@ function Profile() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter className="profile__icon" />
+              <FaXTwitter className="profile__icon" />
             </a>
           </li>
         </ul>

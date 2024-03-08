@@ -47,242 +47,194 @@ const skills = [
   {
     title: "HTML",
     icon: <FaHtml5 />,
-    level: 100,
   },
   {
     title: "CSS",
     icon: <FaCss3Alt />,
-    level: 100,
   },
   {
     title: "JavaScript",
     icon: <IoLogoJavascript />,
-    level: 100,
   },
   {
     title: "React",
     icon: <FaReact />,
-    level: 90,
   },
   {
     title: "Sass",
     icon: <SiSass />,
-    level: 90,
   },
   {
     title: "React Router",
     icon: <SiReactrouter />,
-    level: 100,
   },
   {
     title: "NPM",
     icon: <IoLogoNpm />,
-    level: 100,
   },
   {
     title: "Yarn",
     icon: <FaYarn />,
-    level: 100,
   },
   {
     title: "Git",
     icon: <BsGit />,
-    level: 75,
   },
   {
     title: "GitHub",
     icon: <BsGithub />,
-    level: 80,
   },
   {
     title: "Redux",
     icon: <SiRedux />,
-    level: 80,
-  },
-  {
-    title: "jQuery",
-    icon: <SiJquery />,
-    level: 62,
-  },
-  {
-    title: "Vite",
-    icon: <SiVite />,
-    level: 70,
-  },
-  {
-    title: "VS Code",
-    icon: <TbBrandVscode />,
-    level: 80,
-  },
-  {
-    title: "Framer Motion",
-    icon: <SiFramer />,
-    level: 50,
-  },
-  {
-    title: "Swiper JS",
-    icon: <SiSwiper />,
-    level: 90,
-  },
-  {
-    title: "Axios",
-    icon: <SiAxios />,
-    level: 96,
-  },
-  {
-    title: "JSON",
-    icon: <SiJson />,
-    level: 100,
-  },
-  {
-    title: "Supabase",
-    icon: <SiSupabase />,
-    level: 60,
-  },
-  {
-    title: "Bootstrap",
-    icon: <SiBootstrap />,
-    level: 80,
-  },
-  {
-    title: "Tailwind",
-    icon: <SiTailwindcss />,
-    level: 90,
-  },
-  {
-    title: "Firebase",
-    icon: <SiFirebase />,
-    level: 70,
-  },
-  {
-    title: "Material UI",
-    icon: <SiMui />,
-    level: 68,
-  },
-  {
-    title: "Create React App",
-    icon: <SiCreatereactapp />,
-    level: 80,
-  },
-  {
-    title: "React Hook Form",
-    icon: <SiReacthookform />,
-    level: 85,
-  },
-  {
-    title: "Formik",
-    icon: <TbBrandReact />,
-    level: 75,
-  },
-  {
-    title: "Tanstack Query",
-    icon: <SiReactquery />,
-    level: 69,
-  },
-  {
-    title: "Zustand",
-    icon: <TbBrandReact />,
-    level: 95,
-  },
-  {
-    title: "Styled Components",
-    icon: <SiStyledcomponents />,
-    level: 78,
-  },
-  {
-    title: "Emotion",
-    icon: <SiReact />,
-    level: 56,
   },
   {
     title: "Redux Toolkit",
     icon: <TbBrandRedux />,
-    level: 80,
   },
   {
     title: "Typescript",
     icon: <SiTypescript />,
-    level: 95,
   },
   {
     title: "Next.js",
     icon: <SiNextdotjs />,
-    level: 88,
   },
   {
-    title: "Apex Charts",
-    icon: <BsBarChartFill />,
-    level: 97,
+    title: "Supabase",
+    icon: <SiSupabase />,
   },
   {
-    title: "Chart.js",
-    icon: <SiChartdotjs />,
-    level: 87,
+    title: "Bootstrap",
+    icon: <SiBootstrap />,
   },
   {
-    title: "Postman",
-    icon: <SiPostman />,
-    level: 66,
+    title: "Tailwind",
+    icon: <SiTailwindcss />,
   },
   {
-    title: "Cypress",
-    icon: <SiCypress />,
-    level: 75,
-  },
-  {
-    title: "Jest",
-    icon: <SiJest />,
-    level: 78,
-  },
-  {
-    title: "React Testing Library",
-    icon: <SiTestinglibrary />,
-    level: 74,
-  },
-  {
-    title: "React Spring",
-    icon: <SiSpring />,
-    level: 70,
-  },
-  {
-    title: "Auth0",
-    icon: <SiAuth0 />,
-    level: 89,
-  },
-  {
-    title: "Mantine",
-    icon: <TbBrandMantine />,
-    level: 78,
+    title: "Firebase",
+    icon: <SiFirebase />,
   },
   {
     title: "Chakra UI",
     icon: <SiChakraui />,
-    level: 92,
   },
   {
-    title: "Jotai",
-    icon: <TbGhost2 />,
-    level: 50,
+    title: "Material UI",
+    icon: <SiMui />,
   },
   {
-    title: "React Helmet",
-    icon: <GiVikingHelmet />,
-    level: 67,
+    title: "Mantine",
+    icon: <TbBrandMantine />,
   },
   {
-    title: "Yup",
-    icon: <SiPyup />,
-    level: 90,
+    title: "Tanstack Query",
+    icon: <SiReactquery />,
   },
   {
-    title: "Zod",
-    icon: <FaReact />,
-    level: 87,
+    title: "Zustand",
+    icon: <TbBrandReact />,
+  },
+  {
+    title: "Styled Components",
+    icon: <SiStyledcomponents />,
+  },
+  {
+    title: "Axios",
+    icon: <SiAxios />,
+  },
+  {
+    title: "jQuery",
+    icon: <SiJquery />,
   },
   {
     title: "Vitest",
     icon: <SiVitest />,
-    level: 95,
+  },
+  {
+    title: "Cypress",
+    icon: <SiCypress />,
+  },
+  {
+    title: "Jest",
+    icon: <SiJest />,
+  },
+  {
+    title: "React Testing Library",
+    icon: <SiTestinglibrary />,
+  },
+  {
+    title: "Vite",
+    icon: <SiVite />,
+  },
+  {
+    title: "VS Code",
+    icon: <TbBrandVscode />,
+  },
+  {
+    title: "Framer Motion",
+    icon: <SiFramer />,
+  },
+  {
+    title: "Swiper JS",
+    icon: <SiSwiper />,
+  },
+  {
+    title: "JSON",
+    icon: <SiJson />,
+  },
+  {
+    title: "Create React App",
+    icon: <SiCreatereactapp />,
+  },
+  {
+    title: "React Hook Form",
+    icon: <SiReacthookform />,
+  },
+  {
+    title: "Formik",
+    icon: <TbBrandReact />,
+  },
+  {
+    title: "Emotion",
+    icon: <SiReact />,
+  },
+  {
+    title: "Apex Charts",
+    icon: <BsBarChartFill />,
+  },
+  {
+    title: "Chart.js",
+    icon: <SiChartdotjs />,
+  },
+  {
+    title: "Postman",
+    icon: <SiPostman />,
+  },
+  {
+    title: "React Spring",
+    icon: <SiSpring />,
+  },
+  {
+    title: "Auth0",
+    icon: <SiAuth0 />,
+  },
+  {
+    title: "Jotai",
+    icon: <TbGhost2 />,
+  },
+  {
+    title: "React Helmet",
+    icon: <GiVikingHelmet />,
+  },
+  {
+    title: "Yup",
+    icon: <SiPyup />,
+  },
+  {
+    title: "Zod",
+    icon: <FaReact />,
   },
 ];
 
