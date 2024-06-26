@@ -44,6 +44,7 @@ function Portfolio({ title, icon }: PortfolioProps) {
               <img
                 src={project.pic}
                 alt={`${project.title} image`}
+                loading="lazy"
                 ref={spinnerRef}
                 className={
                   loading ? "portfolio__img spinner-show" : "portfolio__img"

@@ -2,7 +2,14 @@ import techmilitant from "@/assets/techmilitant.webp";
 import techverse from "@/assets/techverse.webp";
 import movieBox from "@/assets/movie-box.webp";
 import kreator from "@/assets/kreator.webp";
-import femCountries from "@/assets/fem-countries.webp";
+import urpilot from "@/assets/urpilot.webp";
+import triplec from "@/assets/triplec.webp";
+import academify from "@/assets/academify.webp";
+import lwb from "@/assets/lwb.webp";
+import ratemate from "@/assets/ratemate.webp";
+import novanote from "@/assets/novanote.webp";
+import stackclique from "@/assets/stackclique.webp";
+import chris from "@/assets/chris.webp";
 import { FaHtml5, FaCss3Alt, FaReact, FaYarn } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoNpm } from "react-icons/io";
 import {
@@ -37,6 +44,14 @@ import {
   SiPyup,
   SiReact,
   SiVitest,
+  SiAppwrite,
+  SiSwr,
+  SiApollographql,
+  SiMobx,
+  SiShadcnui,
+  SiGreensock,
+  SiZod,
+  SiRadixui,
 } from "react-icons/si";
 import { BsGit, BsGithub, BsBarChartFill, BsInstagram } from "react-icons/bs";
 import {
@@ -49,6 +64,55 @@ import {
 import { GiVikingHelmet } from "react-icons/gi";
 
 export const PROJECTS = [
+  {
+    title: "Urpilot",
+    tools: ["Redux", "Mantine", "Typescript", "Tanstack Query"],
+    pic: urpilot,
+    link: "https://urpilot.vercel.app",
+    github: "https://github.com/TheAce74",
+  },
+  {
+    title: "Triple C",
+    tools: ["MobX", "Apollo", "React Auth Kit", "GSAP"],
+    pic: triplec,
+    link: "https://triplec.vercel.app",
+    github: "https://github.com/TheAce74",
+  },
+  {
+    title: "Learning With Babanlar",
+    tools: ["Next.js", "Radix UI", "Shadcn UI", "SWR"],
+    pic: lwb,
+    link: "https://www.learningwithbabanlar.com",
+    github: "https://github.com/TheAce74",
+  },
+  {
+    title: "Academify",
+    tools: ["Axios", "Tailwind", "Context API", "Vite"],
+    pic: academify,
+    link: "https://myacademify.vercel.app",
+    github: "https://github.com/TheAce74/Academify",
+  },
+  {
+    title: "Fullstack Designer Portfolio",
+    tools: ["Styled Components", "Jotai", "Typescript", "Appwrite"],
+    pic: chris,
+    link: "https://asorchristopher.vercel.app",
+    github: "https://github.com/TheAce74/AsorChris",
+  },
+  {
+    title: "RateMate",
+    tools: ["Mantine", "Tailwind", "Zustand", "Appwrite"],
+    pic: ratemate,
+    link: "https://ratingmate.vercel.app",
+    github: "https://github.com/TheAce74",
+  },
+  {
+    title: "NovaNote",
+    tools: ["Material UI", "Firebase", "Redux", "Typescript"],
+    pic: novanote,
+    link: "https://novanotebook.netlify.app",
+    github: "https://github.com/TheAce74/novanote",
+  },
   {
     title: "TechMilitant",
     tools: ["React", "Redux", "Redux Toolkit", "Vitest"],
@@ -78,11 +142,11 @@ export const PROJECTS = [
     github: "https://github.com/TheAce74/TheKreatorPortfolio",
   },
   {
-    title: "REST Countries API",
-    tools: ["React", "React Router", "Sass", "Vite"],
-    pic: femCountries,
-    link: "https://fem-countries.netlify.app",
-    github: "https://github.com/TheAce74/fem-countries",
+    title: "StackClique Clock",
+    tools: ["Supabase", "Bootstrap", "Sass"],
+    pic: stackclique,
+    link: "https://stackcliqueclock.netlify.app/",
+    github: "https://github.com/theAce74/stackcliqueclock",
   },
 ];
 
@@ -158,6 +222,10 @@ export const SKILLS = [
   {
     title: "Firebase",
     icon: <SiFirebase />,
+  },
+  {
+    title: "Appwrite",
+    icon: <SiAppwrite />,
   },
   {
     title: "Chakra UI",
@@ -277,7 +345,35 @@ export const SKILLS = [
   },
   {
     title: "Zod",
-    icon: <FaReact />,
+    icon: <SiZod />,
+  },
+  {
+    title: "SWR",
+    icon: <SiSwr />,
+  },
+  {
+    title: "React Auth Kit",
+    icon: <SiAuth0 />,
+  },
+  {
+    title: "Apollo",
+    icon: <SiApollographql />,
+  },
+  {
+    title: "MobX",
+    icon: <SiMobx />,
+  },
+  {
+    title: "GSAP",
+    icon: <SiGreensock />,
+  },
+  {
+    title: "Radix UI",
+    icon: <SiRadixui />,
+  },
+  {
+    title: "Shadcn UI",
+    icon: <SiShadcnui />,
   },
 ];
 
