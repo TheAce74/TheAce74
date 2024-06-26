@@ -11,17 +11,19 @@
 </div>
 
 ---
+
 ### 👨‍💻 About Me:
 
-I am a Frontend Developer ***@everythingJS***
+I am a Frontend Developer **_@everythingJS_**
 
 - 🔭 I’m currently working on improving my skills
-- 🌱 I’m currently learning ***✨React✨***
-- 👯 I’m looking to collaborate on ***Frontend Projects***
-- 💬 Ask me about any issues you have with ***Vanilla JS***
+- 🌱 I’m currently learning **_✨React✨_**
+- 👯 I’m looking to collaborate on **_Frontend Projects_**
+- 💬 Ask me about any issues you have with **_Vanilla JS_**
 - 📫 You can reach me at udonsichisom02@gmail.com
 
 ---
+
 ### 📱 Connect with me:
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/chisom-udonsi-45196b216)
@@ -30,6 +32,7 @@ I am a Frontend Developer ***@everythingJS***
 [![Discord Badge](https://img.shields.io/badge/-Discord-red?style=flat&logo=Discord&logoColor=white)](https://discordapp.com/users/TheAce#6459)
 
 ---
+
 ### 🛠 Languages and Tools:
 
 <details>
@@ -96,9 +99,20 @@ I am a Frontend Developer ***@everythingJS***
   <img src="https://img.shields.io/badge/yup-20232A.svg?style=for-the-badge&logo=pyup&logoColor=9F55FF" alt="yup" />
   <img src="https://img.shields.io/badge/zod-20232A.svg?style=for-the-badge&logo=zod&logoColor=3E67B1" alt="zod" />
   <img src="https://img.shields.io/badge/vitest-20232A.svg?style=for-the-badge&logo=vitest&logoColor=6E9F18" alt="vitest" />
+  <br/>
+  <img src="https://img.shields.io/badge/appwrite-20232A.svg?style=for-the-badge&logo=appwrite&logoColor=FD366E" alt="Appwrite" />
+  <img src="https://img.shields.io/badge/swr-20232A.svg?style=for-the-badge&logo=swr&logoColor=000000" alt="SWR" />
+  <img src="https://img.shields.io/badge/react_auth_kit-20232A.svg?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="React Auth Kit" />
+  <img src="https://img.shields.io/badge/apollo-20232A.svg?style=for-the-badge&logo=apollographql&logoColor=311C87" alt="Apollo" />
+  <img src="https://img.shields.io/badge/mobx-20232A.svg?style=for-the-badge&logo=mobx&logoColor=FF9955" alt="MobX" />
+  <br/>
+  <img src="https://img.shields.io/badge/gsap-20232A.svg?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
+  <img src="https://img.shields.io/badge/shadcn_ui-20232A.svg?style=for-the-badge&logo=shadcnui&logoColor=000000" alt="Shadcn UI" />
+  <img src="https://img.shields.io/badge/radix_ui-20232A.svg?style=for-the-badge&logo=radixui&logoColor=161618" alt="Radix UI" />
 </details>
 
 ---
+
 ### 🔥 My Stats:
 
 <br/>

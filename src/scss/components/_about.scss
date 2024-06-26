@@ -18,7 +18,7 @@
 
   &__info {
     font-size: 1.12rem;
-    line-height: 1.6;
+    line-height: 2;
   }
 
   &__extra {
@@ -67,7 +67,7 @@
       }
     }
   }
-  
+
   @include max(small) {
     min-height: max-content !important;
     margin-bottom: 3em;
