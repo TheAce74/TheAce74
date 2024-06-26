@@ -1,8 +1,13 @@
-import { memo } from "react";
-import { useAppContext } from "../context/AppContext";
+import { ReactNode, memo } from "react";
+import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
 
-function Home({ title, icon }) {
+type HomeProps = {
+  title: string;
+  icon: ReactNode;
+};
+
+function Home({ title, icon }: HomeProps) {
   const { setSection } = useAppContext();
 
   return (

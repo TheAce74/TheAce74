@@ -4,7 +4,7 @@ import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "@/context/AppContext";
 import { memo } from "react";
 
 export default memo(function IconBar() {

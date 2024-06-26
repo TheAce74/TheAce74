@@ -1,31 +1,35 @@
-import { memo, useRef } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { useFetch } from "../hooks/useFetch";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "@/context/AppContext";
+import { useFetch } from "@/hooks/useFetch";
+import { useToast } from "@/hooks/useToast";
+import { FormEvent, ReactNode, memo, useRef } from "react";
 import { InView } from "react-intersection-observer";
 
-function Contact({ title, icon }) {
-  const nameRef = useRef(null);
-  const emailRef = useRef(null);
-  const telRef = useRef(null);
-  const budgetRef = useRef(null);
-  const messageRef = useRef(null);
+type ContactProps = {
+  title: string;
+  icon: ReactNode;
+};
+
+function Contact({ title, icon }: ContactProps) {
+  const nameRef = useRef<HTMLInputElement | null>(null);
+  const emailRef = useRef<HTMLInputElement | null>(null);
+  const telRef = useRef<HTMLInputElement | null>(null);
+  const budgetRef = useRef<HTMLInputElement | null>(null);
+  const messageRef = useRef<HTMLTextAreaElement | null>(null);
   const { post } = useFetch();
   const { setSection } = useAppContext();
+  const { customToast, dismiss } = useToast();
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const [name, email, phone, budget, message] = [
-      nameRef.current.value,
-      emailRef.current.value,
-      telRef.current.value,
-      budgetRef.current.value,
-      messageRef.current.value,
-    ];
-    toast.info("Sending Message", {
-      className: "toast--info",
-      autoClose: 20000,
+      nameRef.current?.value,
+      emailRef.current?.value,
+      telRef.current?.value,
+      budgetRef.current?.value,
+      messageRef.current?.value,
+    ] as string[];
+    customToast("Sending message...", {
+      type: "info",
     });
     const response = await post("https://aceserver.onrender.com/contact", {
       name,
@@ -35,19 +39,25 @@ function Contact({ title, icon }) {
       message,
     });
     if (response.success) {
-      toast.dismiss();
-      toast.success("Message sent", {
-        className: "toast--success",
-      });
-      nameRef.current.value = "";
-      emailRef.current.value = "";
-      telRef.current.value = "";
-      budgetRef.current.value = "";
-      messageRef.current.value = "";
+      dismiss();
+      customToast("Message sent");
+      if (
+        nameRef.current &&
+        emailRef.current &&
+        telRef.current &&
+        budgetRef.current &&
+        messageRef.current
+      ) {
+        nameRef.current.value = "";
+        emailRef.current.value = "";
+        telRef.current.value = "";
+        budgetRef.current.value = "";
+        messageRef.current.value = "";
+      }
     } else {
-      toast.dismiss();
-      toast.error("Message not sent, try again", {
-        className: "toast--error",
+      dismiss();
+      customToast("Message not sent, try again", {
+        type: "error",
       });
     }
   };
@@ -119,7 +129,7 @@ function Contact({ title, icon }) {
             type="text"
             name="budget"
             id="budget"
-            inputMode="number"
+            inputMode="numeric"
             placeholder="Your budget in dollars"
             ref={budgetRef}
           />
@@ -131,8 +141,8 @@ function Contact({ title, icon }) {
           <textarea
             name="message"
             id="message"
-            cols="30"
-            rows="10"
+            cols={30}
+            rows={10}
             placeholder="Write your message here..."
             required
             ref={messageRef}
@@ -140,7 +150,6 @@ function Contact({ title, icon }) {
         </div>
         <button type="submit">Send Message</button>
       </form>
-      <ToastContainer position="bottom-right" />
     </InView>
   );
 }

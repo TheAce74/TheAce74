@@ -1,9 +1,14 @@
-import { memo } from "react";
-import resume from "../assets/Chisom Udonsi's Resume.pdf";
-import { useAppContext } from "../context/AppContext";
+import { ReactNode, memo } from "react";
+import resume from "@/assets/Chisom Udonsi's Resume.pdf";
+import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
 
-function About({ title, icon }) {
+type AboutProps = {
+  title: string;
+  icon: ReactNode;
+};
+
+function About({ title, icon }: AboutProps) {
   const { setSection } = useAppContext();
 
   return (

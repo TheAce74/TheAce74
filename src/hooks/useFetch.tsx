@@ -1,7 +1,8 @@
+import { getErrorMessage } from "@/utils/functions";
 import axios from "axios";
 
 function useFetch() {
-  const get = async (url) => {
+  const get = async (url: string) => {
     try {
       const response = await axios.get(url);
       return {
@@ -11,14 +12,23 @@ function useFetch() {
     } catch (error) {
       return {
         success: false,
-        data: error.message,
+        data: getErrorMessage(error),
       };
     }
   };
 
-  const post = async (url, info) => {
+  const post = async (
+    url: string,
+    payload: {
+      name: string;
+      email: string;
+      phone: string;
+      budget: string;
+      message: string;
+    }
+  ) => {
     try {
-      const response = await axios.post(url, info);
+      const response = await axios.post(url, payload);
       return {
         success: true,
         data: response.data,
@@ -26,7 +36,7 @@ function useFetch() {
     } catch (error) {
       return {
         success: false,
-        data: error.message,
+        data: getErrorMessage(error),
       };
     }
   };

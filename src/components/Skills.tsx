@@ -1,10 +1,15 @@
 import { v4 as uuidv4 } from "uuid";
-import { skills } from "../data/skills";
-import { memo } from "react";
-import { useAppContext } from "../context/AppContext";
+import { ReactNode, memo } from "react";
 import { InView } from "react-intersection-observer";
+import { useAppContext } from "@/context/AppContext";
+import { SKILLS } from "@/utils/constants";
 
-function Skills({ title, icon }) {
+type SkillsProps = {
+  title: string;
+  icon: ReactNode;
+};
+
+function Skills({ title, icon }: SkillsProps) {
   const { setSection } = useAppContext();
 
   return (
@@ -27,7 +32,7 @@ function Skills({ title, icon }) {
         My <span>Tech Savvy</span>
       </h2>
       <div className="skills__grid">
-        {skills.map((skill) => (
+        {SKILLS.map((skill) => (
           <div className="skills__card" key={uuidv4()}>
             <div
               className={`skills__icon ${skill.title

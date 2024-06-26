@@ -3,7 +3,7 @@ import Spinner from "../components/Spinner";
 
 function useSpinner() {
   const [loading, setLoading] = useState(true);
-  const spinnerRef = useRef(null);
+  const spinnerRef = useRef<HTMLImageElement | null>(null);
 
   const spinner = () => {
     return loading && <Spinner />;

@@ -7,15 +7,18 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
-import { useAppContext } from "../context/AppContext";
-import { memo, useRef } from "react";
-import { useClickAway } from "../hooks/useClickAway";
+import { Dispatch, SetStateAction, memo } from "react";
+import { useClickAway } from "use-click-away-react";
+import { useAppContext } from "@/context/AppContext";
 
-function Menu({ openMenu, setOpenMenu }) {
+type MenuProps = {
+  openMenu: boolean;
+  setOpenMenu: Dispatch<SetStateAction<boolean>>;
+};
+
+function Menu({ openMenu, setOpenMenu }: MenuProps) {
   const { section } = useAppContext();
-  const clickAwayRef = useRef(null);
-
-  useClickAway(clickAwayRef, () => setOpenMenu(false));
+  const { clickAwayRef } = useClickAway(() => setOpenMenu(false));
 
   return (
     <section

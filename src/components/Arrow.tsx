@@ -1,7 +1,11 @@
 import { memo } from "react";
 import { BsArrowUp } from "react-icons/bs";
 
-export default memo(function Arrow({ arrow }) {
+type ArrowProps = {
+  arrow: boolean;
+};
+
+export default memo(function Arrow({ arrow }: ArrowProps) {
   return (
     <button
       onClick={() => {

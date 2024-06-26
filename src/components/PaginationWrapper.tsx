@@ -1,4 +1,4 @@
-import Arrow from "./Arrow";
+import Arrow from "@/components/Arrow";
 import { useEffect, useState } from "react";
 
 function PaginationWrapper() {
@@ -11,7 +11,8 @@ function PaginationWrapper() {
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
       const scrolled = (winScroll / height) * 100;
-      document.querySelector(".pagination").style.width = scrolled + "%";
+      (document.querySelector(".pagination") as HTMLDivElement).style.width =
+        scrolled + "%";
       if (window.scrollY > 500) {
         setArrow(true);
       } else {

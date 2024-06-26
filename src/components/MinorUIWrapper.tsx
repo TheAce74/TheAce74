@@ -1,7 +1,7 @@
-import video from "../assets/video.mp4";
+import video from "@/assets/video.mp4";
+import Loader from "@/components/Loader";
+import PaginationWrapper from "@/components/PaginationWrapper";
 import { useState } from "react";
-import Loader from "./Loader";
-import PaginationWrapper from "./PaginationWrapper";
 
 function MinorUIWrapper() {
   const [loader, setLoader] = useState(true);

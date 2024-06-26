@@ -1,7 +1,8 @@
-import Body from "./components/Body";
-import Profile from "./components/Profile";
-import AppContextProvider from "./context/AppContext";
-import MinorUIWrapper from "./components/MinorUIWrapper";
+import Body from "@/components/Body";
+import MinorUIWrapper from "@/components/MinorUIWrapper";
+import Profile from "@/components/Profile";
+import AppContextProvider from "@/context/AppContext";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </AppContextProvider>
       </div>
       <MinorUIWrapper />
+      <ToastContainer />
     </main>
   );
 }

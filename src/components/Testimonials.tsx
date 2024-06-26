@@ -1,19 +1,24 @@
-import { memo, useRef, useState } from "react";
+import { ReactNode, memo, useRef, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { testimonials } from "../data/testimonials";
-import Testimonial from "./Testimonial";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
-import { useAppContext } from "../context/AppContext";
 import { InView } from "react-intersection-observer";
+import { TESTIMONIALS } from "@/utils/constants";
+import { useAppContext } from "@/context/AppContext";
+import Testimonial from "@/components/Testimonial";
 
-function Testimonials({ title, icon }) {
+type TestimonialsProps = {
+  title: string;
+  icon: ReactNode;
+};
+
+function Testimonials({ title, icon }: TestimonialsProps) {
   const [slides, setSlides] = useState(0);
-  const slidesRef = useRef(testimonials.length - 1);
-  const sliderRef = useRef(null);
+  const slidesRef = useRef(TESTIMONIALS.length - 1);
+  const sliderRef = useRef<HTMLDivElement | null>(null);
   const { setSection } = useAppContext();
 
-  const showSlides = (value) => {
-    if (typeof value === "number") {
+  const showSlides = (value: number | string) => {
+    if (typeof value === "number" && sliderRef.current) {
       if (value > slidesRef.current) {
         sliderRef.current.scrollLeft = 0;
         setSlides(0);
@@ -55,7 +60,7 @@ function Testimonials({ title, icon }) {
       </h2>
       <div className="slideshow-container">
         <div className="wrapper" ref={sliderRef}>
-          {testimonials.map((testimonial) => (
+          {TESTIMONIALS.map((testimonial) => (
             <Testimonial key={uuidv4()} testimonial={testimonial} />
           ))}
         </div>
@@ -67,7 +72,7 @@ function Testimonials({ title, icon }) {
         </button>
       </div>
       <div className="dot-container">
-        {testimonials.map((_, index) => (
+        {TESTIMONIALS.map((_, index) => (
           <button
             key={uuidv4()}
             className={index === slides ? "dot dot--active" : "dot"}

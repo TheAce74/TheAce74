@@ -1,6 +1,6 @@
-import MenuIcon from "./MenuIcon";
-import IconBar from "./IconBar";
-import Menu from "./Menu";
+import IconBar from "@/components/IconBar";
+import Menu from "@/components/Menu";
+import MenuIcon from "@/components/MenuIcon";
 import { memo, useState } from "react";
 
 export default memo(function MenuItemsWrapper() {

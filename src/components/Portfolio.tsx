@@ -1,13 +1,18 @@
 import { v4 as uuidv4 } from "uuid";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
-import { projects } from "../data/projects";
-import { memo } from "react";
-import { useSpinner } from "../hooks/useSpinner";
-import { useAppContext } from "../context/AppContext";
+import { ReactNode, memo } from "react";
+import { useSpinner } from "@/hooks/useSpinner";
+import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
+import { PROJECTS } from "@/utils/constants";
 
-function Portfolio({ title, icon }) {
+type PortfolioProps = {
+  title: string;
+  icon: ReactNode;
+};
+
+function Portfolio({ title, icon }: PortfolioProps) {
   const { spinner, spinnerRef, loading } = useSpinner();
   const { setSection } = useAppContext();
 
@@ -31,7 +36,7 @@ function Portfolio({ title, icon }) {
         Featured <span>Projects</span>
       </h2>
       <div className="portfolio__projects">
-        {projects.map((project) => (
+        {PROJECTS.map((project) => (
           <div key={uuidv4()}>
             <div className="portfolio__project">
               {spinner()}

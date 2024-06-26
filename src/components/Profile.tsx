@@ -1,9 +1,9 @@
-import profilePic from "../assets/image.webp";
-import { FaGithub, FaLinkedin} from "react-icons/fa";
+import profilePic from "@/assets/image.webp";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiFrontendmentor } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
-import { useSpinner } from "../hooks/useSpinner";
+import { useSpinner } from "@/hooks/useSpinner";
 
 function Profile() {
   const { spinner, spinnerRef, loading } = useSpinner();
