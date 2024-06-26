@@ -7,7 +7,7 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
-import { Dispatch, SetStateAction, memo } from "react";
+import { Dispatch, SetStateAction } from "react";
 import { useClickAway } from "use-click-away-react";
 import { useAppContext } from "@/context/AppContext";
 
@@ -168,4 +168,4 @@ function Menu({ openMenu, setOpenMenu }: MenuProps) {
   );
 }
 
-export default memo(Menu);
+export default Menu;

@@ -1,7 +1,7 @@
 import { useAppContext } from "@/context/AppContext";
 import { useFetch } from "@/hooks/useFetch";
 import { useToast } from "@/hooks/useToast";
-import { FormEvent, ReactNode, memo, useRef } from "react";
+import { FormEvent, ReactNode, useRef } from "react";
 import { InView } from "react-intersection-observer";
 
 type ContactProps = {
@@ -16,7 +16,7 @@ function Contact({ title, icon }: ContactProps) {
   const budgetRef = useRef<HTMLInputElement | null>(null);
   const messageRef = useRef<HTMLTextAreaElement | null>(null);
   const { post } = useFetch();
-  const { setSection } = useAppContext();
+  const { setSection, section } = useAppContext();
   const { customToast, dismiss } = useToast();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -69,7 +69,7 @@ function Contact({ title, icon }: ContactProps) {
       aria-label="contact"
       id="contact"
       onChange={(inView) => {
-        if (inView) {
+        if (inView && section !== 5) {
           setSection(5);
         }
       }}
@@ -154,4 +154,4 @@ function Contact({ title, icon }: ContactProps) {
   );
 }
 
-export default memo(Contact);
+export default Contact;

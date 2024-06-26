@@ -1,11 +1,11 @@
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { Dispatch, SetStateAction, memo } from "react";
+import { Dispatch, SetStateAction } from "react";
 
 type MenuIconProps = {
   setOpenMenu: Dispatch<SetStateAction<boolean>>;
 };
 
-export default memo(function MenuIcon({ setOpenMenu }: MenuIconProps) {
+export default function MenuIcon({ setOpenMenu }: MenuIconProps) {
   return (
     <button
       className="menuIcon"
@@ -16,4 +16,4 @@ export default memo(function MenuIcon({ setOpenMenu }: MenuIconProps) {
       <HiOutlineMenuAlt4 />
     </button>
   );
-});
+}

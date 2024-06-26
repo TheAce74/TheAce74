@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
-import { ReactNode, memo } from "react";
+import { ReactNode, memo, useMemo } from "react";
 import { useSpinner } from "@/hooks/useSpinner";
 import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
@@ -14,7 +14,8 @@ type PortfolioProps = {
 
 function Portfolio({ title, icon }: PortfolioProps) {
   const { spinner, spinnerRef, loading } = useSpinner();
-  const { setSection } = useAppContext();
+  const { setSection, section } = useAppContext();
+  const projects = useMemo(() => PROJECTS, []);
 
   return (
     <InView
@@ -23,7 +24,7 @@ function Portfolio({ title, icon }: PortfolioProps) {
       aria-label="portfolio"
       id="portfolio"
       onChange={(inView) => {
-        if (inView) {
+        if (inView && section !== 3) {
           setSection(3);
         }
       }}
@@ -36,7 +37,7 @@ function Portfolio({ title, icon }: PortfolioProps) {
         Featured <span>Projects</span>
       </h2>
       <div className="portfolio__projects">
-        {PROJECTS.map((project) => (
+        {projects.map((project) => (
           <div key={uuidv4()}>
             <div className="portfolio__project">
               {spinner()}

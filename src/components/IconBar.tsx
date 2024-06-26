@@ -5,9 +5,8 @@ import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
 import { useAppContext } from "@/context/AppContext";
-import { memo } from "react";
 
-export default memo(function IconBar() {
+export default function IconBar() {
   const { section } = useAppContext();
 
   return (
@@ -54,4 +53,4 @@ export default memo(function IconBar() {
       </ul>
     </nav>
   );
-});
+}

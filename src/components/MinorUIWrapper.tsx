@@ -15,7 +15,11 @@ function MinorUIWrapper() {
         autoPlay
         className="app__video"
         aria-hidden="true"
-        onPlaying={() => setLoader(false)}
+        onPlaying={() => {
+          if (loader) {
+            setLoader(false);
+          }
+        }}
         playsInline
       ></video>
       {loader && <Loader />}

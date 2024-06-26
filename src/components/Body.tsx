@@ -1,16 +1,16 @@
-import Home from "./Home";
-import About from "./About";
-import Skills from "./Skills";
-import Portfolio from "./Portfolio";
-import Testimonials from "./Testimonials";
-import Contact from "./Contact";
 import { HiOutlineHome } from "react-icons/hi";
 import { CgProfile } from "react-icons/cg";
 import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import MenuItemsWrapper from "./MenuItemsWrapper";
+import Home from "@/components/Home";
+import MenuItemsWrapper from "@/components/MenuItemsWrapper";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Portfolio from "@/components/Portfolio";
+import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
 
 function Body() {
   return (

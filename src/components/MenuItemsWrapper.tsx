@@ -1,9 +1,9 @@
 import IconBar from "@/components/IconBar";
 import Menu from "@/components/Menu";
 import MenuIcon from "@/components/MenuIcon";
-import { memo, useState } from "react";
+import { useState } from "react";
 
-export default memo(function MenuItemsWrapper() {
+export default function MenuItemsWrapper() {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
@@ -15,4 +15,4 @@ export default memo(function MenuItemsWrapper() {
       <Menu openMenu={openMenu} setOpenMenu={setOpenMenu} />
     </>
   );
-});
+}

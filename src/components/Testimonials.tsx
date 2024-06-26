@@ -1,4 +1,4 @@
-import { ReactNode, memo, useRef, useState } from "react";
+import { ReactNode, memo, useMemo, useRef, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { InView } from "react-intersection-observer";
@@ -13,9 +13,10 @@ type TestimonialsProps = {
 
 function Testimonials({ title, icon }: TestimonialsProps) {
   const [slides, setSlides] = useState(0);
-  const slidesRef = useRef(TESTIMONIALS.length - 1);
+  const testimonials = useMemo(() => TESTIMONIALS, []);
+  const slidesRef = useRef(testimonials.length - 1);
   const sliderRef = useRef<HTMLDivElement | null>(null);
-  const { setSection } = useAppContext();
+  const { setSection, section } = useAppContext();
 
   const showSlides = (value: number | string) => {
     if (typeof value === "number" && sliderRef.current) {
@@ -46,7 +47,7 @@ function Testimonials({ title, icon }: TestimonialsProps) {
       aria-label="testimonials"
       id="testimonials"
       onChange={(inView) => {
-        if (inView) {
+        if (inView && section !== 4) {
           setSection(4);
         }
       }}
@@ -60,7 +61,7 @@ function Testimonials({ title, icon }: TestimonialsProps) {
       </h2>
       <div className="slideshow-container">
         <div className="wrapper" ref={sliderRef}>
-          {TESTIMONIALS.map((testimonial) => (
+          {testimonials.map((testimonial) => (
             <Testimonial key={uuidv4()} testimonial={testimonial} />
           ))}
         </div>
@@ -72,7 +73,7 @@ function Testimonials({ title, icon }: TestimonialsProps) {
         </button>
       </div>
       <div className="dot-container">
-        {TESTIMONIALS.map((_, index) => (
+        {testimonials.map((_, index) => (
           <button
             key={uuidv4()}
             className={index === slides ? "dot dot--active" : "dot"}

@@ -15,6 +15,11 @@
     display: block !important;
     translate: 0 0;
     opacity: 1;
+
+    @starting-style {
+      translate: 100% 0;
+      opacity: 0;
+    }
   }
 
   &__wrapper {
@@ -94,7 +99,8 @@
   }
 
   @include motion {
-    transition: translate 0.3s, opacity 0.3s;
+    transition: translate 0.3s, opacity 0.3s, display 0.3s;
+    transition-behavior: allow-discrete;
   }
 
   @include max(special) {

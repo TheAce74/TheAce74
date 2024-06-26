@@ -1,4 +1,4 @@
-import { ReactNode, memo } from "react";
+import { ReactNode } from "react";
 import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
 
@@ -8,7 +8,7 @@ type HomeProps = {
 };
 
 function Home({ title, icon }: HomeProps) {
-  const { setSection } = useAppContext();
+  const { setSection, section } = useAppContext();
 
   return (
     <InView
@@ -17,7 +17,7 @@ function Home({ title, icon }: HomeProps) {
       aria-label="home"
       id="home"
       onChange={(inView) => {
-        if (inView) {
+        if (inView && section !== 0) {
           setSection(0);
         }
       }}
@@ -41,4 +41,4 @@ function Home({ title, icon }: HomeProps) {
   );
 }
 
-export default memo(Home);
+export default Home;

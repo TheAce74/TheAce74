@@ -1,4 +1,4 @@
-import { ReactNode, memo } from "react";
+import { ReactNode } from "react";
 import resume from "@/assets/Chisom Udonsi's Resume.pdf";
 import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
@@ -9,7 +9,7 @@ type AboutProps = {
 };
 
 function About({ title, icon }: AboutProps) {
-  const { setSection } = useAppContext();
+  const { setSection, section } = useAppContext();
 
   return (
     <InView
@@ -18,7 +18,7 @@ function About({ title, icon }: AboutProps) {
       aria-label="about"
       id="about"
       onChange={(inView) => {
-        if (inView) {
+        if (inView && section !== 1) {
           setSection(1);
         }
       }}
@@ -53,4 +53,4 @@ function About({ title, icon }: AboutProps) {
   );
 }
 
-export default memo(About);
+export default About;

@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import { ReactNode, memo } from "react";
+import { ReactNode, memo, useMemo } from "react";
 import { InView } from "react-intersection-observer";
 import { useAppContext } from "@/context/AppContext";
 import { SKILLS } from "@/utils/constants";
@@ -10,7 +10,8 @@ type SkillsProps = {
 };
 
 function Skills({ title, icon }: SkillsProps) {
-  const { setSection } = useAppContext();
+  const { setSection, section } = useAppContext();
+  const skills = useMemo(() => SKILLS, []);
 
   return (
     <InView
@@ -19,7 +20,7 @@ function Skills({ title, icon }: SkillsProps) {
       aria-label="skills"
       id="skills"
       onChange={(inView) => {
-        if (inView) {
+        if (inView && section !== 2) {
           setSection(2);
         }
       }}
@@ -32,7 +33,7 @@ function Skills({ title, icon }: SkillsProps) {
         My <span>Tech Savvy</span>
       </h2>
       <div className="skills__grid">
-        {SKILLS.map((skill) => (
+        {skills.map((skill) => (
           <div className="skills__card" key={uuidv4()}>
             <div
               className={`skills__icon ${skill.title
