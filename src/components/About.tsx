@@ -45,7 +45,7 @@ function About({ title, icon }: AboutProps) {
           <h3>85+</h3>
           <p>PROJECTS COMPLETED</p>
         </div>
-        <a href={resume} className="resume" download="Chisom Udonsi's Resume">
+        <a href={resume} className="resume" download="chisom_udonsi_resume">
           Download Resume
         </a>
       </div>
