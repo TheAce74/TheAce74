@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 .testimonials {
-  margin-bottom: 5em;
+  padding-bottom: 5em;
 
   &__heading {
     font: {

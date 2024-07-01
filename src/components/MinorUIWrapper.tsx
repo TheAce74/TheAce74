@@ -1,28 +1,26 @@
-import video from "@/assets/video.mp4";
+import Constellation from "@/components/Constellation";
 import Loader from "@/components/Loader";
 import PaginationWrapper from "@/components/PaginationWrapper";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 
 function MinorUIWrapper() {
   const [loader, setLoader] = useState(true);
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoader(false);
+    }, 5000)
+
+    return () => {
+      clearTimeout(timeout)
+    }
+  }, []);
+
   return (
     <>
-      <video
-        src={video}
-        muted
-        loop
-        autoPlay
-        className="app__video"
-        aria-hidden="true"
-        onPlaying={() => {
-          if (loader) {
-            setLoader(false);
-          }
-        }}
-        playsInline
-      ></video>
       {loader && <Loader />}
+      <Constellation />
       <PaginationWrapper />
     </>
   );

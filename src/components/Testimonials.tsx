@@ -3,8 +3,8 @@ import { v4 as uuidv4 } from "uuid";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { InView } from "react-intersection-observer";
 import { TESTIMONIALS } from "@/utils/constants";
-import { useAppContext } from "@/context/AppContext";
 import Testimonial from "@/components/Testimonial";
+import { useSectionStore } from "@/store/sectionStore";
 
 type TestimonialsProps = {
   title: string;
@@ -16,7 +16,7 @@ function Testimonials({ title, icon }: TestimonialsProps) {
   const testimonials = useMemo(() => TESTIMONIALS, []);
   const slidesRef = useRef(testimonials.length - 1);
   const sliderRef = useRef<HTMLDivElement | null>(null);
-  const { setSection, section } = useAppContext();
+  const { setSection, section } = useSectionStore();
 
   const showSlides = (value: number | string) => {
     if (typeof value === "number" && sliderRef.current) {

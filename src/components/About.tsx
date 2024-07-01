@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import resume from "@/assets/Chisom Udonsi's Resume.pdf";
-import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
+import { useSectionStore } from "@/store/sectionStore";
 
 type AboutProps = {
   title: string;
@@ -9,7 +9,7 @@ type AboutProps = {
 };
 
 function About({ title, icon }: AboutProps) {
-  const { setSection, section } = useAppContext();
+  const { setSection, section } = useSectionStore();
 
   return (
     <InView

@@ -4,10 +4,10 @@ import { GiSmallFire } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { FiMail } from "react-icons/fi";
-import { useAppContext } from "@/context/AppContext";
+import { useSectionStore } from "@/store/sectionStore";
 
 export default function IconBar() {
-  const { section } = useAppContext();
+  const { section } = useSectionStore();
 
   return (
     <nav className="iconBar" aria-label="menu icon bar">
