@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 @use "../base" as *;
 .portfolio {
-  margin-bottom: 10em;
+  padding-bottom: 10em;
 
   &__heading {
     font: {
@@ -101,7 +101,7 @@
 
   @include max(small) {
     min-height: max-content !important;
-    margin-bottom: 3em;
+    padding-bottom: 3em;
 
     &__container {
       justify-content: center;

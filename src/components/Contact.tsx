@@ -1,6 +1,6 @@
-import { useAppContext } from "@/context/AppContext";
 import { useFetch } from "@/hooks/useFetch";
 import { useToast } from "@/hooks/useToast";
+import { useSectionStore } from "@/store/sectionStore";
 import { FormEvent, ReactNode, useRef } from "react";
 import { InView } from "react-intersection-observer";
 
@@ -16,7 +16,7 @@ function Contact({ title, icon }: ContactProps) {
   const budgetRef = useRef<HTMLInputElement | null>(null);
   const messageRef = useRef<HTMLTextAreaElement | null>(null);
   const { post } = useFetch();
-  const { setSection, section } = useAppContext();
+  const { setSection, section } = useSectionStore();
   const { customToast, dismiss } = useToast();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {

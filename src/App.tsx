@@ -1,7 +1,6 @@
 import Body from "@/components/Body";
 import MinorUIWrapper from "@/components/MinorUIWrapper";
 import Profile from "@/components/Profile";
-import AppContextProvider from "@/context/AppContext";
 import { ToastContainer } from "react-toastify";
 
 function App() {
@@ -9,9 +8,7 @@ function App() {
     <main className="app">
       <div className="app__overlay">
         <Profile />
-        <AppContextProvider>
-          <Body />
-        </AppContextProvider>
+        <Body />
       </div>
       <MinorUIWrapper />
       <ToastContainer />

@@ -1,5 +1,5 @@
+import { useSectionStore } from "@/store/sectionStore";
 import { ReactNode } from "react";
-import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
 
 type HomeProps = {
@@ -8,7 +8,7 @@ type HomeProps = {
 };
 
 function Home({ title, icon }: HomeProps) {
-  const { setSection, section } = useAppContext();
+  const { setSection, section } = useSectionStore();
 
   return (
     <InView

@@ -7,10 +7,10 @@
     max-width: em(1700);
     margin-inline: auto;
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.06);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0.5px);
-    -webkit-backdrop-filter: blur(0.5px);
+    backdrop-filter: blur(1.2px);
+    -webkit-backdrop-filter: blur(1.2px);
 
     @include max(special) {
       & > * {
@@ -26,7 +26,7 @@
     }
   }
 
-  &__video {
+  &__canvas {
     position: fixed;
     min-height: 100dvh;
     height: 100%;

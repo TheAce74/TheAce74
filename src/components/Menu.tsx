@@ -9,7 +9,7 @@ import { SiFrontendmentor } from "react-icons/si";
 import { IoMdClose } from "react-icons/io";
 import { Dispatch, SetStateAction } from "react";
 import { useClickAway } from "use-click-away-react";
-import { useAppContext } from "@/context/AppContext";
+import { useSectionStore } from "@/store/sectionStore";
 
 type MenuProps = {
   openMenu: boolean;
@@ -17,7 +17,7 @@ type MenuProps = {
 };
 
 function Menu({ openMenu, setOpenMenu }: MenuProps) {
-  const { section } = useAppContext();
+  const { section } = useSectionStore();
   const { clickAwayRef } = useClickAway(() => setOpenMenu(false));
 
   return (

@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 import { ReactNode, memo, useMemo } from "react";
 import { InView } from "react-intersection-observer";
-import { useAppContext } from "@/context/AppContext";
 import { SKILLS } from "@/utils/constants";
+import { useSectionStore } from "@/store/sectionStore";
 
 type SkillsProps = {
   title: string;
@@ -10,7 +10,7 @@ type SkillsProps = {
 };
 
 function Skills({ title, icon }: SkillsProps) {
-  const { setSection, section } = useAppContext();
+  const { setSection, section } = useSectionStore();
   const skills = useMemo(() => SKILLS, []);
 
   return (

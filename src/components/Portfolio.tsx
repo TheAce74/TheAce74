@@ -3,9 +3,9 @@ import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
 import { ReactNode, memo, useMemo } from "react";
 import { useSpinner } from "@/hooks/useSpinner";
-import { useAppContext } from "@/context/AppContext";
 import { InView } from "react-intersection-observer";
 import { PROJECTS } from "@/utils/constants";
+import { useSectionStore } from "@/store/sectionStore";
 
 type PortfolioProps = {
   title: string;
@@ -14,7 +14,7 @@ type PortfolioProps = {
 
 function Portfolio({ title, icon }: PortfolioProps) {
   const { spinner, spinnerRef, loading } = useSpinner();
-  const { setSection, section } = useAppContext();
+  const { setSection, section } = useSectionStore();
   const projects = useMemo(() => PROJECTS, []);
 
   return (
