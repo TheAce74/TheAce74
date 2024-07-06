@@ -17,9 +17,9 @@
 I am a Frontend Developer **_@everythingJS_**
 
 - 🔭 I’m currently working on improving my skills
-- 🌱 I’m currently learning **_✨React✨_**
+- 🌱 I’m currently learning **_✨Next.js✨_**
 - 👯 I’m looking to collaborate on **_Frontend Projects_**
-- 💬 Ask me about any issues you have with **_Vanilla JS_**
+- 💬 Ask me about any issues you have with **_React_**
 - 📫 You can reach me at udonsichisom02@gmail.com
 
 ---
@@ -118,4 +118,5 @@ I am a Frontend Developer **_@everythingJS_**
 <br/>
 <div align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=TheAce74&theme=vision-friendly-dark&background=000000&border=FDFFFE" width="80%" alt="GitHub Streak">
+  <a href="https://gitroll.io/profile/uJOcSz0KRMSYBAhbM1WYHjirxkYm1" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uJOcSz0KRMSYBAhbM1WYHjirxkYm1" alt="GitRoll Profile Badge"/></a>
 </div>
