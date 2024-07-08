@@ -31,7 +31,7 @@ function Contact({ title, icon }: ContactProps) {
     customToast("Sending message...", {
       type: "info",
     });
-    const response = await post("https://aceserver.onrender.com/contact", {
+    const response = await post("https://ace-server-tbg5.onrender.com/contact", {
       name,
       email,
       phone,
