@@ -14,11 +14,11 @@
 
 ### 👨‍💻 About Me:
 
-I am a Frontend Developer **_@everythingJS_**
+I am a Software Engineer **_@everythingJS_**
 
 - 🔭 I’m currently working on improving my skills
-- 🌱 I’m currently learning **_✨Next.js✨_**
-- 👯 I’m looking to collaborate on **_Frontend Projects_**
+- 🌱 I’m currently learning **_✨Node.js✨_**
+- 👯 I’m looking to collaborate on **_Fullstack Projects_**
 - 💬 Ask me about any issues you have with **_React_**
 - 📫 You can reach me at udonsichisom02@gmail.com
 
@@ -54,61 +54,73 @@ I am a Frontend Developer **_@everythingJS_**
   <br/>
   <img src="https://img.shields.io/badge/NPM-20232A?style=for-the-badge&logo=npm&logoColor=CB3837" alt="npm" />
   <img src="https://img.shields.io/badge/Yarn-20232A?style=for-the-badge&logo=yarn&logoColor=2C8EBB" alt="yarn" />
+  <img src="https://img.shields.io/badge/Pnpm-20232A?style=for-the-badge&logo=pnpm&logoColor=F69220" alt="pnpm" />
   <img src="https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="vite" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router&logoColor=CA4245" alt="ReactRouter" />
   <br/>
+  <img src="https://img.shields.io/badge/Vue.js-20232A?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router&logoColor=CA4245" alt="ReactRouter" />
   <img src="https://img.shields.io/badge/redux-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="Redux" />
   <img src="https://img.shields.io/badge/framer-20232A.svg?style=for-the-badge&logo=framer&logoColor=0055FF" alt="Framer" />
+  <br/>
   <img src="https://img.shields.io/badge/swiper-20232A.svg?style=for-the-badge&logo=swiper&logoColor=6332F6" alt="Swiper" />
   <img src="https://img.shields.io/badge/axios-20232A.svg?style=for-the-badge&logo=axios&logoColor=5A29E4" alt="Axios" />
   <img src="https://img.shields.io/badge/json-20232A.svg?style=for-the-badge&logo=json&logoColor=000000" alt="JSON" />
-  <br/>
   <img src="https://img.shields.io/badge/supabase-20232A.svg?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
   <img src="https://img.shields.io/badge/bootstrap-20232A.svg?style=for-the-badge&logo=bootstrap&logoColor=7952B3" alt="Bootstrap" />
+  <br/>
   <img src="https://img.shields.io/badge/tailwind-20232A.svg?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind" />
   <img src="https://img.shields.io/badge/firebase-20232A.svg?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" />
   <img src="https://img.shields.io/badge/mui-20232A.svg?style=for-the-badge&logo=mui&logoColor=007FFF" alt="MUI" />
-  <br/>
   <img src="https://img.shields.io/badge/create_react_app-20232A.svg?style=for-the-badge&logo=createreactapp&logoColor=09D3AC" alt="CreateReactApp" />
   <img src="https://img.shields.io/badge/react_hook_form-20232A.svg?style=for-the-badge&logo=reacthookform&logoColor=EC5990" alt="ReactHookForm" />
+  <br/>
   <img src="https://img.shields.io/badge/formik-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Formik" />
   <img src="https://img.shields.io/badge/tanstack_query-20232A.svg?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="TanstackQuery" />
   <img src="https://img.shields.io/badge/zustand-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Zustand" />
-  <br/>
   <img src="https://img.shields.io/badge/styled_components-20232A.svg?style=for-the-badge&logo=styledcomponents&logoColor=DB7093" alt="StyledComponents" />
   <img src="https://img.shields.io/badge/emotion-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Emotion" />
+  <br/>
   <img src="https://img.shields.io/badge/redux_toolkit-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="ReduxToolkit" />
   <img src="https://img.shields.io/badge/typescript-20232A.svg?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="Typescript" />
   <img src="https://img.shields.io/badge/next.js-20232A.svg?style=for-the-badge&logo=nextdotjs&logoColor=000000" alt="Next.js" />
-  <br/>
+  <img src="https://img.shields.io/badge/nuxt-20232A.svg?style=for-the-badge&logo=nuxt&logoColor=00DC82" alt="Nuxt" />
   <img src="https://img.shields.io/badge/apex_charts-20232A.svg?style=for-the-badge&logo=soundcharts&logoColor=0C1528" alt="ApexCharts" />
+  <br/>
   <img src="https://img.shields.io/badge/chart.js-20232A.svg?style=for-the-badge&logo=chartdotjs&logoColor=FF6384" alt="Chart.js" />
   <img src="https://img.shields.io/badge/postman-20232A.svg?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
   <img src="https://img.shields.io/badge/cypress-20232A.svg?style=for-the-badge&logo=cypress&logoColor=69D3A7" alt="Cypress" />
   <img src="https://img.shields.io/badge/jest-20232A.svg?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest" />
-  <br/>
   <img src="https://img.shields.io/badge/react_testing_library-20232A.svg?style=for-the-badge&logo=testinglibrary&logoColor=E33332" alt="ReactTestingLibrary" />
+  <br/>
   <img src="https://img.shields.io/badge/react_spring-20232A.svg?style=for-the-badge&logo=spring&logoColor=6DB33F" alt="reactspring" />
   <img src="https://img.shields.io/badge/auth0-20232A.svg?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="auth0" />
   <img src="https://img.shields.io/badge/mantine-20232A.svg?style=for-the-badge&logo=mantine&logoColor=339AF0" alt="mantine" />
   <img src="https://img.shields.io/badge/chakra_ui-20232A.svg?style=for-the-badge&logo=chakraui&logoColor=319795" alt="chakraui" />
-  <br/>
   <img src="https://img.shields.io/badge/jotai-20232A.svg?style=for-the-badge&logo=ghostery&logoColor=00AEF0" alt="jotai" />
+  <br/>
   <img src="https://img.shields.io/badge/react_helmet-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Helmet" />
   <img src="https://img.shields.io/badge/yup-20232A.svg?style=for-the-badge&logo=pyup&logoColor=9F55FF" alt="yup" />
   <img src="https://img.shields.io/badge/zod-20232A.svg?style=for-the-badge&logo=zod&logoColor=3E67B1" alt="zod" />
   <img src="https://img.shields.io/badge/vitest-20232A.svg?style=for-the-badge&logo=vitest&logoColor=6E9F18" alt="vitest" />
-  <br/>
   <img src="https://img.shields.io/badge/appwrite-20232A.svg?style=for-the-badge&logo=appwrite&logoColor=FD366E" alt="Appwrite" />
+  <br/>
   <img src="https://img.shields.io/badge/swr-20232A.svg?style=for-the-badge&logo=swr&logoColor=000000" alt="SWR" />
   <img src="https://img.shields.io/badge/react_auth_kit-20232A.svg?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="React Auth Kit" />
-  <img src="https://img.shields.io/badge/apollo-20232A.svg?style=for-the-badge&logo=apollographql&logoColor=311C87" alt="Apollo" />
+  <img src="https://img.shields.io/badge/apollo_client-20232A.svg?style=for-the-badge&logo=apollographql&logoColor=311C87" alt="Apollo" />
   <img src="https://img.shields.io/badge/mobx-20232A.svg?style=for-the-badge&logo=mobx&logoColor=FF9955" alt="MobX" />
-  <br/>
   <img src="https://img.shields.io/badge/gsap-20232A.svg?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
+  <br/>
   <img src="https://img.shields.io/badge/shadcn_ui-20232A.svg?style=for-the-badge&logo=shadcnui&logoColor=000000" alt="Shadcn UI" />
   <img src="https://img.shields.io/badge/radix_ui-20232A.svg?style=for-the-badge&logo=radixui&logoColor=161618" alt="Radix UI" />
+  <img src="https://img.shields.io/badge/storybook-20232A.svg?style=for-the-badge&logo=storybook&logoColor=FF4785" alt="Storybook" />
+  <img src="https://img.shields.io/badge/jira-20232A.svg?style=for-the-badge&logo=jira&logoColor=0052CC" alt="Jira" />
+  <img src="https://img.shields.io/badge/slack-20232A.svg?style=for-the-badge&logo=slack&logoColor=4A154B" alt="Slack" />
+  <br/>
+  <img src="https://img.shields.io/badge/node.js-20232A.svg?style=for-the-badge&logo=node.js&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/express-20232A.svg?style=for-the-badge&logo=express&logoColor=000000" alt="Express" />
+  <img src="https://img.shields.io/badge/mongodb-20232A.svg?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
 </details>
 
 ---
