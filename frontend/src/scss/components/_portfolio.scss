@@ -1,0 +1,114 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+.portfolio {
+  padding-bottom: 10em;
+
+  &__heading {
+    font: {
+      weight: 500;
+      size: 4rem;
+    }
+    margin-block: 0.3em;
+
+    span {
+      color: var(--clr-primary-400);
+    }
+
+    @include max(small) {
+      font-size: 2.7rem;
+    }
+  }
+
+  &__project {
+    position: relative;
+    width: 95%;
+
+    &:has(> .spinner-show) {
+      height: em(420);
+    }
+
+    @include max(special) {
+      &:has(> .spinner-show) {
+        height: em(210);
+      }
+    }
+
+    @include max(small) {
+      width: 100%;
+    }
+  }
+
+  &__img {
+    border-radius: 0.75em;
+    filter: brightness(80%);
+    transition: opacity 0.5s;
+
+    &.spinner-show {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+  }
+
+  &__container {
+    @extend .flex;
+    justify-content: space-between;
+    width: calc(100% - 2.5em);
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+  }
+
+  &__tags,
+  &__links {
+    @extend .flex;
+    gap: 0.7em;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  &__tags span,
+  &__links {
+    border-radius: 100vmax;
+    background-color: var(--clr-neutral-300);
+    padding: 0.4em 1em;
+  }
+
+  &__links {
+    font-size: 1.6rem;
+
+    & * {
+      @include motion {
+        transition: color 0.3s;
+      }
+    }
+
+    & *:is(:hover, :focus-visible) {
+      color: var(--clr-primary-400);
+    }
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-block: 0.7em 2.3em;
+    border-bottom: 5px dotted var(--clr-primary-400);
+    width: max-content;
+
+    @include max(small) {
+      font-size: 1.1rem;
+    }
+  }
+
+  @include max(small) {
+    min-height: max-content !important;
+    padding-bottom: 3em;
+
+    &__container {
+      justify-content: center;
+    }
+
+    &__tags {
+      display: none;
+    }
+  }
+}

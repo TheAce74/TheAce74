@@ -1,0 +1,30 @@
+@use "../abstracts" as *;
+@use "../base" as *;
+.menuIcon {
+  @extend .btn;
+  border: 1px solid var(--clr-neutral-100);
+  border-radius: 50%;
+  padding: 0.3em;
+  background-color: var(--clr-neutral-900);
+  margin-bottom: 0.7em;
+  z-index: 3;
+
+  &:is(:hover, :focus-visible) {
+    border-color: var(--clr-primary-400);
+    color: var(--clr-primary-400);
+  }
+
+  @include motion {
+    transition: color 0.3s, border-color 0.3s;
+  }
+
+  @include max(special) {
+    position: sticky;
+    top: 1em;
+    min-width: max-content;
+  }
+
+  @include max(small) {
+    margin-right: -3em;
+  }
+}
