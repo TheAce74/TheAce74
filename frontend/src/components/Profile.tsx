@@ -74,6 +74,8 @@ function Profile() {
         <a
           href="https://api.whatsapp.com/send?phone=2347063265056"
           className="profile__email"
+          target="_blank"
+          rel="noreferrer"
         >
           <FiMail />
           HIRE ME!
