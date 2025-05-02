@@ -41,7 +41,7 @@ export default function Works() {
               </h3>
             </span>
           </div>
-          <div className="card-img" title="shoutme">
+          <div className="card-img" title="first">
             {/* <img src={image1}/> */}
           </div>
         </div>
@@ -67,7 +67,7 @@ export default function Works() {
               </h3>
             </span>
           </div>
-          <div className="card-img" title="intellecta">
+          <div className="card-img" title="second">
             {/* <img src={image2}/> */}
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function Works() {
               </h3>
             </span>
           </div>
-          <div className="card-img" title="anifetch">
+          <div className="card-img" title="third">
             {/* <img src={image3}/> */}
           </div>
         </div>

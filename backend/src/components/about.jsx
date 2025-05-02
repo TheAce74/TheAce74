@@ -25,7 +25,7 @@ export default function About() {
                 I develop scalable and secure backend systems for desktop
                 applications.
               </p>
-              <p className="project">0 PROJECTS</p>
+              <p className="project">2 PROJECTS</p>
             </div>
             <div className="icon">
               <FiDatabase color="#1290cd" size={25} />
@@ -38,7 +38,7 @@ export default function About() {
                 I power mobile applications with fast and reliable backend
                 services.
               </p>
-              <p className="project">0 PROJECTS</p>
+              <p className="project">3 PROJECTS</p>
             </div>
             <div className="icon">
               <FiSmartphone color="#1290cd" size={25} />
