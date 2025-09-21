@@ -1,15 +1,17 @@
 // import techmilitant from "@/assets/techmilitant.webp";
 // import techverse from "@/assets/techverse.webp";
 import movieBox from "@/assets/movie-box.webp";
-import kreator from "@/assets/kreator.webp";
+// import kreator from "@/assets/kreator.webp";
 import urpilot from "@/assets/urpilot.webp";
 import triplec from "@/assets/triplec.webp";
 // import academify from "@/assets/academify.webp";
 import lwb from "@/assets/lwb.webp";
+import ypmc from "@/assets/ypmc.webp";
+import alajo from "@/assets/alajo.webp";
 // import ratemate from "@/assets/ratemate.webp";
 // import novanote from "@/assets/novanote.webp";
 // import stackclique from "@/assets/stackclique.webp";
-import chris from "@/assets/chris.webp";
+// import chris from "@/assets/chris.webp";
 import swirvl from "@/assets/swirvl.webp";
 import seamailer from "@/assets/seamailer.webp";
 import assistfactory from "@/assets/assistfactory.webp";
@@ -97,6 +99,20 @@ export const PROJECTS = [
     github: "https://github.com/TheAce74",
   },
   {
+    title: "YPMC",
+    tools: ["Next", "Tailwind CSS", "Shadcn UI", "Web Sockets"],
+    pic: ypmc,
+    link: "https://www.ypmcommunity.com",
+    github: "https://github.com/TheAce74",
+  },
+  {
+    title: "Alajo",
+    tools: ["Nuxt", "Vue", "Typescript", "Zod"],
+    pic: alajo,
+    link: "https://alajo.app",
+    github: "https://github.com/TheAce74",
+  },
+  {
     title: "Urpilot",
     tools: ["Redux", "Mantine", "Typescript", "Tanstack Query"],
     pic: urpilot,
@@ -131,13 +147,13 @@ export const PROJECTS = [
   //   link: "https://myacademify.vercel.app",
   //   github: "https://github.com/TheAce74/Academify",
   // },
-  {
-    title: "Fullstack Designer Portfolio",
-    tools: ["Styled Components", "Jotai", "Typescript", "Appwrite"],
-    pic: chris,
-    link: "https://asorchristopher.vercel.app",
-    github: "https://github.com/TheAce74/AsorChris",
-  },
+  // {
+  //   title: "Fullstack Designer Portfolio",
+  //   tools: ["Styled Components", "Jotai", "Typescript", "Appwrite"],
+  //   pic: chris,
+  //   link: "https://asorchristopher.vercel.app",
+  //   github: "https://github.com/TheAce74/AsorChris",
+  // },
   // {
   //   title: "RateMate",
   //   tools: ["Mantine", "Tailwind", "Zustand", "Appwrite"],
@@ -173,13 +189,13 @@ export const PROJECTS = [
     link: "https://hngxsecondtask.netlify.app",
     github: "https://github.com/TheAce74/HNGx/tree/main/Second%20Task",
   },
-  {
-    title: "The Kreator's Portfolio",
-    tools: ["React", "Typescript", "React Spring", "Tailwind"],
-    pic: kreator,
-    link: "https://thekreator.vercel.app/",
-    github: "https://github.com/TheAce74/TheKreatorPortfolio",
-  },
+  // {
+  //   title: "The Kreator's Portfolio",
+  //   tools: ["React", "Typescript", "React Spring", "Tailwind"],
+  //   pic: kreator,
+  //   link: "https://thekreator.vercel.app/",
+  //   github: "https://github.com/TheAce74/TheKreatorPortfolio",
+  // },
   // {
   //   title: "StackClique Clock",
   //   tools: ["Supabase", "Bootstrap", "Sass"],
