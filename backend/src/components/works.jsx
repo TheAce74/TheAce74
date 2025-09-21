@@ -10,6 +10,10 @@ import {
 } from "react-icons/si";
 
 export default function Works() {
+  const links = ["https://srsai.vercel.app", "https://srscafe.vercel.app"];
+  const randomIndex = Math.floor(Math.random() * links.length);
+  const link = links[randomIndex];
+
   return (
     <>
       <div className="works work-adjust" id="work">
@@ -48,11 +52,8 @@ export default function Works() {
         <div className="card card2">
           <div className="card-head">
             <h2>
-              <a
-                href="https://github.com/TheAce74/Intellecta/tree/main/server"
-                target="_blank"
-              >
-                Intellecta
+              <a href={link} target="_blank">
+                SRS
               </a>
             </h2>
             <span>
