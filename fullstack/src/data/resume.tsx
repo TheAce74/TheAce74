@@ -80,12 +80,12 @@ export const DATA = {
       href: "https://seamailer.app",
       badges: [],
       location: "Remote",
-      title: "Frontend Engineer",
+      title: "Fullstack Engineer",
       logoUrl: "/seamailer.png",
       start: "September 2024",
       end: "Present",
       description:
-        "Built and maintained high-performance UIs with Vue.js, ensuring responsiveness and accessibility. Integrated APIs for email campaign management, optimized frontend performance, and contributed to a modular architecture. Collaborated with UI/UX designers and backend engineers while leveraging Git and agile workflows for efficient development.",
+        "Built and maintained high-performance UIs with Vue.js, ensuring responsiveness and accessibility. Integrated APIs for email campaign management, optimized frontend performance, and contributed to a modular architecture. Collaborated with UI/UX designers and fellow backend engineers while leveraging Git and agile workflows for efficient development. Implemented API logic for complex business requirements, enhanced backend codes with requested modifications, and optimized codebase to adhere to security best practices.",
     },
     {
       company: "YPMC",
@@ -107,7 +107,7 @@ export const DATA = {
       title: "Frontend Engineer",
       logoUrl: "/alajo.png",
       start: "April 2025",
-      end: "Present",
+      end: "November 2025",
       description:
         "Worked as part of the frontend engineering team building a platform that digitizes savings for low-income earners, helping millions achieve financial inclusion without needing smartphones or internet access. Developed and maintained responsive, high-performance interfaces using Vue.js, TailwindCSS, and related tooling, integrated features with backend APIs, and collaborated closely with product and engineering teams in sprints to deliver accessible and reliable user experiences.",
     },
@@ -182,7 +182,7 @@ export const DATA = {
     {
       title: "Assist Factory",
       href: "https://assistfactory.com",
-      dates: "Nov 2024 - Apr 2025",
+      dates: "Nov 2024 - Present",
       active: true,
       description:
         "Engineered a platform connecting businesses with skilled virtual assistants. Implemented a streamlined request system for task management, integrated real-time messaging for efficient communication, and optimized the user interface for a smooth and professional experience.",
@@ -240,7 +240,7 @@ export const DATA = {
     {
       title: "Alajo",
       href: "https://alajo.app",
-      dates: "Apr 2025 - Present",
+      dates: "Apr 2025 - Nov 2025",
       active: true,
       description:
         "Worked as part of the frontend engineering team building a platform that digitizes savings for low-income earners, helping millions achieve financial inclusion without needing smartphones or internet access. Developed and maintained responsive, high-performance interfaces using Vue.js, TailwindCSS, and related tooling, integrated features with backend APIs, and collaborated closely with product and engineering teams in sprints.",

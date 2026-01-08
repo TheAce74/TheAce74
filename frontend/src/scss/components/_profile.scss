@@ -50,7 +50,6 @@
     border-radius: 1em;
 
     & img {
-      filter: grayscale(70%);
       transition: opacity 0.5s;
 
       &.spinner-show {

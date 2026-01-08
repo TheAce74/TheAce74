@@ -3,6 +3,13 @@ export const getErrorMessage = (error: unknown): string => {
 
   if (error instanceof Error) {
     message = error.message;
+  } else if (
+    error &&
+    typeof error === "object" &&
+    "response" in error &&
+    (error as any).response?.data?.message
+  ) {
+    message = (error as any).response.data.message;
   } else if (error && typeof error === "object" && "message" in error) {
     message = String(error.message);
   } else if (typeof error === "string") {

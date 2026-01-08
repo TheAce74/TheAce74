@@ -5,8 +5,8 @@ import {
   SiTypescript,
   SiMongodb,
   SiZod,
-  SiPuppeteer,
-  SiCheerio,
+  SiSequelize,
+  SiRedis,
 } from "react-icons/si";
 
 export default function Works() {
@@ -26,11 +26,8 @@ export default function Works() {
         <div className="card card1">
           <div className="card-head">
             <h2>
-              <a
-                href="https://github.com/TheAce74/ShoutMeBackend"
-                target="_blank"
-              >
-                ShoutMe
+              <a href="https://seamailer.app" target="_blank">
+                Seamailer
               </a>
             </h2>
             <span>
@@ -38,10 +35,10 @@ export default function Works() {
                 <SiExpress /> Express
               </h3>
               <h3>
-                <SiMongodb /> MongoDB
+                <SiSequelize /> Sequelize
               </h3>
               <h3>
-                <FaAws /> AWS
+                <SiRedis /> Redis
               </h3>
             </span>
           </div>
@@ -76,10 +73,10 @@ export default function Works() {
           <div className="card-head">
             <h2>
               <a
-                href="https://github.com/TheAce74/anifetch-backend"
+                href="https://github.com/TheAce74/ShoutMeBackend"
                 target="_blank"
               >
-                AniFetch
+                ShoutMe
               </a>
             </h2>
             <span>
@@ -87,10 +84,10 @@ export default function Works() {
                 <SiExpress /> Express
               </h3>
               <h3>
-                <SiPuppeteer /> Puppeteer
+                <SiMongodb /> MongoDB
               </h3>
               <h3>
-                <SiCheerio /> Cheerio
+                <FaAws /> AWS
               </h3>
             </span>
           </div>

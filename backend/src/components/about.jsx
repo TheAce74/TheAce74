@@ -67,7 +67,7 @@ export default function About() {
             confident, naturally curious, and always refining my skills to write
             efficient, maintainable, and high-performing backend solutions.
           </p>
-          <a href={resume} download="chisom_udonsi_resume" target="_blank">
+          <a href={resume} download="chisom_udonsi_backend_resume" target="_blank">
             <button className="text-xs">
               Download Resume <FiDownload />
             </button>

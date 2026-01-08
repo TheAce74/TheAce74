@@ -132,7 +132,11 @@ export default function Header() {
               style={{ width: "33%", marginBottom: 15 }}
             />
           </span>
-          <a href={resume} download="chisom_udonsi_resume" target="_blank">
+          <a
+            href={resume}
+            download="chisom_udonsi_backend_resume"
+            target="_blank"
+          >
             <h3>
               Download Resume <FiDownload />
             </h3>

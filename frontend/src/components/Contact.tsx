@@ -31,16 +31,19 @@ function Contact({ title, icon }: ContactProps) {
     customToast("Sending message...", {
       type: "info",
     });
-    const response = await post("https://ace-server-tbg5.onrender.com/contact", {
-      name,
-      email,
-      phone,
-      budget,
-      message,
-    });
+    const response = await post(
+      "https://portfolio-mailer-bk47.onrender.com/contact",
+      {
+        name,
+        email,
+        phone,
+        budget,
+        message,
+      }
+    );
     if (response.success) {
       dismiss();
-      customToast("Message sent");
+      customToast(response.data.message || "Message sent successfully");
       if (
         nameRef.current &&
         emailRef.current &&
@@ -56,7 +59,7 @@ function Contact({ title, icon }: ContactProps) {
       }
     } else {
       dismiss();
-      customToast("Message not sent, try again", {
+      customToast(response.data || "Message not sent, try again", {
         type: "error",
       });
     }

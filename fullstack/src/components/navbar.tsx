@@ -27,7 +27,7 @@ export default function Navbar() {
                       buttonVariants({ variant: "ghost", size: "icon" }),
                       "size-12"
                     )}
-                    download="chisom_udonsi_resume"
+                    download="chisom_udonsi_fullstack_resume"
                     target="_blank"
                   >
                     <item.icon className="size-4" />
