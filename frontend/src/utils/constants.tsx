@@ -78,13 +78,6 @@ import { GiVikingHelmet } from "react-icons/gi";
 
 export const PROJECTS = [
   {
-    title: "Swirvl",
-    tools: ["Next", "Shadcn UI", "Typescript", "Zustand"],
-    pic: swirvl,
-    link: "https://swirvl.com",
-    github: "https://github.com/TheAce74",
-  },
-  {
     title: "Seamailer",
     tools: ["Vue", "Pinia", "Vue Router", "Vue Flow"],
     pic: seamailer,
@@ -117,6 +110,13 @@ export const PROJECTS = [
     tools: ["Redux", "Mantine", "Typescript", "Tanstack Query"],
     pic: urpilot,
     link: "https://urpilot.ng",
+    github: "https://github.com/TheAce74",
+  },
+  {
+    title: "Swirvl",
+    tools: ["Next", "Shadcn UI", "Typescript", "Zustand"],
+    pic: swirvl,
+    link: "https://swirvl.com",
     github: "https://github.com/TheAce74",
   },
   {
