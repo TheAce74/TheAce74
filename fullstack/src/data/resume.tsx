@@ -237,6 +237,33 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Swirvl",
+      href: "https://swirvl.com",
+      dates: "Feb 2025 - Apr 2025",
+      active: true,
+      description:
+        "Built a marketplace where buyers create product contests (auctions) and brokers submit competitive bids. Integrated instant messaging for seamless negotiation, escrow payments for secure transactions, and a dynamic dashboard for users to track bids, manage deals, and monitor transaction history.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Zustand",
+        "Tanstack Query",
+        "Zod",
+        "React Hook Form",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://swirvl.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/swirvl.webp",
+      video: "",
+    },
+    {
       title: "Fitxn",
       href: "https://www.fitxn.co",
       dates: "Aug 2024 - Nov 2024",
