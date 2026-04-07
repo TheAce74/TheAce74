@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://chisomudonsi.dev",
   location: "Imo, Nigeria",
   locationLink:
-    "https://www.google.com/maps/@5.3879737,7.0008617,16z?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.google.com/maps/place/4%C2%B051'14.8%22N+6%C2%B056'39.4%22E/@4.8541113,6.9417071,17z/data=!3m1!4b1!4m7!1m2!10m1!1e2!3m3!8m2!3d4.854106!4d6.944282?entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D",
   description:
     "Fullstack Software Engineer passionate about building scalable solutions and solving complex problems.",
   summary:
@@ -86,6 +86,18 @@ export const DATA = {
       end: "Present",
       description:
         "Built and maintained high-performance UIs with Vue.js, ensuring responsiveness and accessibility. Integrated APIs for email campaign management, optimized frontend performance, and contributed to a modular architecture. Collaborated with UI/UX designers and fellow backend engineers while leveraging Git and agile workflows for efficient development. Implemented API logic for complex business requirements, enhanced backend codes with requested modifications, and optimized codebase to adhere to security best practices.",
+    },
+    {
+      company: "Assist Factory",
+      href: "https://assistfactory.com",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Engineer",
+      logoUrl: "/assistfactory.jpg",
+      start: "November 2024",
+      end: "Present",
+      description:
+        "Served as the core frontend engineer for a platform connecting businesses with skilled virtual assistants. Implemented a streamlined request system for task management, integrated real-time messaging for efficient communication, and optimized the user interface for a smooth and professional experience.",
     },
     {
       company: "YPMC",
