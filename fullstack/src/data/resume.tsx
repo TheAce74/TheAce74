@@ -727,6 +727,12 @@ export const TESTIMONIALS: Testimonial[] = [
         url: "https://www.linkedin.com/in/lekan-oladosu",
         icon: <Icons.linkedin className="size-4" />,
       },
+      {
+        platform: "GitHub",
+        handle: "@culjo",
+        url: "https://github.com/culjo",
+        icon: <Icons.github className="size-4" />,
+      },
     ],
   },
   {
@@ -783,6 +789,12 @@ export const TESTIMONIALS: Testimonial[] = [
         url: "https://www.linkedin.com/in/uche-onyenso",
         icon: <Icons.linkedin className="size-4" />,
       },
+      {
+        platform: "GitHub",
+        handle: "@Onyenso",
+        url: "https://github.com/Onyenso",
+        icon: <Icons.github className="size-4" />,
+      },
     ],
   },
   {
@@ -816,6 +828,12 @@ export const TESTIMONIALS: Testimonial[] = [
     body: "Chisom is a brilliant developer in every definition of the word, he is well versed in the technologies he utilizes and can analyze tricky problems and implement amazing solutions. He's a lifelong learner obsessed with perfecting his craft. He's definitely the guy for the job. Whatever it is, he can crack it",
     links: [
       {
+        platform: "LinkedIn",
+        handle: "@iloenyenwa-victor",
+        url: "https://www.linkedin.com/in/iloenyenwa-victor",
+        icon: <Icons.linkedin className="size-4" />,
+      },
+      {
         platform: "GitHub",
         handle: "@ProCode47",
         url: "https://github.com/ProCode47",
@@ -827,6 +845,12 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Christopher Asor",
     body: "Chisom is a very unique and talented developer. He combines effective and efficient implementation of functionalities with great attention to detail. He's a great team player and always tries to keep up good communication with his client, thanks to his great communication skills. He has shown a great sense of responsibility in the few projects he's worked on with me and I'll recommend him to every hiring manager because he'll be an excellent addition and improvement to any team!",
     links: [
+      {
+        platform: "LinkedIn",
+        handle: "@christopher-asor",
+        url: "https://www.linkedin.com/in/christopher-asor",
+        icon: <Icons.linkedin className="size-4" />,
+      },
       {
         platform: "Instagram",
         handle: "@asor_chris",
@@ -841,6 +865,12 @@ export const TESTIMONIALS: Testimonial[] = [
     body: "I have worked with Chisom Udonsi for years and he has always been a professional. He can work under pressure and easily adapt to change, embraces diversity and is open to growth opportunities. He's a great problem-solver with great leadership skills. He can easily work with anyone because of his interpersonal talent. I hope he grows and continues to thrive in his endeavours.",
     links: [
       {
+        platform: "LinkedIn",
+        handle: "@jeffrey-adjari",
+        url: "https://www.linkedin.com/in/jeffrey-adjari",
+        icon: <Icons.linkedin className="size-4" />,
+      },
+      {
         platform: "GitHub",
         handle: "@Walter-Tronics",
         url: "https://github.com/Walter-Tronics",
@@ -853,6 +883,12 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Frontend Engineer",
     body: "Chisom, also known as the \"Senku Ishigami of the Dev World\", is a tech enthusiast and highly skilled developer. His relentless pursuit of knowledge and unwavering determination have made a profound impact on my programming journey. Chisom's mastery of frontend development is awe-inspiring, as he effortlessly translates complex concepts into elegant code. With his guidance and expertise, I have experienced tremendous growth and gained invaluable insights. Chisom's exceptional mentorship inspires positive change, making him a source of inspiration in my life.",
     links: [
+      {
+        platform: "LinkedIn",
+        handle: "@henry-0x",
+        url: "https://www.linkedin.com/in/henry-0x",
+        icon: <Icons.linkedin className="size-4" />,
+      },
       {
         platform: "GitHub",
         handle: "@Stan545",
