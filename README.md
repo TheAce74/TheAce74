@@ -1,4 +1,4 @@
-<h1 align="center">Hello there👋, I'm The Ace</h1>
+<h1 align="center">Hello there👋, I'm Chisom (aka The Ace)</h1>
 
 <h3 align="center">The "Senku Ishigami" of the Dev World 🧠</h3>
 
@@ -10,117 +10,154 @@
  <img src="https://komarev.com/ghpvc/?username=TheAce74&style=flat-square&color=blue" alt="The Ace"  height="30em" display="block">
 </div>
 
+<p align="center">
+  🔗 <a href="https://chisomudonsi.dev" target="_blank"><strong>chisomudonsi.dev</strong></a> — Fullstack Software Engineer, open to contract & part-time work
+</p>
+
 ---
 
 ### 👨‍💻 About Me:
 
-I am a Software Engineer **_@everythingJS_**
+I'm a Fullstack Software Engineer — I build products from the ground up, and I join others mid-flight to make them work.
 
-- 🔭 I’m currently working on improving my skills
-- 🌱 I’m currently learning **_✨Node.js✨_**
-- 👯 I’m looking to collaborate on **_Fullstack Projects_**
-- 💬 Ask me about any issues you have with **_React_**
-- 📫 You can reach me at udonsichisom02@gmail.com
+- 💼 Currently open to **contract & part-time roles**
+- 🔭 Core engineer at **Seamailer** (promoted from frontend to fullstack), plus contract/part-time work with **SBSC** and **Assist Factory**
+- 🌱 Exploring **Flutter, Rust, Solidity & Python**
+- 👯 Looking to collaborate on **fullstack & mobile projects**
+- 💬 Ask me about **React, Vue, Node.js**, or turning around a struggling codebase
+- 📫 Reach me at udonsichisom02@gmail.com
 
 ---
 
 ### 📱 Connect with me:
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/chisom-udonsi-45196b216)
+[![Portfolio Badge](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://chisomudonsi.dev)
+[![Book a Call Badge](https://img.shields.io/badge/-Book_a_Call-4285F4?style=flat&logo=googlecalendar&logoColor=white)](https://calendar.app.google/1G2ixVQ58TRiXCG48)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4=&logoColor=white)](https://www.linkedin.com/in/chisom-udonsi)
+[![GitHub Badge](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=GitHub&logoColor=white)](https://github.com/TheAce74)
 [![WhatsApp Badge](https://img.shields.io/badge/-WhatsApp-success?style=flat&logo=WhatsApp&logoColor=white)](https://api.whatsapp.com/send?phone=2347063265056)
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-blue?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/TheAce74)
-[![Discord Badge](https://img.shields.io/badge/-Discord-red?style=flat&logo=Discord&logoColor=white)](https://discordapp.com/users/TheAce#6459)
+[![X Badge](https://img.shields.io/badge/-X-000000?style=flat&logo=X&logoColor=white)](https://twitter.com/TheAce74)
+[![YouTube Badge](https://img.shields.io/badge/-YouTube-red?style=flat&logo=YouTube&logoColor=white)](https://www.youtube.com/@codewithchisom)
 
 ---
 
-### 🛠 Languages and Tools:
+### 🛠 Tech Stack:
 
 <details>
 <summary>⚡ Languages</summary>
-  <br/>
-  <img src="https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="html" />
-  <img src="https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=1572B6" alt="css" />
-  <img src="https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E&background=F7DF1E" alt="js" />
+  <img src="https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css&logoColor=1572B6" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
 </details>
 
 <details>
-<summary> ⭐ Tools</summary>
-  <br/>
-  <img src="https://img.shields.io/badge/VS_Code-20232A?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="vscode" />
-  <img src="https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032" alt="git" />
-  <img src="https://img.shields.io/badge/GitHub-20232A?style=for-the-badge&logo=github&logoColor=181717" alt="github" />
-  <img src="https://img.shields.io/badge/jQuery-20232A?style=for-the-badge&logo=jquery&logoColor=0769AD" alt="jquery" />
-  <img src="https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo=sass&logoColor=CC6699" alt="sass" />
-  <br/>
-  <img src="https://img.shields.io/badge/NPM-20232A?style=for-the-badge&logo=npm&logoColor=CB3837" alt="npm" />
-  <img src="https://img.shields.io/badge/Yarn-20232A?style=for-the-badge&logo=yarn&logoColor=2C8EBB" alt="yarn" />
-  <img src="https://img.shields.io/badge/Pnpm-20232A?style=for-the-badge&logo=pnpm&logoColor=F69220" alt="pnpm" />
-  <img src="https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=646CFF" alt="vite" />
+<summary>🖥️ Frontend</summary>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <br/>
-  <img src="https://img.shields.io/badge/Vue.js-20232A?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Vue.js-20232A?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Next.js-20232A?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Nuxt-20232A?style=for-the-badge&logo=nuxt&logoColor=00DC82" alt="Nuxt" />
+  <img src="https://img.shields.io/badge/Tanstack_Start-20232A?style=for-the-badge&logo=tanstack&logoColor=FF4154" alt="Tanstack Start" />
+  <img src="https://img.shields.io/badge/Tanstack_Query-20232A?style=for-the-badge&logo=tanstack&logoColor=FF4154" alt="Tanstack Query" />
+  <img src="https://img.shields.io/badge/Tanstack_Router-20232A?style=for-the-badge&logo=tanstack&logoColor=FF4154" alt="Tanstack Router" />
+  <img src="https://img.shields.io/badge/Tanstack_Table-20232A?style=for-the-badge&logo=tanstack&logoColor=FF4154" alt="Tanstack Table" />
+  <img src="https://img.shields.io/badge/Tanstack_Virtual-20232A?style=for-the-badge&logo=tanstack&logoColor=FF4154" alt="Tanstack Virtual" />
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=react-router&logoColor=CA4245" alt="ReactRouter" />
-  <img src="https://img.shields.io/badge/redux-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="Redux" />
-  <img src="https://img.shields.io/badge/framer-20232A.svg?style=for-the-badge&logo=framer&logoColor=0055FF" alt="Framer" />
-  <br/>
-  <img src="https://img.shields.io/badge/swiper-20232A.svg?style=for-the-badge&logo=swiper&logoColor=6332F6" alt="Swiper" />
-  <img src="https://img.shields.io/badge/axios-20232A.svg?style=for-the-badge&logo=axios&logoColor=5A29E4" alt="Axios" />
-  <img src="https://img.shields.io/badge/json-20232A.svg?style=for-the-badge&logo=json&logoColor=000000" alt="JSON" />
-  <img src="https://img.shields.io/badge/supabase-20232A.svg?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
-  <img src="https://img.shields.io/badge/bootstrap-20232A.svg?style=for-the-badge&logo=bootstrap&logoColor=7952B3" alt="Bootstrap" />
-  <br/>
-  <img src="https://img.shields.io/badge/tailwind-20232A.svg?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/firebase-20232A.svg?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" />
-  <img src="https://img.shields.io/badge/mui-20232A.svg?style=for-the-badge&logo=mui&logoColor=007FFF" alt="MUI" />
-  <img src="https://img.shields.io/badge/create_react_app-20232A.svg?style=for-the-badge&logo=createreactapp&logoColor=09D3AC" alt="CreateReactApp" />
-  <img src="https://img.shields.io/badge/react_hook_form-20232A.svg?style=for-the-badge&logo=reacthookform&logoColor=EC5990" alt="ReactHookForm" />
-  <br/>
-  <img src="https://img.shields.io/badge/formik-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Formik" />
-  <img src="https://img.shields.io/badge/tanstack_query-20232A.svg?style=for-the-badge&logo=reactquery&logoColor=FF4154" alt="TanstackQuery" />
-  <img src="https://img.shields.io/badge/zustand-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Zustand" />
-  <img src="https://img.shields.io/badge/styled_components-20232A.svg?style=for-the-badge&logo=styledcomponents&logoColor=DB7093" alt="StyledComponents" />
-  <img src="https://img.shields.io/badge/emotion-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Emotion" />
-  <br/>
-  <img src="https://img.shields.io/badge/redux_toolkit-20232A.svg?style=for-the-badge&logo=redux&logoColor=%23593d88" alt="ReduxToolkit" />
-  <img src="https://img.shields.io/badge/typescript-20232A.svg?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="Typescript" />
-  <img src="https://img.shields.io/badge/next.js-20232A.svg?style=for-the-badge&logo=nextdotjs&logoColor=000000" alt="Next.js" />
-  <img src="https://img.shields.io/badge/nuxt-20232A.svg?style=for-the-badge&logo=nuxt&logoColor=00DC82" alt="Nuxt" />
-  <img src="https://img.shields.io/badge/apex_charts-20232A.svg?style=for-the-badge&logo=soundcharts&logoColor=0C1528" alt="ApexCharts" />
-  <br/>
-  <img src="https://img.shields.io/badge/chart.js-20232A.svg?style=for-the-badge&logo=chartdotjs&logoColor=FF6384" alt="Chart.js" />
-  <img src="https://img.shields.io/badge/postman-20232A.svg?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
-  <img src="https://img.shields.io/badge/cypress-20232A.svg?style=for-the-badge&logo=cypress&logoColor=69D3A7" alt="Cypress" />
-  <img src="https://img.shields.io/badge/jest-20232A.svg?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest" />
-  <img src="https://img.shields.io/badge/react_testing_library-20232A.svg?style=for-the-badge&logo=testinglibrary&logoColor=E33332" alt="ReactTestingLibrary" />
-  <br/>
-  <img src="https://img.shields.io/badge/react_spring-20232A.svg?style=for-the-badge&logo=spring&logoColor=6DB33F" alt="reactspring" />
-  <img src="https://img.shields.io/badge/auth0-20232A.svg?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="auth0" />
-  <img src="https://img.shields.io/badge/mantine-20232A.svg?style=for-the-badge&logo=mantine&logoColor=339AF0" alt="mantine" />
-  <img src="https://img.shields.io/badge/chakra_ui-20232A.svg?style=for-the-badge&logo=chakraui&logoColor=319795" alt="chakraui" />
-  <img src="https://img.shields.io/badge/jotai-20232A.svg?style=for-the-badge&logo=ghostery&logoColor=00AEF0" alt="jotai" />
-  <br/>
-  <img src="https://img.shields.io/badge/react_helmet-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Helmet" />
-  <img src="https://img.shields.io/badge/yup-20232A.svg?style=for-the-badge&logo=pyup&logoColor=9F55FF" alt="yup" />
-  <img src="https://img.shields.io/badge/zod-20232A.svg?style=for-the-badge&logo=zod&logoColor=3E67B1" alt="zod" />
-  <img src="https://img.shields.io/badge/vitest-20232A.svg?style=for-the-badge&logo=vitest&logoColor=6E9F18" alt="vitest" />
-  <img src="https://img.shields.io/badge/appwrite-20232A.svg?style=for-the-badge&logo=appwrite&logoColor=FD366E" alt="Appwrite" />
-  <br/>
-  <img src="https://img.shields.io/badge/swr-20232A.svg?style=for-the-badge&logo=swr&logoColor=000000" alt="SWR" />
-  <img src="https://img.shields.io/badge/react_auth_kit-20232A.svg?style=for-the-badge&logo=auth0&logoColor=EB5424" alt="React Auth Kit" />
-  <img src="https://img.shields.io/badge/apollo_client-20232A.svg?style=for-the-badge&logo=apollographql&logoColor=311C87" alt="Apollo" />
-  <img src="https://img.shields.io/badge/mobx-20232A.svg?style=for-the-badge&logo=mobx&logoColor=FF9955" alt="MobX" />
-  <img src="https://img.shields.io/badge/gsap-20232A.svg?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
-  <br/>
-  <img src="https://img.shields.io/badge/shadcn_ui-20232A.svg?style=for-the-badge&logo=shadcnui&logoColor=000000" alt="Shadcn UI" />
-  <img src="https://img.shields.io/badge/radix_ui-20232A.svg?style=for-the-badge&logo=radixui&logoColor=161618" alt="Radix UI" />
-  <img src="https://img.shields.io/badge/storybook-20232A.svg?style=for-the-badge&logo=storybook&logoColor=FF4785" alt="Storybook" />
-  <img src="https://img.shields.io/badge/jira-20232A.svg?style=for-the-badge&logo=jira&logoColor=0052CC" alt="Jira" />
-  <img src="https://img.shields.io/badge/slack-20232A.svg?style=for-the-badge&logo=slack&logoColor=4A154B" alt="Slack" />
-  <br/>
-  <img src="https://img.shields.io/badge/node.js-20232A.svg?style=for-the-badge&logo=node.js&logoColor=5FA04E" alt="Node.js" />
-  <img src="https://img.shields.io/badge/express-20232A.svg?style=for-the-badge&logo=express&logoColor=000000" alt="Express" />
-  <img src="https://img.shields.io/badge/mongodb-20232A.svg?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Expo-20232A?style=for-the-badge&logo=expo&logoColor=ffffff" alt="Expo" />
+  <img src="https://img.shields.io/badge/TailwindCSS-20232A?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo=sass&logoColor=CC6699" alt="Sass" />
+  <img src="https://img.shields.io/badge/jQuery-20232A?style=for-the-badge&logo=jquery&logoColor=0769AD" alt="jQuery" />
+  <img src="https://img.shields.io/badge/Shadcn_UI-20232A?style=for-the-badge&logo=shadcnui&logoColor=ffffff" alt="Shadcn UI" />
+  <img src="https://img.shields.io/badge/Radix_UI-20232A?style=for-the-badge&logo=radixui&logoColor=ffffff" alt="Radix UI" />
+  <img src="https://img.shields.io/badge/Mantine-20232A?style=for-the-badge&logo=mantine&logoColor=339AF0" alt="Mantine" />
+  <img src="https://img.shields.io/badge/Chakra_UI-20232A?style=for-the-badge&logo=chakraui&logoColor=1BB2A9" alt="Chakra UI" />
+  <img src="https://img.shields.io/badge/MUI-20232A?style=for-the-badge&logo=mui&logoColor=007FFF" alt="MUI" />
+  <img src="https://img.shields.io/badge/Styled_Components-20232A?style=for-the-badge&logo=styledcomponents&logoColor=DB7093" alt="Styled Components" />
+  <img src="https://img.shields.io/badge/Zustand-20232A?style=for-the-badge&logo=data:image/png;base64,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" alt="Zustand" />
+  <img src="https://img.shields.io/badge/Redux-20232A?style=for-the-badge&logo=redux&logoColor=764ABC" alt="Redux" />
+  <img src="https://img.shields.io/badge/Redux_Toolkit-20232A?style=for-the-badge&logo=redux&logoColor=764ABC" alt="Redux Toolkit" />
+  <img src="https://img.shields.io/badge/Jotai-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8dGV4dCB5PSIuOWVtIiBmb250LXNpemU9IjkwIj7wn5G7PC90ZXh0Pgo8L3N2Zz4K" alt="Jotai" />
+  <img src="https://img.shields.io/badge/MobX-20232A?style=for-the-badge&logo=mobx&logoColor=FF9955" alt="MobX" />
+  <img src="https://img.shields.io/badge/React_Router-20232A?style=for-the-badge&logo=reactrouter&logoColor=CA4245" alt="React Router" />
+  <img src="https://img.shields.io/badge/React_Hook_Form-20232A?style=for-the-badge&logo=reacthookform&logoColor=EC5990" alt="React Hook Form" />
+  <img src="https://img.shields.io/badge/Formik-20232A?style=for-the-badge&logo=formik&logoColor=2563EB" alt="Formik" />
+  <img src="https://img.shields.io/badge/Zod-20232A?style=for-the-badge&logo=zod&logoColor=408AFF" alt="Zod" />
+  <img src="https://img.shields.io/badge/Yup-20232A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA6ElEQVR42u3bsQ2DMBSE4XtWKm/ySgs2YChGYDnLrTehTaokEopCKJCI/V+Hu/fJZ7kwJumujhPUeQDoHeC2XViWRSml17eZKYQ2nEopmuf5O0BKSdM0vbdICM0AUAEAfjgDtp03s74AWu88FQBgpwJ7WddVtdZLDuPuijGeC1Br1TiOlwTIOWsYBioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwzOFXYu6unPMlh3H38wFijIefolEBAAAAAAAA/uQeUEppdthPs5n4d5gzAICe8wBOlB8SACBqcwAAAABJRU5ErkJggg==" alt="Yup" />
+  <img src="https://img.shields.io/badge/Apollo_Client-20232A?style=for-the-badge&logo=apollographql&logoColor=311C87" alt="Apollo Client" />
+  <img src="https://img.shields.io/badge/SWR-20232A?style=for-the-badge&logo=swr&logoColor=ffffff" alt="SWR" />
+  <img src="https://img.shields.io/badge/Motion-20232A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAbFBMVEULCwz////CwsMTExQjIyQrKyz7+/ubm5utra6ysrI5OToYGBlEREUvLzDQ0NBHR0geHh/W1tfc3Nx4eHijo6NlZWZtbW5WVlfm5uaXl5g/P0C5ubnKyso0NDT19fWQkJB/f4BxcXGIiIhOTk/xnthjAAABsElEQVRYhe2X2XKDMAxFhdkMhCWBBALZ8///WC9S6HQG6qC0T9yXaCY+F2MbyQKPJOpN6IOD/HBTixcG9ieKAxd2VBBH3w1k/h6ulcvRQDpN/af8hAzkElxLWoNi0fPNHAptEJ2X8gDnSBnEy3mA2INLxTGoLtBweFD4nmdwgJJnUELIM8hh8SGwynj4qlV/qvY4CCHaSlg1cMVIfTi1TOpf8H5r8nXnH7F27HsMBgCTicUsvycsx+AEJ4zOUNvgNsOnOLiAAaOeLFX2LGy0mzGgp/UlBhI6G+jsad/O66b5FrGExnohTtvMG5dlJpHuCDtgcK0u+FSdejLzfzedye+E+TjvLotpUc0A/7bdPaazWEavmz0Qu+dYxrcz6zbqSlgQ0XLTXjxd+BFrCKO9mD87JImj2/SF0V44VeARex092ouj0wTo5pTSYYhpLwYnnrBmPHq4F45XoAa/2eCJwcHXX7VImOVz1ap/EfuSxb7m9TyDUt1VWarBLVdM6gReyuFT1XAkHINE90yMKaQfabr4bZ+q5csaT1P1bOtbLGl97W3lQ823KWhvtP+3sf3/AqyiEDDwL7k9AAAAAElFTkSuQmCC" alt="Motion" />
+  <img src="https://img.shields.io/badge/GSAP-20232A?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
+</details>
+
+<details>
+<summary>⚙️ Backend</summary>
+  <img src="https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-20232A?style=for-the-badge&logo=express&logoColor=ffffff" alt="Express" />
+  <img src="https://img.shields.io/badge/NestJS-20232A?style=for-the-badge&logo=nestjs&logoColor=E0234E" alt="NestJS" />
+</details>
+
+<details>
+<summary>🗄️ Databases & ORMs</summary>
+  <img src="https://img.shields.io/badge/MongoDB-20232A?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-20232A?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQL-20232A?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="SQL" />
+  <img src="https://img.shields.io/badge/Prisma-20232A?style=for-the-badge&logo=prisma&logoColor=ffffff" alt="Prisma" />
+  <img src="https://img.shields.io/badge/TypeORM-20232A?style=for-the-badge&logo=typeorm&logoColor=FE0803" alt="TypeORM" />
+  <img src="https://img.shields.io/badge/Sequelize-20232A?style=for-the-badge&logo=sequelize&logoColor=52B0E7" alt="Sequelize" />
+  <img src="https://img.shields.io/badge/Drizzle-20232A?style=for-the-badge&logo=drizzle&logoColor=C5F74F" alt="Drizzle" />
+  <img src="https://img.shields.io/badge/Mongoose-20232A?style=for-the-badge&logo=mongoose&logoColor=ffffff" alt="Mongoose" />
+  <img src="https://img.shields.io/badge/Redis-20232A?style=for-the-badge&logo=redis&logoColor=FF4438" alt="Redis" />
+</details>
+
+<details>
+<summary>🧪 Testing</summary>
+  <img src="https://img.shields.io/badge/Jest-20232A?style=for-the-badge&logo=jest&logoColor=C21325" alt="Jest" />
+  <img src="https://img.shields.io/badge/Vitest-20232A?style=for-the-badge&logo=vitest&logoColor=00FF74" alt="Vitest" />
+  <img src="https://img.shields.io/badge/Cypress-20232A?style=for-the-badge&logo=cypress&logoColor=ffffff" alt="Cypress" />
+  <img src="https://img.shields.io/badge/React_Testing_Library-20232A?style=for-the-badge&logo=testinglibrary&logoColor=E33332" alt="React Testing Library" />
+  <img src="https://img.shields.io/badge/Playwright-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UGxheXdyaWdodDwvdGl0bGU+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMy45OTYgNy40NjJjLS4wNTYuODM3LS4yNTcgMi4xMzUtLjcxNiAzLjg1LS45OTUgMy43MTUtNC4yNyAxMC44NzQtMTAuNDIgOS4yMjctNi4xNS0xLjY1LTUuNDA3LTkuNDg3LTQuNDEyLTEzLjIwMS40Ni0xLjcxNi45MzQtMi45NCAxLjMwNS0zLjY5NC40Mi0uODUzLjg0Ni0uMjg5IDEuODE1LjUyMy42ODQuNTczIDIuNDEgMS43OTEgNS4wMTEgMi40ODggMi42MDEuNjk3IDQuNzA2LjUwNiA1LjU4My4zNTIgMS4yNDUtLjIxOSAxLjg5Ny0uNDk0IDEuODM0LjQ1NVptLTkuODA3IDMuODYzcy0uMTI3LTEuODE5LTEuNzczLTIuMjg2Yy0xLjY0NC0uNDY3LTIuNjEzIDEuMDQtMi42MTMgMS4wNFptNC4wNTggNC41MzktNy43NjktMi4xNzJzLjQ0NiAyLjMwNiAzLjMzOCAzLjE1M2MyLjg2Mi44MzYgNC40My0uOTggNC40My0uOTgxWm0yLjcwMS0yLjUxcy0uMTMtMS44MTgtMS43NzMtMi4yODZjLTEuNjQ0LS40NjktMi42MTIgMS4wMzgtMi42MTIgMS4wMzhaTTguNTcgMTguMjNjLTQuNzQ5IDEuMjc5LTcuMjYxLTQuMjI0LTguMDIxLTcuMDhDLjE5NyA5LjgzMS4wNDQgOC44MzIuMDAzIDguMTg4Yy0uMDQ3LS43My40NTUtLjUyIDEuNDE1LS4zNTQuNjc3LjExOCAyLjMuMjYxIDQuMzA4LS4yOGExMS4yOCAxMS4yOCAwIDAgMCAyLjQxLS45NTZjLS4wNTguMTk3LS4xMTQuNC0uMTcuNjEtLjQzMyAxLjYxOC0uODI3IDQuMDU1LS42MzIgNi40MjYtMS45NzYuNzMyLTIuMjY3IDIuNDIzLTIuMjY3IDIuNDIzbDIuNTI0LS43MTVjLjIyNyAxLjAwMi42IDEuOTg3IDEuMTUgMi44MzhhNS45MTQgNS45MTQgMCAwIDEtLjE3MS4wNDlabS00LjE4OC02LjI5OGMxLjI2NS0uMzMzIDEuMzYzLTEuNjMxIDEuMzYzLTEuNjMxbC0zLjM3NC44ODhzLjc0NSAxLjA3NiAyLjAxLjc0M1oiLz48L3N2Zz4=" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Storybook-20232A?style=for-the-badge&logo=storybook&logoColor=FF4785" alt="Storybook" />
+  <img src="https://img.shields.io/badge/Maestro-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE4MCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxODAiIGhlaWdodD0iMTgwIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTQ2LjQ3OCAzMEgyOVYxNTFIODAuMTMyN0M3NC44MzQ3IDE0OS4wODEgNzAuMjU2IDE0NS41NzcgNjcuMDE4NSAxNDAuOTY1QzYzLjc4MSAxMzYuMzUzIDYyLjA0MTcgMTMwLjg1NiA2Mi4wMzY5IDEyNS4yMjFDNjIuMDM0NCAxMjEuNjEzIDYyLjc0MjkgMTE4LjAzOSA2NC4xMjE5IDExNC43MDVDNjUuNTAwOSAxMTEuMzcxIDY3LjUyMzQgMTA4LjM0MSA3MC4wNzM4IDEwNS43ODlDNzIuNjI0MyAxMDMuMjM3IDc1LjY1MjYgMTAxLjIxMiA3OC45ODU5IDk5LjgzMDdDODIuMzE5MSA5OC40NDkzIDg1Ljg5MTkgOTcuNzM4MyA4OS41IDk3LjczODNDOTYuNzgzNiA5Ny43MzgzIDEwMy43NjkgMTAwLjYzMiAxMDguOTE5IDEwNS43ODJDMTE0LjA3IDExMC45MzIgMTE2Ljk2MyAxMTcuOTE4IDExNi45NjMgMTI1LjIwMUMxMTYuOTU4IDEzMC44MzYgMTE1LjIxOSAxMzYuMzMzIDExMS45ODEgMTQwLjk0NUMxMDguNzQ0IDE0NS41NTcgMTA0LjE2NSAxNDkuMDYxIDk4Ljg2NzIgMTUwLjk4MUgxNTBWMzBIMTQ2LjQ3OFoiIGZpbGw9IiMxNDE0MTUiLz4KPC9zdmc+Cg==" alt="Maestro" />
+</details>
+
+<details>
+<summary>💳 Payments & Infrastructure</summary>
+  <img src="https://img.shields.io/badge/Stripe-20232A?style=for-the-badge&logo=stripe&logoColor=635BFF" alt="Stripe" />
+  <img src="https://img.shields.io/badge/Paystack-20232A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADVUlEQVRoge2Yv2sUWxTHv+fOndmd7K5kNYLx+XjRStFCwR+gNjaCQVEevNiInVoIIjZWkrER1EIbG/8CiVhYqkVARAtRgqZR7PQZ5CXGl10zMztz77EQQc3c2ejM7GrYD2x1zt79np3zY+4BevTo8VtDOfsVAacZzcI8TzgDwxtEpXKQiAYgchfWHo1IReHDVsO/izM7/SQXafpubWBfPa5VLkA6+4GuyAcswJJyusR0JATuJLkYhUWIqwxan+bTEYgGpOtuNJnN4souqLu5/xVkmSzd/XdzwBxA4ANtOkCn0FBGHcYidsr9jYhoEsBQ2iMsFgY0z3Bz7qnJwxjA3JubH5w/DpwXTumxYF5WjMB0tGal43ii5atHJp/2RfrPmIX6bHdqZfUUY3RUgciYQukBXBnvtx1nSPbVy7mLWyQUhYqDcMo/teNfYGEg5gCujVdLlZXnhCwdA6GvUJVpMBRUNKln3x8NT+9+8b3ZWAMuKnUG7QehXqzCNhAA294mHLEPwIIAjLnNJSmIyC5S26JhEMNKzIIlPMh+E4wBCKVbIPoP9AtMY+YIAm+STMYingem3VZwFVR+R8zV4tSlo0nEiMKJgOZuJ9nT54A3LvFXf7XWUsZACydS3NAzTZwaDpPM6cIGa1Sb+SC1dLvwLtTEx7A8j7O7mkkD7AspV8pJp7wmPgwpjxC4K4OMgRfcUpfC45tfmnyMT6BvMFjBTt9JWPaOYuS1h4DtoPgVxsYuY2REJfkYu5C2hAPG8uLkLQqbLLuO2XXmbtlJNUWwdAOgMNYMJLauDqKJ4xBTjR+/UvpSzJS1ugUtVhCoUow+M5qIwfolBx/vwduTWMBAu0F28UHNcfWfrOY7f6HRFsvyqml/5aa3GKGfDAAgeJ6FrLXydpCxekrB83SmcxJI3Y3aQ39vsTUOMVEt46/ErPSz4LV1A96mVqazvsO8G117uB4TRtmWwwCyvkowJBrumqbvAzcznvUN5t1o9L4K1uuRXTwAEBGWwS5tA3Ou68qU3HaR+2pU5D92lu4gQ+CDgVy7BjHHaUuqn8EYQEnU5gj8HIDC5yVvpg8z/48weJCneCAtyZmpdP3JOgjsZRKZdqPEiIkwESh9Hye2RlnO6tGjR49fi0/wUyNPsQNj2gAAAABJRU5ErkJggg==" alt="Paystack" />
+  <img src="https://img.shields.io/badge/Flutterwave-20232A?style=for-the-badge&logo=data:image/png;base64,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" alt="Flutterwave" />
+  <img src="https://img.shields.io/badge/Mono-20232A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABrElEQVRYhe2XwXGDMBBFP3YDOuaoElwCJbgElUAHkivAqQA6oASSCkgH6w7wNafNAS/BsgTBE4wP3pmd8YzX/z+0WmEBv6EAWAA1AF4oGwAGgdAAaEFjP+ni2ccjzYcQantZkuCyLBwKwPcWQAHgbQUAAECCbjlWi82a5i+AGwAiQpZl0WJjDJqmgdY6WkNEsNbOguhnU6IoClZK3cyuc46ZmYmIjTHB+R5qaK3/ch7c/lhMfAEBkMjzPAogGmma3gcgYa2NAoRApzRmAzAzV1XFWusgADNz27acZdmoRtM0sZZMA8iTVlU1WlMUxaSGv3euTkLmxxyKSZL0n5/rHDgcDqPF5/MZp9NptGbq+1Bc9WS/3zMRRXuolOLj8Rjts3OO0zSNanDX5/AmlNRac13XQQCpMcZw27ZBANGIbdpJAEl/7IYAYuI/qQDENGYBAODdbteb+AAhEx8gBDoLQATKsowCSEuIKAgAgJVSXJblfQDD1ZgCDb3ExjRef8meAuBjRf+vDYDPFQHege6GQpgxDf+UNCTRD4YgeJdTCYPuCr2UcQ3AXVYdAPADlqff0lPhPmAAAAAASUVORK5CYII=" alt="Mono" />
+  <img src="https://img.shields.io/badge/AWS-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QW1hem9uIEFXUzwvdGl0bGU+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik02Ljc2MyAxMC4wMzZjMCAuMjk2LjAzMi41MzUuMDg4LjcxLjA2NC4xNzYuMTQ0LjM2OC4yNTYuNTc2LjA0LjA2My4wNTYuMTI3LjA1Ni4xODMgMCAuMDgtLjA0OC4xNi0uMTUyLjI0bC0uNTAzLjMzNWEuMzgzLjM4MyAwIDAgMS0uMjA4LjA3MmMtLjA4IDAtLjE2LS4wNC0uMjM5LS4xMTJhMi40NyAyLjQ3IDAgMCAxLS4yODctLjM3NSA2LjE4IDYuMTggMCAwIDEtLjI0OC0uNDcxYy0uNjIyLjczNC0xLjQwNSAxLjEwMS0yLjM0NyAxLjEwMS0uNjcgMC0xLjIwNS0uMTkxLTEuNTk2LS41NzQtLjM5MS0uMzg0LS41OS0uODk0LS41OS0xLjUzMyAwLS42NzguMjM5LTEuMjMuNzI2LTEuNjQ0LjQ4Ny0uNDE1IDEuMTMzLS42MjMgMS45NTUtLjYyMy4yNzIgMCAuNTUxLjAyNC44NDYuMDY0LjI5Ni4wNC42LjEwNC45MTguMTc2di0uNTgzYzAtLjYwNy0uMTI3LTEuMDMtLjM3NS0xLjI3Ny0uMjU1LS4yNDgtLjY4Ni0uMzY3LTEuMy0uMzY3LS4yOCAwLS41NjguMDMxLS44NjMuMTAzLS4yOTUuMDcyLS41ODMuMTYtLjg2Mi4yNzJhMi4yODcgMi4yODcgMCAwIDEtLjI4LjEwNC40ODguNDg4IDAgMCAxLS4xMjcuMDIzYy0uMTEyIDAtLjE2OC0uMDgtLjE2OC0uMjQ3di0uMzkxYzAtLjEyOC4wMTYtLjIyNC4wNTYtLjI4YS41OTcuNTk3IDAgMCAxIC4yMjQtLjE2N2MuMjc5LS4xNDQuNjE0LS4yNjQgMS4wMDUtLjM2YTQuODQgNC44NCAwIDAgMSAxLjI0Ni0uMTUxYy45NSAwIDEuNjQ0LjIxNiAyLjA5MS42NDcuNDM5LjQzLjY2MiAxLjA4NS42NjIgMS45NjN2Mi41ODZ6bS0zLjI0IDEuMjE0Yy4yNjMgMCAuNTM0LS4wNDguODIyLS4xNDQuMjg3LS4wOTYuNTQzLS4yNzEuNzU4LS41MS4xMjgtLjE1Mi4yMjQtLjMyLjI3Mi0uNTEyLjA0Ny0uMTkxLjA4LS40MjMuMDgtLjY5NHYtLjMzNWE2LjY2IDYuNjYgMCAwIDAtLjczNS0uMTM2IDYuMDIgNi4wMiAwIDAgMC0uNzUtLjA0OGMtLjUzNSAwLS45MjYuMTA0LTEuMTkuMzItLjI2My4yMTUtLjM5LjUxOC0uMzkuOTE3IDAgLjM3NS4wOTUuNjU1LjI5NS44NDYuMTkxLjIuNDcuMjk2LjgzOC4yOTZ6bTYuNDEuODYyYy0uMTQ0IDAtLjI0LS4wMjQtLjMwNC0uMDgtLjA2NC0uMDQ4LS4xMi0uMTYtLjE2OC0uMzExTDcuNTg2IDUuNTVhMS4zOTggMS4zOTggMCAwIDEtLjA3Mi0uMzJjMC0uMTI4LjA2NC0uMi4xOTEtLjJoLjc4M2MuMTUxIDAgLjI1NS4wMjUuMzEuMDguMDY1LjA0OC4xMTMuMTYuMTYuMzEybDEuMzQyIDUuMjg0IDEuMjQ1LTUuMjg0Yy4wNC0uMTYuMDg4LS4yNjQuMTUxLS4zMTJhLjU0OS41NDkgMCAwIDEgLjMyLS4wOGguNjM4Yy4xNTIgMCAuMjU2LjAyNS4zMi4wOC4wNjMuMDQ4LjEyLjE2LjE1MS4zMTJsMS4yNjEgNS4zNDggMS4zODEtNS4zNDhjLjA0OC0uMTYuMTA0LS4yNjQuMTYtLjMxMmEuNTIuNTIgMCAwIDEgLjMxMS0uMDhoLjc0M2MuMTI3IDAgLjIuMDY1LjIuMiAwIC4wNC0uMDA5LjA4LS4wMTcuMTI4YTEuMTM3IDEuMTM3IDAgMCAxLS4wNTYuMmwtMS45MjMgNi4xN2MtLjA0OC4xNi0uMTA0LjI2My0uMTY4LjMxMWEuNTEuNTEgMCAwIDEtLjMwMy4wOGgtLjY4N2MtLjE1MSAwLS4yNTUtLjAyNC0uMzItLjA4LS4wNjMtLjA1Ni0uMTE5LS4xNi0uMTUtLjMybC0xLjIzOC01LjE0OC0xLjIzIDUuMTRjLS4wNC4xNi0uMDg3LjI2NC0uMTUuMzItLjA2NS4wNTYtLjE3Ny4wOC0uMzIuMDh6bTEwLjI1Ni4yMTVjLS40MTUgMC0uODMtLjA0OC0xLjIyOS0uMTQzLS4zOTktLjA5Ni0uNzEtLjItLjkxOC0uMzItLjEyOC0uMDcxLS4yMTUtLjE1MS0uMjQ3LS4yMjNhLjU2My41NjMgMCAwIDEtLjA0OC0uMjI0di0uNDA3YzAtLjE2Ny4wNjQtLjI0Ny4xODMtLjI0Ny4wNDggMCAuMDk2LjAwOC4xNDQuMDI0LjA0OC4wMTYuMTIuMDQ4LjIuMDguMjcxLjEyLjU2Ni4yMTUuODc4LjI3OS4zMTkuMDY0LjYzLjA5Ni45NS4wOTYuNTAyIDAgLjg5NC0uMDg4IDEuMTY1LS4yNjRhLjg2Ljg2IDAgMCAwIC40MTUtLjc1OC43NzcuNzc3IDAgMCAwLS4yMTUtLjU1OWMtLjE0NC0uMTUxLS40MTYtLjI4Ny0uODA3LS40MTVsLTEuMTU3LS4zNmMtLjU4My0uMTgzLTEuMDE0LS40NTQtMS4yNzctLjgxM2ExLjkwMiAxLjkwMiAwIDAgMS0uNC0xLjE1OGMwLS4zMzUuMDczLS42My4yMTYtLjg4Ni4xNDQtLjI1NS4zMzUtLjQ3OS41NzUtLjY1NC4yNC0uMTg0LjUxLS4zMi44My0uNDE1LjMyLS4wOTYuNjU1LS4xMzYgMS4wMDYtLjEzNi4xNzUgMCAuMzU5LjAwOC41MzUuMDMyLjE4My4wMjQuMzUuMDU2LjUxOC4wODguMTYuMDQuMzEyLjA4LjQ1NS4xMjcuMTQ0LjA0OC4yNTYuMDk2LjMzNi4xNDRhLjY5LjY5IDAgMCAxIC4yNC4yLjQzLjQzIDAgMCAxIC4wNzEuMjYzdi4zNzVjMCAuMTY4LS4wNjQuMjU2LS4xODQuMjU2YS44My44MyAwIDAgMS0uMzAzLS4wOTYgMy42NTIgMy42NTIgMCAwIDAtMS41MzItLjMxMWMtLjQ1NSAwLS44MTUuMDcxLTEuMDYyLjIyMy0uMjQ4LjE1Mi0uMzc1LjM4My0uMzc1LjcxIDAgLjIyNC4wOC40MTYuMjQuNTY3LjE1OS4xNTIuNDU0LjMwNC44NzcuNDRsMS4xMzQuMzU4Yy41NzQuMTg0Ljk5LjQ0IDEuMjM3Ljc2Ny4yNDcuMzI3LjM2Ny43MDIuMzY3IDEuMTE3IDAgLjM0My0uMDcyLjY1NS0uMjA3LjkyNi0uMTQ0LjI3Mi0uMzM2LjUxMS0uNTgzLjcwMy0uMjQ4LjItLjU0My4zNDMtLjg4Ni40NDctLjM2LjExMS0uNzM0LjE2Ny0xLjE0Mi4xNjd6TTIxLjY5OCAxNi4yMDdjLTIuNjI2IDEuOTQtNi40NDIgMi45NjktOS43MjIgMi45NjktNC41OTggMC04Ljc0LTEuNy0xMS44Ny00LjUyNi0uMjQ3LS4yMjMtLjAyNC0uNTI3LjI3Mi0uMzUxIDMuMzg0IDEuOTYzIDcuNTU5IDMuMTUzIDExLjg3NyAzLjE1MyAyLjkxNCAwIDYuMTE0LS42MDcgOS4wNi0xLjg1Mi40MzktLjIuODE0LjI4Ny4zODMuNjA3ek0yMi43OTIgMTQuOTYxYy0uMzM2LS40My0yLjIyLS4yMDctMy4wNzQtLjEwMy0uMjU1LjAzMi0uMjk1LS4xOTItLjA2My0uMzYgMS41LTEuMDUzIDMuOTY3LS43NSA0LjI1NC0uMzk5LjI4Ny4zNi0uMDggMi44MjYtMS40ODUgNC4wMDctLjIxNS4xODQtLjQyMy4wODgtLjMyNy0uMTUxLjMyLS43OSAxLjAzLTIuNTcuNjk1LTIuOTk0eiIvPjwvc3ZnPg==" alt="AWS (S3 & SES)" />
+  <img src="https://img.shields.io/badge/Digital_Ocean-20232A?style=for-the-badge&logo=digitalocean&logoColor=0080FF" alt="Digital Ocean" />
+  <img src="https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Netlify-20232A?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Netlify" />
+  <img src="https://img.shields.io/badge/GitHub_Pages-20232A?style=for-the-badge&logo=githubpages&logoColor=ffffff" alt="GitHub Pages" />
+  <img src="https://img.shields.io/badge/Appwrite-20232A?style=for-the-badge&logo=appwrite&logoColor=FD366E" alt="Appwrite" />
+  <img src="https://img.shields.io/badge/Supabase-20232A?style=for-the-badge&logo=supabase&logoColor=3FCF8E" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Firebase-20232A?style=for-the-badge&logo=firebase&logoColor=DD2C00" alt="Firebase" />
+  <img src="https://img.shields.io/badge/BullMQ-20232A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAKdElEQVRogdWae0xUZ/rHP+fMlesptyJIEBU0qMjFCkV/1OsfWlIa4jZuV9pqYxu7q7YNCcn2j3YTa9voSnab1Li1KamrlhhTi1aNVRcWLVZsBcFKGRQYwBk7jLBn3GGAmTln/8A5ircC/urlm0xOzjnved/v8zzf93mfd84RuAWyLAvAVOB3wFJgChAJiLe2/Y2hAjLQBvwL2AOclSTJd3Mj4eYTWZYlYDWwBpjEgyd9L9iBncDfJEmyBS5qBsiyPA7YAiwHdA+c3sjxb+CPkiRdgOsGXPf8VuAPD5HYaHASKJIkyRqQyGqGPP+44P+AP8uybNTJspwK/BWIfsikRovJQL0ILLt+8rghAlgpAkt4tLLNaLBAZCjPP66I1gNRD3pUQRC0o6qqqKo65r70PGD5iKKIoijIsozX6yUsLIzg4GAURRmTIfrfgOMdIQgCoihy5coVvvnmGywWC729vXg8HvLz88nPz0eSJFRVHZUxgizLY4/fCBGQyvnz5zlz5gxpaWnodDrKy8vZu3cvLpeL+fPns2jRInJzc0lLS0Ov16MoysM3QBAEPB4PP/74I3a7nZiYGBwOB59//jk1NTW3tY+JiWHFihWsW7eOcePG4ff77xmN39QAURTxeDw0NTVhNptpb2/ns88+4/jx40yYMIGoqCgcDgfd3d14PJ4bpASBxYsX8/bbb5OTk4PBYLirEcMMEEVRyxBjnVQBAgHy586do66ujs7OTiorK7l06RLz588nPj6elpYWnE4ndrudnp6e2/qRJIl33nmHNWvWaDK8owGCICAIAt3d3djtdkwmE3FxccMm1WiIe71eamtrNW/39vZqg8+dO5fw8HCOHz/O4ODgr/YZFxfHrl27yMnJwefz3XZfcLlcKsDBgwfZtWsXkiShKAo+n4+cnBwKCwuJjY3F7/fflXTg19/fz/nz59mxYwcVFRVcvXp1WFuj0UhsbCw2m+2u/d0JS5Ys4dNPPyUyMvK254Rr166pTqeT9evXs3r1aubMmYPX68VisbBnzx6sVivFxcVkZ2drkQgQDsisp6cHq9XKpUuX+Pbbb9m3b9+IvDtSxMTEUFhYSHFxMfHx8cMUoVdVFZ1OR1hYGNHR0YSEhODz+XjqqadIT0+nrKyMkpISNm/erIWxtbWVnp4eZsyYQX9/PydPnuTEiRO0tbXR1NSE1+sdE9GQkBCCg4Pp7u7WrhmNRrKysjh8+DB9fX2UlpZiNps1SepVVSUiIoJXXnmFL7/8ErfbTU5ODoqioNPpWLlyJR0dHbz55psUFhbi8XhQFIXnn38eRVH4/vvv+eKLL6isrByRLARBwGAw3DFCiYmJ9PX1acRDQkIYHBzE4XDQ29vL0aNHaW9vZ9q0adpYwyZxa2srX331FbGxsSxfvhyDwYAgCLhcLt566y2qqqp49913mTx5Mj/88AMtLS20t7fT1NSE0+kckZdjY2NJSUnh5MmTw65LkkR2djY1NTWkp6cTFBREV1cXLS0tGI1G/H4/ycnJvPfee+Tn52s1lP7mSThlyhTeeOMNNm7ciM1mIykpCUVRCA8PZ/LkyWRmZjJx4kRef/11urq6RkT4VmRlZeF2u4dFJCUlhcTERC5cuEBUVBRz585l69atWrv+/n6Sk5MpKCigvr6eJ598kuzsbPx+P6Lf78dqtVJfX8+pU6c4ePAgiYmJxMTEoKoqoihit9u5ePEieXl5bNmyZczkTSYT6enpXLx4UbtmNpvJzc2lo6MDWZZZtmwZAwMDGvmgoCAMBgNhYWHU1NTw008/YbVatfVKf+DAAfbv34/VaiU1NZVVq1bx3HPPaRNFp9NRV1fHjBkzOHv2LCdOnBgT+QCZuLi4YQuSx+Ph66+/ZtasWaxYsYJXX32V9evXa/dnzpxJR0cHbW1tPPvss9TX1xMVdWMHIEqSxMaNG9mxYwcffvghs2fP1sgLgkBfXx/Xrl0jNzeXsrKyOy4mI4XL5aKhoYGSkhKKioqIjIwEQJZlzp07x6RJk3C5XHR2dmIymQBwOp3o9XoWL17MmjVrMJvN/Pzzz5pzddu2bfuLJEmEh4djNBq1G4EQORwOFEVh+/btVFdXk5SUhMfjuWPGMRgMpKSk4HK5huXq0NBQxo8fj6qq1NbWYrPZSE1NJS8vD4/Hg9FoxOv1UlVVRXp6OtHR0Zw5cwZVVVm4cCEfffQRL730EklJSQQFBVFeXk57ezt9fX3oAxsMGKqFent7OX36NEFBQaSlpdHY2MimTZuora0FhlLdM888Q3l5OQMDA8MMyM3NRRRFmpubmTJlCrNmzSItLY2MjAyqqqqoqKhgcHAQu93O7t27KSgo4IMPPqCuro6PP/6Yrq4umpubyczMJDQ0lLVr17Ju3TrCwsLw+/0oisILL7xAZmYmbW1tJCQk3CjmRFHE5XJRWVlJRUUFvb29BAcHU1VVhcvluqE5UeTFF1+kvb2d7777bpiXS0tLaW5uxmKx8PLLL5ORkUFwcDCVlZUUFxfjdDq1UtnpdLJz505aWlpobm7G5XKRmprKtm3bmDlzJs3NzcTFxRERETEsmoF6K1Dc6QOk+vr6OHr0KIcOHeLYsWPExcXh9/sxm81ayRAaGsr06dNJSEgYVv7CUL1SUFBAcHAwPp8Pt9vN2rVrcTgcWCwWjEYjmzdvpqCggN27d+P3+6murqazs5PExERKSkooKChgwoQJAEyfPh1FUW4rJFVVHSZfvSAIuN1uDh06RFlZGW1tbdpiIYoiV69e1arJyMhIEhISOHz4MEeOHNE6CQ8Pp6ioiPDwcHw+HyaTiSNHjnDs2DHcbjepqals2rSJRYsWUV1dzZYtWzAYDADMmTOH999/n+zsbOBGGT/SYk/v9Xo5cOAA5eXltLW1UVpaytKlS7UGsbGx2oRWVRWv18vp06dpaWlBEATMZjNer5cNGzZgMBjIy8tDURQyMzP55JNP6O7uZt68eUybNg2Px0N5eTmqqjJv3jxee+01kpOTGTdu3Jj3H4Isy2ppaSkbNmwgIyODiooKnnjiiXvuAa5cuUJrayuXL1+mq6uLiooK6urqSEhIYOvWrSxcuFBbBG/2qtfrpaGhAVEUmTp1KmFhYXeUyWigFwSBX375BUVRsNls2Gw2IiIi7vlQfHz8UAa4Lj+73U5nZyddXV1s376dp59+GrPZfNuaYTAYmD17tmbU/awpAYhutxuHw6Hp/cKFC5pk7obA4F6vF5PJRElJCQsWLACgpqaGxsZGzfs3I6DtX9uojwaCLMtqZ2cnjY2NDAwMkJWVxcSJE0cVVlEUaWhowGKxoNPpyM7OZvz48fcljZFCkGVZFUVxmF7HMrBOp0MURW0P/SDIw/V/5v4/BgxI40FDZOht4GMLEfjPwyZxPxCB9odN4j5wTQSOP2wW94FTIrAXsP1ay0cQfcA/ReAMsOshkxkLjgD7RUmSFODvQNXD5TMqWIANkiS5RABJki4Df2LoDfijDgtDnxrUwU3vx65/e1AE/INHM7V6gH3A7yVJ0hLPbVWbLMsmYCGw6vrxgb/FvAX/BU4BO4D9kiS5br75P9pSAMO2s51VAAAAAElFTkSuQmCC" alt="BullMQ" />
+  <img src="https://img.shields.io/badge/Brevo-20232A?style=for-the-badge&logo=brevo&logoColor=0B996E" alt="Brevo" />
+  <img src="https://img.shields.io/badge/Resend-20232A?style=for-the-badge&logo=resend&logoColor=ffffff" alt="Resend" />
+  <img src="https://img.shields.io/badge/Seamailer-20232A?style=for-the-badge&logo=data:image/png;base64,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" alt="Seamailer" />
+</details>
+
+<details>
+<summary>🧰 Tools</summary>
+  <img src="https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma" />
+  <img src="https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-20232A?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VmlzdWFsIFN0dWRpbyBDb2RlPC90aXRsZT48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIzLjE1IDIuNTg3TDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg==" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Postman-20232A?style=for-the-badge&logo=postman&logoColor=FF6C37" alt="Postman" />
+  <img src="https://img.shields.io/badge/Slack-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+U2xhY2s8L3RpdGxlPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNNS4wNDIgMTUuMTY1YTIuNTI4IDIuNTI4IDAgMCAxLTIuNTIgMi41MjNBMi41MjggMi41MjggMCAwIDEgMCAxNS4xNjVhMi41MjcgMi41MjcgMCAwIDEgMi41MjItMi41MmgyLjUydjIuNTJ6TTYuMzEzIDE1LjE2NWEyLjUyNyAyLjUyNyAwIDAgMSAyLjUyMS0yLjUyIDIuNTI3IDIuNTI3IDAgMCAxIDIuNTIxIDIuNTJ2Ni4zMTNBMi41MjggMi41MjggMCAwIDEgOC44MzQgMjRhMi41MjggMi41MjggMCAwIDEtMi41MjEtMi41MjJ2LTYuMzEzek04LjgzNCA1LjA0MmEyLjUyOCAyLjUyOCAwIDAgMS0yLjUyMS0yLjUyQTIuNTI4IDIuNTI4IDAgMCAxIDguODM0IDBhMi41MjggMi41MjggMCAwIDEgMi41MjEgMi41MjJ2Mi41Mkg4LjgzNHpNOC44MzQgNi4zMTNhMi41MjggMi41MjggMCAwIDEgMi41MjEgMi41MjEgMi41MjggMi41MjggMCAwIDEtMi41MjEgMi41MjFIMi41MjJBMi41MjggMi41MjggMCAwIDEgMCA4LjgzNGEyLjUyOCAyLjUyOCAwIDAgMSAyLjUyMi0yLjUyMWg2LjMxMnpNMTguOTU2IDguODM0YTIuNTI4IDIuNTI4IDAgMCAxIDIuNTIyLTIuNTIxQTIuNTI4IDIuNTI4IDAgMCAxIDI0IDguODM0YTIuNTI4IDIuNTI4IDAgMCAxLTIuNTIyIDIuNTIxaC0yLjUyMlY4LjgzNHpNMTcuNjg4IDguODM0YTIuNTI4IDIuNTI4IDAgMCAxLTIuNTIzIDIuNTIxIDIuNTI3IDIuNTI3IDAgMCAxLTIuNTItMi41MjFWMi41MjJBMi41MjcgMi41MjcgMCAwIDEgMTUuMTY1IDBhMi41MjggMi41MjggMCAwIDEgMi41MjMgMi41MjJ2Ni4zMTJ6TTE1LjE2NSAxOC45NTZhMi41MjggMi41MjggMCAwIDEgMi41MjMgMi41MjJBMi41MjggMi41MjggMCAwIDEgMTUuMTY1IDI0YTIuNTI3IDIuNTI3IDAgMCAxLTIuNTItMi41MjJ2LTIuNTIyaDIuNTJ6TTE1LjE2NSAxNy42ODhhMi41MjcgMi41MjcgMCAwIDEtMi41Mi0yLjUyMyAyLjUyNiAyLjUyNiAwIDAgMSAyLjUyLTIuNTJoNi4zMTNBMi41MjcgMi41MjcgMCAwIDEgMjQgMTUuMTY1YTIuNTI4IDIuNTI4IDAgMCAxLTIuNTIyIDIuNTIzaC02LjMxM3oiLz48L3N2Zz4=" alt="Slack" />
+  <img src="https://img.shields.io/badge/MS_Teams-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWljcm9zb2Z0IFRlYW1zPC90aXRsZT48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTIwLjYyNSA4LjEyN3EtLjU1IDAtMS4wMjUtLjIwNS0uNDc1LS4yMDUtLjgzMi0uNTYzLS4zNTgtLjM1Ny0uNTYzLS44MzJRMTggNi4wNTMgMTggNS41MDJxMC0uNTQuMjA1LTEuMDJ0LjU2My0uODM3cS4zNTctLjM1OC44MzItLjU2My40NzQtLjIwNSAxLjAyNS0uMjA1LjU0IDAgMS4wMi4yMDV0LjgzNy41NjNxLjM1OC4zNTcuNTYzLjgzNy4yMDUuNDguMjA1IDEuMDIgMCAuNTUtLjIwNSAxLjAyNS0uMjA1LjQ3NS0uNTYzLjgzMi0uMzU3LjM1OC0uODM3LjU2My0uNDguMjA1LTEuMDIuMjA1em0wLTMuNzVxLS40NjkgMC0uNzk3LjMyOC0uMzI4LjMyOC0uMzI4Ljc5NyAwIC40NjkuMzI4Ljc5Ny4zMjguMzI4Ljc5Ny4zMjguNDY5IDAgLjc5Ny0uMzI4LjMyOC0uMzI4LjMyOC0uNzk3IDAtLjQ2OS0uMzI4LS43OTctLjMyOC0uMzI4LS43OTctLjMyOHpNMjQgMTAuMDAydjUuNTc4cTAgLjc3NC0uMjkzIDEuNDYtLjI5My42ODUtLjgwMyAxLjE5NC0uNTEuNTEtMS4xOTUuODAzLS42ODYuMjkzLTEuNDU5LjI5My0uNDQ1IDAtLjkwOC0uMTA1LS40NjMtLjEwNi0uODUtLjMyOS0uMjkzLjk1LS44NTUgMS43MjktLjU2My43OC0xLjMxOSAxLjMzNi0uNzU2LjU1Ny0xLjY3Ljg2MS0uOTE0LjMwNS0xLjg5OC4zMDUtMS4xNDggMC0yLjE2Mi0uMzk4LTEuMDE0LS4zOTktMS44MDUtMS4xMDItLjc5LS43MDMtMS4zMTItMS42NjR0LS42NzQtMi4wODZoLTUuOHEtLjQxMSAwLS43MDQtLjI5M1QwIDE2Ljg4MVY2Ljg3M3EwLS40MS4yOTMtLjcwM3QuNzAzLS4yOTNoOC41OXEtLjM0LS43MTUtLjM0LTEuNSAwLS43MjcuMjc1LTEuMzY1LjI3Ni0uNjM5Ljc1LTEuMTE0LjQ3NS0uNDc0IDEuMTE0LS43NS42MzgtLjI3NSAxLjM2NS0uMjc1dDEuMzY1LjI3NXEuNjM5LjI3NiAxLjExNC43NS40NzQuNDc1Ljc1IDEuMTE0LjI3NS42MzguMjc1IDEuMzY1dC0uMjc1IDEuMzY1cS0uMjc2LjYzOS0uNzUgMS4xMTMtLjQ3NS40NzUtMS4xMTQuNzUtLjYzOC4yNzYtMS4zNjUuMjc2LS4xODggMC0uMzc1LS4wMjQtLjE4OC0uMDIzLS4zNzUtLjA1OHYxLjA3OGgxMC44NzVxLjQ2OSAwIC43OTcuMzI4LjMyOC4zMjguMzI4Ljc5N3pNMTIuNzUgMi4zNzNxLS40MSAwLS43OC4xNTgtLjM2OC4xNTgtLjYzOC40MzQtLjI3LjI3NS0uNDI4LjYzOS0uMTU4LjM2My0uMTU4Ljc3MyAwIC40MS4xNTguNzguMTU5LjM2OC40MjguNjM4LjI3LjI3LjYzOS40MjguMzY5LjE1OC43NzkuMTU4LjQxIDAgLjc3My0uMTU4LjM2NC0uMTU5LjY0LS40MjguMjc0LS4yNy40MzMtLjYzOS4xNTgtLjM2OS4xNTgtLjc3OSAwLS40MS0uMTU4LS43NzMtLjE1OS0uMzY0LS40MzQtLjY0LS4yNzUtLjI3NS0uNjM5LS40MzMtLjM2My0uMTU4LS43NzMtLjE1OHpNNi45MzcgOS44MTRoMi4yNVY3Ljk0SDIuODE0djEuODc1aDIuMjV2NmgxLjg3NXptMTAuMzEzIDcuMzEzdi02Ljc1SDEydjYuNTA0cTAgLjQxLS4yOTMuNzAzdC0uNzAzLjI5M0g4LjMwOXEuMTUyLjgwOS41NTYgMS41LjQwNS42OTEuOTg1IDEuMTkuNTguNDk3IDEuMzE4Ljc3OS43MzguMjgxIDEuNTgyLjI4MS45MjYgMCAxLjc0Ni0uMzUyLjgyLS4zNTEgMS40MzYtLjk2Ni42MTUtLjYxNi45NjYtMS40My4zNTItLjgxNS4zNTItMS43NTJ6bTUuMjUtMS41NDd2LTUuMjAzaC0zLjc1djYuODU1cS4zMDUuMzA1LjY5MS40NTIuMzg3LjE0Ni44MDkuMTQ2LjQ2OSAwIC44NzktLjE3Ni40MS0uMTc1LjcxNS0uNDguMzA0LS4zMDUuNDgtLjcxNXQuMTc2LS44NzlaIi8+PC9zdmc+" alt="MS Teams" />
+  <img src="https://img.shields.io/badge/Jira-20232A?style=for-the-badge&logo=jira&logoColor=0052CC" alt="Jira" />
+  <img src="https://img.shields.io/badge/Azure_Boards-20232A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QXp1cmUgRGV2T3BzPC90aXRsZT48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTAgOC44NzdMMi4yNDcgNS45MWw4LjQwNS0zLjQxNlYuMDIybDcuMzcgNS4zOTNMMi45NjYgOC4zMzh2OC4yMjVMMCAxNS43MDd6bTI0LTQuNDV2MTQuNjUxbC01Ljc1MyA0LjktOS4zMDMtMy4wNTd2My4wNTZsLTUuOTc4LTcuNDE2IDE1LjA1NyAxLjc5OFY1LjQxNXoiLz48L3N2Zz4=" alt="Azure Boards" />
+  <img src="https://img.shields.io/badge/ClickUp-20232A?style=for-the-badge&logo=clickup&logoColor=7B68EE" alt="ClickUp" />
+  <img src="https://img.shields.io/badge/Confluence-20232A?style=for-the-badge&logo=confluence&logoColor=172B4D" alt="Confluence" />
+  <img src="https://img.shields.io/badge/Trello-20232A?style=for-the-badge&logo=trello&logoColor=0052CC" alt="Trello" />
+  <img src="https://img.shields.io/badge/Notion-20232A?style=for-the-badge&logo=notion&logoColor=ffffff" alt="Notion" />
+  <img src="https://img.shields.io/badge/npm-20232A?style=for-the-badge&logo=npm&logoColor=CB3837" alt="npm" />
+  <img src="https://img.shields.io/badge/Yarn-20232A?style=for-the-badge&logo=yarn&logoColor=2C8EBB" alt="Yarn" />
+  <img src="https://img.shields.io/badge/pnpm-20232A?style=for-the-badge&logo=pnpm&logoColor=F69220" alt="pnpm" />
 </details>
 
 ---
