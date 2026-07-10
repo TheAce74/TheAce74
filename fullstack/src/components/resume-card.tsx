@@ -86,7 +86,7 @@ export const ResumeCard = ({
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
                     aria-label={`Open ${title} in a new tab`}
-                    className="inline-flex text-muted-foreground transition-colors hover:text-foreground"
+                    className="-m-1.5 inline-flex items-center justify-center rounded-md p-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
                   >
                     <ExternalLinkIcon className="size-3.5" />
                   </Link>

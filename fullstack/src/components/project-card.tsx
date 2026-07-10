@@ -107,7 +107,10 @@ export function ProjectCard({
       </CardContent>
       <CardFooter className="px-2 pb-2">
         <div className="flex flex-row flex-wrap items-start gap-1">
-          <Link href={`/projects/${slug}`}>
+          <Link
+            href={`/projects/${slug}`}
+            aria-label={`View ${title} project details`}
+          >
             <Badge
               variant="secondary"
               className="flex gap-2 px-2 py-1 text-[10px]"
@@ -117,7 +120,12 @@ export function ProjectCard({
             </Badge>
           </Link>
           {links?.map((link, idx) => (
-            <Link href={link?.href} key={idx} target="_blank">
+            <Link
+              href={link?.href}
+              key={idx}
+              target="_blank"
+              aria-label={`${title} — ${link.type}`}
+            >
               <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
                 {link.icon}
                 {link.type}

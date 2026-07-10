@@ -15,6 +15,7 @@ export const ModeToggle = React.forwardRef<HTMLButtonElement>(
         variant="ghost"
         type="button"
         size="icon"
+        aria-label="Toggle theme"
         className="px-2"
         onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
         {...props}
