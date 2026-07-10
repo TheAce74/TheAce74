@@ -3,11 +3,11 @@ import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { ServiceCard } from "@/components/service-card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { DATA, TESTIMONIALS } from "@/data/resume";
+import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -47,10 +47,16 @@ export default function Page() {
               )}
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
+              <div className="relative size-28 shrink-0 overflow-hidden rounded-full border">
+                <Image
+                  src={DATA.avatarUrl}
+                  alt={DATA.name}
+                  fill
+                  priority
+                  sizes="112px"
+                  className="object-cover"
+                />
+              </div>
             </BlurFade>
           </div>
         </div>
