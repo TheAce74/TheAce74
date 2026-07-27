@@ -22,6 +22,8 @@ function Profile() {
           <img
             src={profilePic}
             alt="profile picture"
+            width={772}
+            height={1080}
             ref={spinnerRef}
             className={loading ? "spinner-show" : ""}
           />
@@ -37,17 +39,17 @@ function Profile() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub className="profile__icon" />
+              <FaGithub className="profile__icon" aria-hidden="true" />
             </a>
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/chisom-udonsi-45196b216/"
+              href="https://www.linkedin.com/in/chisom-udonsi"
               aria-label="linkedin"
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin className="profile__icon" />
+              <FaLinkedin className="profile__icon" aria-hidden="true" />
             </a>
           </li>
           <li>
@@ -57,7 +59,7 @@ function Profile() {
               target="_blank"
               rel="noreferrer"
             >
-              <SiFrontendmentor className="profile__icon" />
+              <SiFrontendmentor className="profile__icon" aria-hidden="true" />
             </a>
           </li>
           <li>
@@ -67,7 +69,7 @@ function Profile() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaXTwitter className="profile__icon" />
+              <FaXTwitter className="profile__icon" aria-hidden="true" />
             </a>
           </li>
         </ul>

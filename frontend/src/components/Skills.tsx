@@ -40,6 +40,7 @@ function Skills({ title, icon }: SkillsProps) {
                 .split(/\s+|\./)
                 .join("")
                 .toLowerCase()}`}
+              aria-hidden="true"
             >
               {skill.icon}
             </div>

@@ -50,6 +50,10 @@
     border-radius: 1em;
 
     & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
       transition: opacity 0.5s;
 
       &.spinner-show {
@@ -129,7 +133,9 @@
     }
 
     @include motion {
-      transition: color 0.3s, border-color 0.3s;
+      transition:
+        color 0.3s,
+        border-color 0.3s;
     }
   }
 
@@ -138,7 +144,7 @@
     justify-content: center;
     border: 2px solid var(--clr-primary-400);
     background-color: var(--clr-primary-400);
-    color: var(--clr-neutral-300);
+    color: var(--clr-neutral-900);
     font-weight: 500;
     border-radius: 100vmax;
     padding-block: 0.5em;
@@ -154,7 +160,9 @@
     }
 
     @include motion {
-      transition: color 0.3s, background-color 0.3s;
+      transition:
+        color 0.3s,
+        background-color 0.3s;
     }
   }
 

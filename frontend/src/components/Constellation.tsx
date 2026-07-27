@@ -46,7 +46,12 @@ export default function Constellation() {
         }
     };
 
-    const animate = (ctx: CanvasRenderingContext2D, width: number, height: number) => {
+    const animate = (
+        ctx: CanvasRenderingContext2D,
+        width: number,
+        height: number,
+        frameRef: { current: number }
+    ) => {
         ctx.clearRect(0, 0, width, height);
 
         stars.forEach(star => {
@@ -65,7 +70,7 @@ export default function Constellation() {
 
         drawConnections(ctx);
 
-        requestAnimationFrame(() => animate(ctx, width, height));
+        frameRef.current = requestAnimationFrame(() => animate(ctx, width, height, frameRef));
     };
 
     useEffect(() => {
@@ -81,7 +86,28 @@ export default function Constellation() {
         canvas.height = height;
 
         createStars(width, height);
-        animate(ctx, width, height);
+
+        const prefersReducedMotion = window.matchMedia(
+            '(prefers-reduced-motion: reduce)'
+        ).matches;
+
+        if (prefersReducedMotion) {
+            // Draw a single static frame instead of animating.
+            stars.forEach(star => {
+                ctx.beginPath();
+                ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+                ctx.fillStyle = '#1290cd';
+                ctx.fill();
+                ctx.closePath();
+            });
+            drawConnections(ctx);
+            return;
+        }
+
+        const frameRef = { current: 0 };
+        animate(ctx, width, height, frameRef);
+
+        return () => cancelAnimationFrame(frameRef.current);
     }, []);
 
     return <canvas ref={canvasRef} className='app__canvas' />;

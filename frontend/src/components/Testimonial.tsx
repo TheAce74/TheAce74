@@ -18,7 +18,7 @@ export default function Testimonial({ testimonial }: TestimonialProps) {
         <div>
           <h3>{testimonial.name}</h3>
           <a
-            aria-label={`${testimonial.platform} handle`}
+            aria-label={`${testimonial.handle} on ${testimonial.platform}`}
             href={testimonial.link}
             target="_blank"
             rel="noreferrer"
@@ -26,7 +26,7 @@ export default function Testimonial({ testimonial }: TestimonialProps) {
             {testimonial.handle}
           </a>
         </div>
-        {testimonial.icon}
+        <span aria-hidden="true">{testimonial.icon}</span>
       </div>
       <div>{testimonial.body}</div>
     </div>

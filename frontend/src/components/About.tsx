@@ -36,10 +36,11 @@ function About({ title, icon }: AboutProps) {
         Unleashing the Power of <span>Frontend Magic</span>
       </h2>
       <p className="about__info">
-        Since the early days of my coding adventure, I have immersed myself in
-        the world of frontend development. From tinkering with HTML and CSS to
-        exploring the dynamic realms of JavaScript and modern frameworks, my
-        journey has been a fascinating exploration of endless possibilities.
+        Since 2021, frontend development has been my craft — from HTML and
+        CSS fundamentals to building production interfaces with React,
+        TypeScript, and modern component architecture. I&apos;ve shipped real
+        products for real users, and I sweat the details that separate
+        &quot;it works&quot; from &quot;it&apos;s great.&quot;
       </p>
       <div className="about__extra">
         <div>

@@ -75,11 +75,19 @@ function Testimonials({ title, icon }: TestimonialsProps) {
             <Testimonial key={uuidv4()} testimonial={testimonial} />
           ))}
         </div>
-        <button className="prev" onClick={() => showSlides("prev")}>
-          <FaAngleLeft />
+        <button
+          className="prev"
+          aria-label="Previous testimonial"
+          onClick={() => showSlides("prev")}
+        >
+          <FaAngleLeft aria-hidden="true" />
         </button>
-        <button className="next" onClick={() => showSlides("next")}>
-          <FaAngleRight />
+        <button
+          className="next"
+          aria-label="Next testimonial"
+          onClick={() => showSlides("next")}
+        >
+          <FaAngleRight aria-hidden="true" />
         </button>
       </div>
       <div className="dot-container">
@@ -87,6 +95,7 @@ function Testimonials({ title, icon }: TestimonialsProps) {
           <button
             key={uuidv4()}
             className={index === slides ? "dot dot--active" : "dot"}
+            aria-label={`Go to testimonial ${index + 1}`}
             onClick={() => showSlides(index)}
           ></button>
         ))}

@@ -2,7 +2,10 @@
 @use "../base" as *;
 
 .testimonial {
+  width: 100%;
   min-width: 100%;
+  max-width: 100%;
+  flex-shrink: 0;
   height: max-content;
   padding-block: 2em;
   align-self: center;

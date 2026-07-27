@@ -28,6 +28,8 @@
 
     .wrapper {
       display: flex;
+      width: 100%;
+      max-width: 100%;
       overflow-x: hidden;
       scroll-behavior: smooth;
       transition: scroll 0.3s ease-in-out;
