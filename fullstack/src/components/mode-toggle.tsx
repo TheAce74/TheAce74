@@ -11,6 +11,7 @@ export const ModeToggle = React.forwardRef<HTMLButtonElement>(
 
     return (
       <Button
+        {...props}
         ref={ref}
         variant="ghost"
         type="button"
@@ -18,7 +19,6 @@ export const ModeToggle = React.forwardRef<HTMLButtonElement>(
         aria-label="Toggle theme"
         className="px-2"
         onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
-        {...props}
       >
         <SunIcon className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />
         <MoonIcon className="hidden h-[1.2rem] w-[1.2rem] text-neutral-800 dark:block dark:text-neutral-200" />

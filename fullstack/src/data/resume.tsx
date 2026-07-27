@@ -134,7 +134,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/resume.pdf", icon: NotebookIcon, label: "Resume" },
+    { href: "/api/resume", icon: NotebookIcon, label: "Resume" },
   ],
   contact: {
     email: "udonsichisom02@gmail.com",
