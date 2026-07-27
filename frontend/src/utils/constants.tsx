@@ -1,21 +1,23 @@
 // import techmilitant from "@/assets/techmilitant.webp";
 // import techverse from "@/assets/techverse.webp";
-import movieBox from "@/assets/movie-box.webp";
+// import movieBox from "@/assets/movie-box.webp";
 // import kreator from "@/assets/kreator.webp";
-import urpilot from "@/assets/urpilot.webp";
-import triplec from "@/assets/triplec.webp";
+// import urpilot from "@/assets/urpilot.webp";
+// import triplec from "@/assets/triplec.webp";
 // import academify from "@/assets/academify.webp";
-import lwb from "@/assets/lwb.webp";
+// import lwb from "@/assets/lwb.webp";
 import ypmc from "@/assets/ypmc.webp";
 import alajo from "@/assets/alajo.webp";
+import bcl from "@/assets/bcl.webp";
+import umuigboDiaspora from "@/assets/umuigbodiaspora.webp";
 // import ratemate from "@/assets/ratemate.webp";
 // import novanote from "@/assets/novanote.webp";
 // import stackclique from "@/assets/stackclique.webp";
 // import chris from "@/assets/chris.webp";
-import swirvl from "@/assets/swirvl.webp";
+// import swirvl from "@/assets/swirvl.webp";
 import seamailer from "@/assets/seamailer.webp";
 import assistfactory from "@/assets/assistfactory.webp";
-import fitxn from "@/assets/fitxn.webp";
+// import fitxn from "@/assets/fitxn.webp";
 import { FaHtml5, FaCss3Alt, FaReact, FaYarn } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoNpm } from "react-icons/io";
 import {
@@ -106,40 +108,54 @@ export const PROJECTS = [
     github: "https://github.com/TheAce74",
   },
   {
-    title: "Urpilot",
-    tools: ["Redux", "Mantine", "Typescript", "Tanstack Query"],
-    pic: urpilot,
-    link: "https://urpilot.ng",
+    title: "Bridge Credit Limited",
+    tools: ["Vue", "NestJS", "PostgreSQL", "Flutter"],
+    pic: bcl,
+    link: "https://app.bridgecredit.ng",
     github: "https://github.com/TheAce74",
   },
   {
-    title: "Swirvl",
-    tools: ["Next", "Shadcn UI", "Typescript", "Zustand"],
-    pic: swirvl,
-    link: "https://swirvl.com",
+    title: "Umuigbo Diaspora",
+    tools: ["Tanstack Start", "NestJS", "Prisma", "Stripe", "Brevo"],
+    pic: umuigboDiaspora,
+    link: "https://umuigbodiaspora.com",
     github: "https://github.com/TheAce74",
   },
-  {
-    title: "Fitxn",
-    tools: ["Nuxt", "Tailwind", "Typescript", "Framer Motion"],
-    pic: fitxn,
-    link: "https://www.fitxn.co",
-    github: "https://github.com/TheAce74",
-  },
-  {
-    title: "Triple C",
-    tools: ["MobX", "Apollo", "React Auth Kit", "GSAP"],
-    pic: triplec,
-    link: "https://triplec.vercel.app",
-    github: "https://github.com/TheAce74",
-  },
-  {
-    title: "Learning With Babanlar",
-    tools: ["Next.js", "Radix UI", "Shadcn UI", "SWR"],
-    pic: lwb,
-    link: "https://www.learningwithbabanlar.com",
-    github: "https://github.com/TheAce74",
-  },
+  // {
+  //   title: "Urpilot",
+  //   tools: ["Redux", "Mantine", "Typescript", "Tanstack Query"],
+  //   pic: urpilot,
+  //   link: "https://urpilot.ng",
+  //   github: "https://github.com/TheAce74",
+  // },
+  // {
+  //   title: "Swirvl",
+  //   tools: ["Next", "Shadcn UI", "Typescript", "Zustand"],
+  //   pic: swirvl,
+  //   link: "https://swirvl.com",
+  //   github: "https://github.com/TheAce74",
+  // },
+  // {
+  //   title: "Fitxn",
+  //   tools: ["Nuxt", "Tailwind", "Typescript", "Framer Motion"],
+  //   pic: fitxn,
+  //   link: "https://www.fitxn.co",
+  //   github: "https://github.com/TheAce74",
+  // },
+  // {
+  //   title: "Triple C",
+  //   tools: ["MobX", "Apollo", "React Auth Kit", "GSAP"],
+  //   pic: triplec,
+  //   link: "https://triplec.vercel.app",
+  //   github: "https://github.com/TheAce74",
+  // },
+  // {
+  //   title: "Learning With Babanlar",
+  //   tools: ["Next.js", "Radix UI", "Shadcn UI", "SWR"],
+  //   pic: lwb,
+  //   link: "https://www.learningwithbabanlar.com",
+  //   github: "https://github.com/TheAce74",
+  // },
   // {
   //   title: "Academify",
   //   tools: ["Axios", "Tailwind", "Context API", "Vite"],
@@ -182,13 +198,13 @@ export const PROJECTS = [
   //   link: "https://techverseconference.netlify.app",
   //   github: "https://github.com/TheAce74/Techverse",
   // },
-  {
-    title: "MovieBox",
-    tools: ["React", "TMDB API", "React Router", "Axios"],
-    pic: movieBox,
-    link: "https://hngxsecondtask.netlify.app",
-    github: "https://github.com/TheAce74/HNGx/tree/main/Second%20Task",
-  },
+  // {
+  //   title: "MovieBox",
+  //   tools: ["React", "TMDB API", "React Router", "Axios"],
+  //   pic: movieBox,
+  //   link: "https://hngxsecondtask.netlify.app",
+  //   github: "https://github.com/TheAce74/HNGx/tree/main/Second%20Task",
+  // },
   // {
   //   title: "The Kreator's Portfolio",
   //   tools: ["React", "Typescript", "React Spring", "Tailwind"],
