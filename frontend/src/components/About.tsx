@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import resume from "@/assets/Chisom Udonsi's Resume.pdf";
 import { InView } from "react-intersection-observer";
 import { useSectionStore } from "@/store/sectionStore";
 
@@ -52,7 +51,7 @@ function About({ title, icon }: AboutProps) {
           <p>PROJECTS COMPLETED</p>
         </div>
         <a
-          href={resume}
+          href="/resume.pdf"
           className="resume"
           download="chisom_udonsi_frontend_resume"
         >
