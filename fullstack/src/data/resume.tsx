@@ -229,7 +229,7 @@ export const DATA = {
     },
     {
       company: "Bridge Credit Limited",
-      href: "https://customerpreview.bridgecredit.net",
+      href: "https://app.bridgecredit.ng",
       badges: ["Contract"],
       location: "Remote, Lagos",
       title: "Fullstack Engineer",
@@ -401,7 +401,7 @@ export const DATA = {
     {
       slug: "bcl",
       title: "Bridge Credit Limited",
-      href: "https://customerpreview.bridgecredit.net",
+      href: "https://app.bridgecredit.ng",
       dates: "Mar 2026 - Jul 2026",
       role: "Fullstack Engineer",
       active: true,
@@ -441,7 +441,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://customerpreview.bridgecredit.net",
+          href: "https://app.bridgecredit.ng",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -712,14 +712,11 @@ export interface Testimonial {
   links?: TestimonialLink[];
 }
 
-const LOREM_IPSUM =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
-
 export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Olalekan Oladosu",
     role: "Senior Software Engineer",
-    body: LOREM_IPSUM,
+    body: "I've mentored a lot of engineers over the years, and Chisom is one of the few I keep bringing back onto new projects; we've built and shipped together across Seamailer, Bridge Credit, and Alajo. He doesn't just write code that works, he writes code that holds up in production: fast, reliable, and genuinely well-thought-out. He takes ownership like it's his own product, and that's rare. Any team or client would be lucky to have him.",
     links: [
       {
         platform: "LinkedIn",
@@ -756,7 +753,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     name: "Kenechukwu Anolue",
-    body: LOREM_IPSUM,
+    body: "When we brought Chisom onto Assist Factory, he delivered the frontend UI well ahead of the timeline we'd projected, which almost never happens. The quality held up too, not just the speed. I was so happy with the outcome that I've since recommended him for two other projects. He's become someone I trust to just hand a problem to and know it'll get done right.",
     links: [
       {
         platform: "X",
@@ -768,7 +765,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     name: "Chibundu Ogbonnia",
-    body: LOREM_IPSUM,
+    body: "After Assist Factory, I kept bringing Chisom onto new projects - three more since then, including Umuigbo Diaspora. That should tell you enough on its own, but the clearest signal is that I trusted him to build my own personal portfolio, and that's not something I can hand off lightly. He delivers work I don't have to double-check.",
     links: [
       {
         platform: "LinkedIn",
@@ -781,7 +778,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Uchenna Onyenso",
     role: "Senior Backend Engineer",
-    body: LOREM_IPSUM,
+    body: "Assist Factory was the first project Chisom and I worked on together, but you'd never have guessed it, we synced like we'd shipped ten products before it. He took real ownership of the frontend, not just tickets, and it showed: what started as a contract engagement turned into a part-time role because management could see the work ethic and how well we operated as a unit. As the backend engineer on that build, I can say without hesitation, he's technically sharp, moves fast, and makes whoever he's working with better. I'd bring him onto any project, no second thoughts.",
     links: [
       {
         platform: "LinkedIn",
@@ -800,7 +797,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     name: "Opeyemi Olayinka",
     role: "Product Manager",
-    body: LOREM_IPSUM,
+    body: "Chisom was my favorite kind of engineer to work with on Alajo, the kind who doesn't add to my stress pile. He was always attentive, always ahead of problems instead of behind them, and some of our best product improvements came out of side conversations he started, not tickets I assigned. Whether it was catching an error before it became a bug report or pushing for a better UX flow, he just handled it. As a PM, that's priceless. I'd work with him again in a heartbeat, it takes real weight off my shoulders knowing he's on the team.",
     links: [
       {
         platform: "LinkedIn",

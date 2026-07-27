@@ -12,7 +12,7 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-const TITLE = `${DATA.name} — Fullstack Engineer`;
+const TITLE = `${DATA.name} | Fullstack Engineer`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
