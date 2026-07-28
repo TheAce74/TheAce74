@@ -513,7 +513,7 @@ export const TESTIMONIALS = [
     handle: "@chibunduogbonnia",
     icon: <FaLinkedin />,
     platform: "LinkedIn",
-    body: "After Assist Factory, I kept bringing Chisom onto new projects - three more since then, including Umuigbo Diaspora. That should tell you enough on its own, but the clearest signal is that I trusted him to build my own personal portfolio, and that's not something I can hand off lightly. He delivers work I don't have to double-check.",
+    body: "After Assist Factory, I kept bringing Chisom onto new projects - three more since then, and Umuigbo Diaspora is the one I'm proudest of us shipping together. He also built my own personal portfolio, and that's not something I can hand off lightly. What I've come to rely on most is his resilience; when a project gets hard, he doesn't fold or cut corners, he just keeps working the problem until it's actually solved. He delivers work I don't have to double-check.",
     link: "https://www.linkedin.com/in/chibunduogbonnia",
   },
   {

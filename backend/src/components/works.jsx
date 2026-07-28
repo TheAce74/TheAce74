@@ -1,19 +1,14 @@
-import { FaAws } from "react-icons/fa";
 import {
-  SiNodedotjs,
   SiExpress,
-  SiTypescript,
-  SiMongodb,
-  SiZod,
   SiSequelize,
   SiRedis,
+  SiNestjs,
+  SiPostgresql,
+  SiTypeorm,
+  SiPrisma,
 } from "react-icons/si";
 
 export default function Works() {
-  const links = ["https://srsai.vercel.app", "https://srscafe.vercel.app"];
-  const randomIndex = Math.floor(Math.random() * links.length);
-  const link = links[randomIndex];
-
   return (
     <>
       <div className="works work-adjust" id="work">
@@ -43,56 +38,50 @@ export default function Works() {
             </span>
           </div>
           <div className="card-img" title="first">
-            {/* <img src={image1}/> */}
           </div>
         </div>
         <div className="card card2">
           <div className="card-head">
             <h2>
-              <a href={link} target="_blank">
-                SRS
+              <a href="https://app.bridgecredit.ng" target="_blank">
+                Bridge Credit Limited
               </a>
             </h2>
             <span>
               <h3>
-                <SiNodedotjs aria-hidden="true" /> Node
+                <SiNestjs aria-hidden="true" /> NestJS
               </h3>
               <h3>
-                <SiTypescript aria-hidden="true" /> Typescript
+                <SiPostgresql aria-hidden="true" /> PostgreSQL
               </h3>
               <h3>
-                <SiZod aria-hidden="true" /> Zod
+                <SiTypeorm aria-hidden="true" /> TypeORM
               </h3>
             </span>
           </div>
           <div className="card-img" title="second">
-            {/* <img src={image2}/> */}
           </div>
         </div>
         <div className="card card3">
           <div className="card-head">
             <h2>
-              <a
-                href="https://github.com/TheAce74/ShoutMeBackend"
-                target="_blank"
-              >
-                ShoutMe
+              <a href="https://umuigbodiaspora.com" target="_blank">
+                Umuigbo Diaspora
               </a>
             </h2>
             <span>
               <h3>
-                <SiExpress aria-hidden="true" /> Express
+                <SiNestjs aria-hidden="true" /> NestJS
               </h3>
               <h3>
-                <SiMongodb aria-hidden="true" /> MongoDB
+                <SiPostgresql aria-hidden="true" /> PostgreSQL
               </h3>
               <h3>
-                <FaAws aria-hidden="true" /> AWS
+                <SiPrisma aria-hidden="true" /> Prisma
               </h3>
             </span>
           </div>
           <div className="card-img" title="third">
-            {/* <img src={image3}/> */}
           </div>
         </div>
         <div className="outro">
