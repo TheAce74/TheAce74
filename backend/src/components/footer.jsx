@@ -18,10 +18,10 @@ export default function Footer() {
             </h2>
           </div>
           <div className="info col-item">
-            <h6>Contact Info</h6>
+            <h3>Contact Info</h3>
             <p>udonsichisom02@gmail.com</p>
             <h2 className="text-xs">+234 706 326 5056</h2>
-            <span>
+            <ul>
               <li>
                 <a href="#about">About</a>
               </li>
@@ -34,7 +34,7 @@ export default function Footer() {
               <li>
                 <a href="#contact">Contact</a>
               </li>
-            </span>
+            </ul>
           </div>
         </div>
         <div className="stamp col-sm">

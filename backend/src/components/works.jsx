@@ -19,7 +19,7 @@ export default function Works() {
       <div className="works work-adjust" id="work">
         <div className="intro">
           <span>
-            <h1>Featured Works</h1>
+            <h2>Featured Works</h2>
             <p>Perfect solutions to digital experiences</p>
           </span>
         </div>
@@ -32,13 +32,13 @@ export default function Works() {
             </h2>
             <span>
               <h3>
-                <SiExpress /> Express
+                <SiExpress aria-hidden="true" /> Express
               </h3>
               <h3>
-                <SiSequelize /> Sequelize
+                <SiSequelize aria-hidden="true" /> Sequelize
               </h3>
               <h3>
-                <SiRedis /> Redis
+                <SiRedis aria-hidden="true" /> Redis
               </h3>
             </span>
           </div>
@@ -55,13 +55,13 @@ export default function Works() {
             </h2>
             <span>
               <h3>
-                <SiNodedotjs /> Node
+                <SiNodedotjs aria-hidden="true" /> Node
               </h3>
               <h3>
-                <SiTypescript /> Typescript
+                <SiTypescript aria-hidden="true" /> Typescript
               </h3>
               <h3>
-                <SiZod /> Zod
+                <SiZod aria-hidden="true" /> Zod
               </h3>
             </span>
           </div>
@@ -81,13 +81,13 @@ export default function Works() {
             </h2>
             <span>
               <h3>
-                <SiExpress /> Express
+                <SiExpress aria-hidden="true" /> Express
               </h3>
               <h3>
-                <SiMongodb /> MongoDB
+                <SiMongodb aria-hidden="true" /> MongoDB
               </h3>
               <h3>
-                <FaAws /> AWS
+                <FaAws aria-hidden="true" /> AWS
               </h3>
             </span>
           </div>
@@ -96,11 +96,11 @@ export default function Works() {
           </div>
         </div>
         <div className="outro">
-          <h1>
+          <h2>
             <a href="https://github.com/TheAce74" target="_blank">
               ALL PROJECTS
             </a>
-          </h1>
+          </h2>
           <p className="text-center">
             Looking for more of my projects? You can always check out my
             <a href="https://github.com/TheAce74" target="_blank">

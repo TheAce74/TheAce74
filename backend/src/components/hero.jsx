@@ -16,11 +16,12 @@ export default function Hero() {
         <div className="hero-text col-item">
           <div className="main-text m-1">
             <div className="badge">Backend Developer</div>
-            <h2>Talk is cheap.</h2>
+            <h1>Talk is cheap.</h1>
             <h2>Show me the code.</h2>
             <p>
-              I architect and develop robust, scalable backend systems, and I
-              absolutely love what I do.
+              I architect and develop robust, scalable backend systems — REST
+              APIs, databases, and cloud infrastructure — with Node.js and
+              Express. Open to contract & part-time work.
             </p>
             <a
               href="https://api.whatsapp.com/send?phone=2347063265056"
@@ -48,10 +49,28 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-img col-item m-md">
-          <img src={image1} />
-          <img className="tech rotate mongodb hide-sm" src={image2} />
-          <img className="tech float express hide-sm" src={image3} />
-          <img className="tech zoom js hide-sm" src={image4} />
+          <img src={image1} alt="" width="242" height="200" />
+          <img
+            className="tech rotate mongodb hide-sm"
+            src={image2}
+            alt=""
+            width="60"
+            height="60"
+          />
+          <img
+            className="tech float express hide-sm"
+            src={image3}
+            alt=""
+            width="60"
+            height="60"
+          />
+          <img
+            className="tech zoom js hide-sm"
+            src={image4}
+            alt=""
+            width="56"
+            height="60"
+          />
         </div>
       </div>
     </>

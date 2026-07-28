@@ -11,16 +11,15 @@ async function main() {
     root,
     server: { middlewareMode: true },
     appType: "custom",
-    ssr: { noExternal: ["use-click-away-react"] },
   });
 
-  const { render } = await vite.ssrLoadModule("/src/entry-server.tsx");
+  const { render } = await vite.ssrLoadModule("/src/entry-server.jsx");
   let appHtml = render();
 
   await vite.close();
 
   // ssrLoadModule resolves asset imports (images, PDFs, etc.) to dev-server
-  // paths like /src/assets/foo.webp, which don't exist in the production
+  // paths like /src/assets/foo.svg, which don't exist in the production
   // build. Remap them to the real hashed output paths via the build manifest.
   const manifestPath = path.join(root, "dist", "manifest.json");
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));

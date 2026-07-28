@@ -1,5 +1,4 @@
 import { FiCode, FiDatabase, FiDownload, FiSmartphone } from "react-icons/fi";
-import resume from "../assets/resume.pdf";
 
 export default function About() {
   return (
@@ -53,21 +52,22 @@ export default function About() {
           </h2>
           <i className="quote text-xs">
             the journey of a thousand lines of code begins with one{" "}
-            <span style={{ color: "#1290cd", fontWeight: "bold" }}>
+            <span style={{ color: "#1aa8ec", fontWeight: "bold" }}>
               Hello World...
             </span>
           </i>
           <p>
-            Looking back from when I wrote my first express app, it has been a
-            rollercoaster. From feeling like a genius when everything works
-            seamlessly to sleepless nights debugging server errors and
-            optimizing database queries. Nevertheless, I've built scalable
-            backend systems for clients and collaborated with talented engineers
-            to develop robust and secure digital products. I'm quietly
-            confident, naturally curious, and always refining my skills to write
-            efficient, maintainable, and high-performing backend solutions.
+            Looking back from when I wrote my first Node.js and Express app,
+            it has been a rollercoaster. From feeling like a genius when
+            everything works seamlessly to sleepless nights debugging server
+            errors and optimizing database queries. Nevertheless, I've built
+            scalable REST APIs and backend systems for clients and
+            collaborated with talented engineers to develop robust and secure
+            digital products. I'm quietly confident, naturally curious, and
+            always refining my skills to write efficient, maintainable, and
+            high-performing backend solutions.
           </p>
-          <a href={resume} download="chisom_udonsi_backend_resume" target="_blank">
+          <a href="/resume.pdf" download="chisom_udonsi_backend_resume" target="_blank">
             <button className="text-xs">
               Download Resume <FiDownload />
             </button>

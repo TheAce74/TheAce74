@@ -48,81 +48,87 @@ export default function Tech() {
 
         <div className="universe row-adjust">
           <div className="planet1 planet row-item">
-            <img src={image1} alt="" />
+            <img src={image1} alt="" width="40" height="40" />
           </div>
           <div className="planet2 planet row-item">
-            <img src={image2} alt="" />
+            <img src={image2} alt="" width="40" height="40" />
           </div>
           <div className="planet3 planet row-item">
-            <img src={image3} alt="" />
+            <img src={image3} alt="" width="40" height="40" />
           </div>
           <div className="planet4 planet row-item">
-            <img src={image4} alt="" />
+            <img src={image4} alt="" width="40" height="40" />
           </div>
           <div className="planet5 planet row-item">
-            <img src={image5} alt="" />
+            <img src={image5} alt="" width="21" height="40" />
           </div>
           <div className="planet6 planet row-item">
-            <img src={image6} alt="" />
+            <img src={image6} alt="" width="40" height="40" />
           </div>
           <div className="planet7 planet row-item">
-            <img src={image7} alt="" />
+            <img src={image7} alt="" width="40" height="40" />
           </div>
           <div className="planet8 planet row-item">
-            <img src={image8} alt="" />
+            <img src={image8} alt="" width="40" height="40" />
           </div>
           <div className="planet9 planet row-item">
-            <img src={image9} alt="" />
+            <img src={image9} alt="" width="61" height="40" />
           </div>
           <div className="planet10 planet row-item">
-            <img src={image10} alt="" />
+            <img src={image10} alt="" width="40" height="40" />
           </div>
           <div className="planet11 planet row-item">
-            <img src={image11} alt="" />
+            <img src={image11} alt="" width="40" height="40" />
           </div>
           <div className="planet12 planet row-item">
-            <img src={image12} alt="" />
+            <img src={image12} alt="" width="40" height="40" />
           </div>
           <div className="planet13 planet row-item">
-            <img src={image13} alt="" />
+            <img src={image13} alt="" width="40" height="40" />
           </div>
           <div className="planet14 planet row-item">
-            <img src={image14} alt="" />
+            <img src={image14} alt="" width="36" height="40" />
           </div>
           <div className="planet15 planet row-item">
-            <img src={image15} alt="" />
+            <img src={image15} alt="" width="40" height="40" />
           </div>
           <div className="planet16 planet row-item">
-            <img src={image16} alt="" />
+            <img src={image16} alt="" width="40" height="40" />
           </div>
           <div className="planet17 planet row-item">
-            <img src={image17} alt="" />
+            <img src={image17} alt="" width="40" height="40" />
           </div>
           <div className="planet18 planet row-item">
-            <img src={image18} alt="" />
+            <img src={image18} alt="" width="40" height="40" />
           </div>
           <div className="planet19 planet row-item">
-            <img src={image19} alt="" />
+            <img src={image19} alt="" width="40" height="40" />
           </div>
           <div className="planet20 planet row-item">
-            <img src={image20} alt="" />
+            <img src={image20} alt="" width="40" height="40" />
           </div>
           <div className="planet21 planet row-item">
-            <img src={image21} alt="" />
+            <img src={image21} alt="" width="40" height="40" />
           </div>
           <div className="planet22 planet row-item">
-            <img src={image22} alt="" />
+            <img src={image22} alt="" width="40" height="40" />
           </div>
           <div className="planet23 planet row-item">
-            <img src={image23} alt="" />
+            <img src={image23} alt="" width="40" height="40" />
           </div>
           <div className="planet24 planet row-item">
-            <img src={image24} alt="" />
+            <img src={image24} alt="" width="40" height="40" />
           </div>
           <div className="planet25 planet row-item">
-            <img src={image25} alt="" />
+            <img src={image25} alt="" width="40" height="40" />
           </div>
-          <img className="hide-sm" src={image26} />
+          <img
+            className="hide-sm"
+            src={image26}
+            alt=""
+            width="121"
+            height="100"
+          />
         </div>
       </div>
     </>

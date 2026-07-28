@@ -8,7 +8,6 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import { FiDownload, FiMail } from "react-icons/fi";
 import { loader } from "./loader";
-import resume from "../assets/resume.pdf";
 
 export default function Header() {
   const [modalState, setModalState] = useState(false);
@@ -23,13 +22,13 @@ export default function Header() {
   return (
     <>
       <div id="overlay" className="preloader">
-        <h1 id="loader"></h1>
+        <p id="loader"></p>
       </div>
       <header>
         <div className="brand text-sm">
           <b>Chisom</b>Udonsi
         </div>
-        <div className="nav nav-links hide-sm">
+        <ul className="nav nav-links hide-sm">
           <li className="nav-item">
             <a href="#about"> About</a>
           </li>
@@ -42,29 +41,31 @@ export default function Header() {
           <li className="nav-item">
             <a href="#contact">Contact</a>
           </li>
-        </div>
+        </ul>
         <div className="social">
-          <li className="social-item hide-sm">
-            <FaXTwitter style={{ marginRight: 10 }} />
-            <a href="https://twitter.com/TheAce74" target="_blank">
-              {" "}
-              Twitter
-            </a>
-          </li>
-          <li className="social-item hide-sm">
-            <FaGithub style={{ marginRight: 10 }} />
-            <a href="https://github.com/TheAce74" target="_blank">
-              {" "}
-              Github
-            </a>
-          </li>
-          <li className="social-item hide-sm">
-            <div className="circle hide-sm">
-              <a href="mailto:udonsichisom02@gmail.com">
-                <FiMail color="#1290cd" />
+          <ul className="social-list hide-sm">
+            <li className="social-item hide-sm">
+              <FaXTwitter style={{ marginRight: 10 }} />
+              <a href="https://twitter.com/TheAce74" target="_blank">
+                {" "}
+                Twitter
               </a>
-            </div>
-          </li>
+            </li>
+            <li className="social-item hide-sm">
+              <FaGithub style={{ marginRight: 10 }} />
+              <a href="https://github.com/TheAce74" target="_blank">
+                {" "}
+                Github
+              </a>
+            </li>
+            <li className="social-item hide-sm">
+              <div className="circle hide-sm">
+                <a href="mailto:udonsichisom02@gmail.com">
+                  <FiMail color="#1290cd" />
+                </a>
+              </div>
+            </li>
+          </ul>
           <div
             onClick={() => toggleModal()}
             className={`show-sm hide-lg hamburger ${
@@ -133,7 +134,7 @@ export default function Header() {
             />
           </span>
           <a
-            href={resume}
+            href="/resume.pdf"
             download="chisom_udonsi_backend_resume"
             target="_blank"
           >

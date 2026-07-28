@@ -95,7 +95,7 @@ export default function Testimonials() {
     <>
       <div className="testimonials" id="review">
         <span className="head m-sm">
-          <h1>Testimonials</h1>
+          <h2>Testimonials</h2>
           <p className="hide-sm">What people say about me</p>
         </span>
         <motion.div
@@ -115,7 +115,7 @@ export default function Testimonials() {
             <div className="review-profile" key={testimonial.displayName + idx}>
               <div className="profile-bar">
                 <span>
-                  <h4>{testimonial.displayName}</h4>
+                  <h3>{testimonial.displayName}</h3>
                   <p>
                     <a href={testimonial.link} target="_blank">
                       {testimonial.username}
@@ -150,7 +150,7 @@ export default function Testimonials() {
             <div className="review-profile" key={testimonial.username + idx}>
               <div className="profile-bar">
                 <span>
-                  <h4>{testimonial.displayName}</h4>
+                  <h3>{testimonial.displayName}</h3>
                   <p>
                     <a href={testimonial.link} target="_blank">
                       {testimonial.username}
