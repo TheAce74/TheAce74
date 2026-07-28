@@ -22,8 +22,8 @@ function Profile() {
           <img
             src={profilePic}
             alt="profile picture"
-            width={772}
-            height={1080}
+            width={1023}
+            height={1537}
             ref={spinnerRef}
             className={loading ? "spinner-show" : ""}
           />
