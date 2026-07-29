@@ -8,7 +8,7 @@
 // import lwb from "@/assets/lwb.webp";
 import ypmc from "@/assets/ypmc.webp";
 import alajo from "@/assets/alajo.webp";
-import bcl from "@/assets/bcl.webp";
+// import bcl from "@/assets/bcl.webp";
 import umuigboDiaspora from "@/assets/umuigbodiaspora.webp";
 // import ratemate from "@/assets/ratemate.webp";
 // import novanote from "@/assets/novanote.webp";
@@ -114,13 +114,13 @@ export const PROJECTS = [
     link: "https://alajo.app",
     github: "https://github.com/TheAce74",
   },
-  {
-    title: "Bridge Credit Limited",
-    tools: ["Vue", "NestJS", "PostgreSQL", "Flutter"],
-    pic: bcl,
-    link: "https://app.bridgecredit.ng",
-    github: "https://github.com/TheAce74",
-  },
+  // {
+  //   title: "Bridge Credit Limited",
+  //   tools: ["Vue", "NestJS", "PostgreSQL", "Flutter"],
+  //   pic: bcl,
+  //   link: "https://app.bridgecredit.ng",
+  //   github: "https://github.com/TheAce74",
+  // },
   {
     title: "Umuigbo Diaspora",
     tools: ["Tanstack Start", "NestJS", "Prisma", "Stripe", "Brevo"],

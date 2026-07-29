@@ -227,18 +227,18 @@ export const DATA = {
       description:
         "Brought on as the sole engineer to architect and build Umuigbo Diaspora from scratch on a contract engagement — a platform connecting the Igbo diaspora with home through a suite of tools and services for Igbos living abroad. Owned everything end-to-end: architecture, frontend, backend, and deployment.",
     },
-    {
-      company: "Bridge Credit Limited",
-      href: "https://app.bridgecredit.ng",
-      badges: ["Contract"],
-      location: "Remote, Lagos",
-      title: "Fullstack Engineer",
-      logoUrl: "/bcl.png",
-      start: "March 2026",
-      end: "July 2026",
-      description:
-        "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
-    },
+    // {
+    //   company: "Bridge Credit Limited",
+    //   href: "https://app.bridgecredit.ng",
+    //   badges: ["Contract"],
+    //   location: "Remote, Lagos",
+    //   title: "Fullstack Engineer",
+    //   logoUrl: "/bcl.png",
+    //   start: "March 2026",
+    //   end: "July 2026",
+    //   description:
+    //     "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
+    // },
     {
       company: "YPMC",
       badges: ["Contract"],
@@ -398,56 +398,56 @@ export const DATA = {
       image: "/assistfactory.webp",
       video: "",
     },
-    {
-      slug: "bcl",
-      title: "Bridge Credit Limited",
-      href: "https://app.bridgecredit.ng",
-      dates: "Mar 2026 - Jul 2026",
-      role: "Fullstack Engineer",
-      active: true,
-      problem:
-        "Bridge Credit needed a customer-facing loan platform — web and native mobile — built from the ground up to take their lending product to real customers.",
-      solution:
-        "Bridge Credit is a lending platform that gives everyday Nigerians fast access to credit — from application to disbursement — across web and native mobile.",
-      myRole:
-        "Joined as a fullstack engineer on a contract to help build the platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
-      description:
-        "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
-      impact: [
-        { label: "Scope", value: "Web + native mobile (Flutter) shipped" },
-        { label: "Ownership", value: "Owned the web experience end-to-end" },
-      ],
-      features: [
-        "Customer onboarding flow",
-        "Loan application and management workflow",
-        "Bank account verification via Mono",
-        "Automated transactional emails via Seamailer",
-        "Native mobile app (Flutter) alongside the web platform",
-        "Monorepo architecture (PNPM Workspaces) powering both customer and admin web tools",
-      ],
-      technologies: [
-        "Vue",
-        "TailwindCSS",
-        "NestJS",
-        "PostgreSQL",
-        "TypeORM",
-        "PNPM Workspaces",
-        "Mono",
-        "Seamailer",
-        "Typescript",
-        "AWS S3",
-        "Flutter",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://app.bridgecredit.ng",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/bcl.webp",
-      video: "",
-    },
+    // {
+    //   slug: "bcl",
+    //   title: "Bridge Credit Limited",
+    //   href: "https://app.bridgecredit.ng",
+    //   dates: "Mar 2026 - Jul 2026",
+    //   role: "Fullstack Engineer",
+    //   active: true,
+    //   problem:
+    //     "Bridge Credit needed a customer-facing loan platform — web and native mobile — built from the ground up to take their lending product to real customers.",
+    //   solution:
+    //     "Bridge Credit is a lending platform that gives everyday Nigerians fast access to credit — from application to disbursement — across web and native mobile.",
+    //   myRole:
+    //     "Joined as a fullstack engineer on a contract to help build the platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
+    //   description:
+    //     "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
+    //   impact: [
+    //     { label: "Scope", value: "Web + native mobile (Flutter) shipped" },
+    //     { label: "Ownership", value: "Owned the web experience end-to-end" },
+    //   ],
+    //   features: [
+    //     "Customer onboarding flow",
+    //     "Loan application and management workflow",
+    //     "Bank account verification via Mono",
+    //     "Automated transactional emails via Seamailer",
+    //     "Native mobile app (Flutter) alongside the web platform",
+    //     "Monorepo architecture (PNPM Workspaces) powering both customer and admin web tools",
+    //   ],
+    //   technologies: [
+    //     "Vue",
+    //     "TailwindCSS",
+    //     "NestJS",
+    //     "PostgreSQL",
+    //     "TypeORM",
+    //     "PNPM Workspaces",
+    //     "Mono",
+    //     "Seamailer",
+    //     "Typescript",
+    //     "AWS S3",
+    //     "Flutter",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://app.bridgecredit.ng",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/bcl.webp",
+    //   video: "",
+    // },
     {
       slug: "ypmc",
       title: "YPMC",

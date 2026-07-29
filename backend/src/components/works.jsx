@@ -4,7 +4,7 @@ import {
   SiRedis,
   SiNestjs,
   SiPostgresql,
-  SiTypeorm,
+  // SiTypeorm,
   SiPrisma,
 } from "react-icons/si";
 
@@ -40,7 +40,7 @@ export default function Works() {
           <div className="card-img" title="first">
           </div>
         </div>
-        <div className="card card2">
+        {/* <div className="card card2">
           <div className="card-head">
             <h2>
               <a href="https://app.bridgecredit.ng" target="_blank">
@@ -61,7 +61,7 @@ export default function Works() {
           </div>
           <div className="card-img" title="second">
           </div>
-        </div>
+        </div> */}
         <div className="card card3">
           <div className="card-head">
             <h2>
