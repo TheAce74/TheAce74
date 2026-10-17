@@ -20,13 +20,13 @@ export const DATA = {
   locationLink:
     "https://www.google.com/maps/place/4%C2%B051'14.8%22N+6%C2%B056'39.4%22E/@4.8541113,6.9417071,17z/data=!3m1!4b1!4m7!1m2!10m1!1e2!3m3!8m2!3d4.854106!4d6.944282?entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D",
   description:
-    "I build new products from the ground up and join others mid-flight to make them work — Fullstack Engineer open to contract & part-time roles.",
+    "I build new products from the ground up and join others mid-flight to make them work.",
   availability: {
     open: true,
-    message: "Open to contract & part-time work",
+    message: "Open to work",
   },
   summary:
-    "I'm a fullstack engineer who thrives whether I'm building a product from scratch or joining one mid-flight to make it better — like getting promoted to core engineer at Seamailer, or driving measurable performance and UX wins on contract work like YPMC. I build across web and mobile, with a strong foundation in TypeScript, Vue, React, and Node.js. Since 2021, I've gone from teaching to full-time engineering — and I'm currently open to contract and part-time work.",
+    "I'm a fullstack engineer who thrives whether I'm building a product from scratch or joining one mid-flight to make it better, like getting promoted to core engineer at Seamailer, or driving measurable performance and UX wins on contract work like YPMC. I build across web and mobile, with a strong foundation in TypeScript, Vue, React, and Node.js. Since 2021, I've gone from teaching to full-time engineering, and I'm currently expanding my frontiers in software engineering.",
   avatarUrl: "/me.webp",
   techStack: [
     "HTML",
@@ -53,7 +53,7 @@ export const DATA = {
     "Git",
     "GitHub",
   ],
-  interests: ["Flutter", "Rust", "Solidity", "Python"],
+  interests: ["Angular", "Flutter", "Rust", "Solidity", "Python"],
   skills: [
     {
       label: "Frontend Development",
@@ -189,7 +189,7 @@ export const DATA = {
       start: "September 2024",
       end: "Present",
       description:
-        "Started as a frontend engineer and was promoted to fullstack for the impact of my work — now a core engineer on the product. Build and maintain high-performance UIs with Vue.js, implement backend API logic for complex business requirements, and take part in code reviews across features, enhancements, and fixes. Currently helping ship and support the platform for 1,000+ active users.",
+        "Started as a frontend engineer and was promoted to fullstack for the impact of my work, now a core engineer on the product. Build and maintain high-performance UIs with Vue.js, implement backend API logic for complex business requirements, and take part in code reviews across features, enhancements, and fixes. Currently helping ship and support the platform for 1,000+ active users.",
     },
     {
       company: "Assist Factory",
@@ -213,7 +213,7 @@ export const DATA = {
       start: "February 2026",
       end: "Present",
       description:
-        "Senior frontend engineer delivering software solutions across SBSC's client portfolio on a contract basis — specific projects and clients are confidential under NDA.",
+        "Senior frontend engineer delivering software solutions across SBSC's client portfolio on a contract basis, specific projects and clients are confidential under NDA.",
     },
     {
       company: "Umuigbo Diaspora",
@@ -225,7 +225,7 @@ export const DATA = {
       start: "June 2026",
       end: "July 2026",
       description:
-        "Brought on as the sole engineer to architect and build Umuigbo Diaspora from scratch on a contract engagement — a platform connecting the Igbo diaspora with home through a suite of tools and services for Igbos living abroad. Owned everything end-to-end: architecture, frontend, backend, and deployment.",
+        "Brought on as the sole engineer to architect and build Umuigbo Diaspora from scratch on a contract engagement, a platform connecting the Igbo diaspora with home through a suite of tools and services for Igbos living abroad. Owned everything end-to-end: architecture, frontend, backend, and deployment.",
     },
     // {
     //   company: "Bridge Credit Limited",
@@ -237,7 +237,7 @@ export const DATA = {
     //   start: "March 2026",
     //   end: "July 2026",
     //   description:
-    //     "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
+    //     "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up, owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
     // },
     {
       company: "YPMC",
@@ -249,7 +249,7 @@ export const DATA = {
       start: "May 2025",
       end: "July 2025",
       description:
-        "Joined this logistics platform on a 3-month contract to resolve data-consistency issues and improve UX. Introduced code splitting, image lazy-loading, and state-level performance optimizations, and raised accessibility standards across the app — taking Lighthouse scores from 30% to 62% (performance), 45% to 77% (accessibility), 72% to 96% (best practices), and 90% to 100% (SEO). Also built responsive interfaces from Figma designs using React, Next.js, and TailwindCSS, and integrated real-time tracking via WebSockets — the platform picked up 10+ new paying users during my time there.",
+        "Joined this logistics platform on a 3-month contract to resolve data-consistency issues and improve UX. Introduced code splitting, image lazy-loading, and state-level performance optimizations, and raised accessibility standards across the app, taking Lighthouse scores from 30% to 62% (performance), 45% to 77% (accessibility), 72% to 96% (best practices), and 90% to 100% (SEO). Also built responsive interfaces from Figma designs using React, Next.js, and TailwindCSS, and integrated real-time tracking via WebSockets, the platform picked up 10+ new paying users during my time there.",
     },
     {
       company: "Alajo",
@@ -292,13 +292,13 @@ export const DATA = {
       role: "Fullstack Engineer (Core)",
       active: true,
       problem:
-        "Seamailer needed to keep shipping fast across a growing email marketing platform — campaign automation, analytics, and a template editor — without slowing down as the team and user base scaled.",
+        "Seamailer needed to keep shipping fast across a growing email marketing platform, campaign automation, analytics, and a template editor, without slowing down as the team and user base scaled.",
       solution:
-        "Seamailer is an email marketing platform that helps businesses send personalized campaigns, automate customer journeys, and track performance — built for startups that need conversion-focused email marketing without the complexity.",
+        "Seamailer is an email marketing platform that helps businesses send personalized campaigns, automate customer journeys, and track performance, built for startups that need conversion-focused email marketing without the complexity.",
       myRole:
-        "Started as a frontend engineer and was promoted to fullstack for the impact of my work — now a core engineer on the product, serving 1,000+ active users. Ship features across the stack, from campaign scheduling and automation to a drag-and-drop template editor, and take part in code reviews for every feature, enhancement, and fix that ships.",
+        "Started as a frontend engineer and was promoted to fullstack for the impact of my work, now a core engineer on the product, serving 1,000+ active users. Ship features across the stack, from campaign scheduling and automation to a drag-and-drop template editor, and take part in code reviews for every feature, enhancement, and fix that ships.",
       description:
-        "Promoted from frontend to fullstack engineer for my impact — now a core engineer on this email marketing platform, serving 1,000+ active users. Ship features across the stack, from campaign scheduling and automation to a drag-and-drop template editor, and take part in code reviews for every feature, enhancement, and fix that ships.",
+        "Promoted from frontend to fullstack engineer for my impact, now a core engineer on this email marketing platform, serving 1,000+ active users. Ship features across the stack, from campaign scheduling and automation to a drag-and-drop template editor, and take part in code reviews for every feature, enhancement, and fix that ships.",
       impact: [
         { label: "Active users served", value: "1,000+" },
         { label: "Role growth", value: "Promoted frontend → fullstack" },
@@ -308,7 +308,7 @@ export const DATA = {
         },
       ],
       features: [
-        "Drag-and-drop campaign editor — no coding required",
+        "Drag-and-drop campaign editor, no coding required",
         "Audience segmentation by behavior, preferences & demographics",
         "Marketing automation for lead-nurturing journeys",
         "Campaign reporting with side-by-side performance comparison",
@@ -333,8 +333,6 @@ export const DATA = {
         "Redis",
         "BullMQ",
         "Paystack",
-        "AWS SES",
-        "Postal",
       ],
       links: [
         {
@@ -354,7 +352,7 @@ export const DATA = {
       role: "Frontend Engineer (Core)",
       active: true,
       problem:
-        "Assist Factory needed a production-ready platform, built from scratch, to connect businesses with vetted virtual assistants — including a task-management workflow and real-time communication that didn't exist yet.",
+        "Assist Factory needed a production-ready platform, built from scratch, to connect businesses with vetted virtual assistants, including a task-management workflow and real-time communication that didn't exist yet.",
       solution:
         "Assist Factory is a platform connecting businesses with vetted virtual assistants, offering a streamlined request system for task management and real-time messaging for client-assistant communication.",
       myRole:
@@ -406,13 +404,13 @@ export const DATA = {
     //   role: "Fullstack Engineer",
     //   active: true,
     //   problem:
-    //     "Bridge Credit needed a customer-facing loan platform — web and native mobile — built from the ground up to take their lending product to real customers.",
+    //     "Bridge Credit needed a customer-facing loan platform, web and native mobile, built from the ground up to take their lending product to real customers.",
     //   solution:
-    //     "Bridge Credit is a lending platform that gives everyday Nigerians fast access to credit — from application to disbursement — across web and native mobile.",
+    //     "Bridge Credit is a lending platform that gives everyday Nigerians fast access to credit, from application to disbursement, across web and native mobile.",
     //   myRole:
-    //     "Joined as a fullstack engineer on a contract to help build the platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
+    //     "Joined as a fullstack engineer on a contract to help build the platform from the ground up, owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
     //   description:
-    //     "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up — owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
+    //     "Joined as a fullstack engineer on a contract to help build Bridge Credit's loan platform from the ground up, owned the web experience end-to-end, from onboarding to loan applications, and picked up Flutter to contribute to the native mobile app alongside the team.",
     //   impact: [
     //     { label: "Scope", value: "Web + native mobile (Flutter) shipped" },
     //     { label: "Ownership", value: "Owned the web experience end-to-end" },
@@ -435,7 +433,6 @@ export const DATA = {
     //     "Mono",
     //     "Seamailer",
     //     "Typescript",
-    //     "AWS S3",
     //     "Flutter",
     //   ],
     //   links: [
@@ -456,13 +453,13 @@ export const DATA = {
       role: "Fullstack Engineer (Frontend-heavy)",
       active: true,
       problem:
-        "YPMC's logistics platform was live but struggling — data inconsistencies, broken loading states, and weak performance and accessibility scores were hurting the user experience.",
+        "YPMC's logistics platform was live but struggling, data inconsistencies, broken loading states, and weak performance and accessibility scores were hurting the user experience.",
       solution:
         "YPMC is a logistics platform connecting users with dependable riders for quick, efficient deliveries.",
       myRole:
-        "Joined this platform on a 3-month contract to fix data inconsistencies and UX performance issues. Introduced code splitting, lazy-loaded images, and state optimizations, pushing Lighthouse scores from 30% to 62% (performance), 45% to 77% (accessibility), 72% to 96% (best practices), and 90% to 100% (SEO) — while the platform gained 10+ new paying users.",
+        "Joined this platform on a 3-month contract to fix data inconsistencies and UX performance issues. Introduced code splitting, lazy-loaded images, and state optimizations, pushing Lighthouse scores from 30% to 62% (performance), 45% to 77% (accessibility), 72% to 96% (best practices), and 90% to 100% (SEO), while the platform gained 10+ new paying users.",
       description:
-        "Joined this logistics platform on a 3-month contract to fix data inconsistencies and UX performance issues. Introduced code splitting, lazy-loaded images, and state optimizations, pushing Lighthouse scores from 30% to 62% (performance), 45% to 77% (accessibility), 72% to 96% (best practices), and 90% to 100% (SEO) — while the platform gained 10+ new paying users.",
+        "Joined this logistics platform on a 3-month contract to fix data inconsistencies and UX performance issues. Introduced code splitting, lazy-loaded images, and state optimizations, pushing Lighthouse scores from 30% to 62% (performance), 45% to 77% (accessibility), 72% to 96% (best practices), and 90% to 100% (SEO), while the platform gained 10+ new paying users.",
       impact: [
         { label: "Performance (Lighthouse)", value: "30% → 62%" },
         { label: "Accessibility (Lighthouse)", value: "45% → 77%" },
@@ -475,7 +472,7 @@ export const DATA = {
         "Real-time shipment tracking",
         "Live chat with riders",
         "Rider ratings & profiles for quality assurance",
-        "Integrated marketplace — browse, buy, and get it delivered",
+        "Integrated marketplace, browse, buy, and get it delivered",
         "iOS & Android apps for shipment creation and tracking",
       ],
       technologies: [
@@ -507,15 +504,15 @@ export const DATA = {
       role: "Fullstack Engineer (Sole Engineer)",
       active: true,
       problem:
-        "The Igbo diaspora had no single platform to stay connected with home — Umuigbo Diaspora needed to be architected and built from zero, solo, on a tight contract timeline.",
+        "The Igbo diaspora had no single platform to stay connected with home, Umuigbo Diaspora needed to be architected and built from zero, solo, on a tight contract timeline.",
       solution:
         "Umuigbo Diaspora is a platform connecting the Igbo diaspora with home through a suite of tools and services for Igbos living abroad.",
       myRole:
         "Brought on as the sole engineer to architect and build the platform from scratch on a contract engagement. Owned everything end-to-end: architecture, frontend, backend, and deployment.",
       description:
-        "Brought on as the sole engineer to architect and build Umuigbo Diaspora from scratch on a contract engagement — a platform connecting the Igbo diaspora with home through a suite of tools and services for Igbos living abroad. Owned everything end-to-end: architecture, frontend, backend, and deployment.",
+        "Brought on as the sole engineer to architect and build Umuigbo Diaspora from scratch on a contract engagement, a platform connecting the Igbo diaspora with home through a suite of tools and services for Igbos living abroad. Owned everything end-to-end: architecture, frontend, backend, and deployment.",
       impact: [
-        { label: "Role", value: "Sole engineer — architected & built solo" },
+        { label: "Role", value: "Sole engineer, architected & built solo" },
         {
           label: "Scope",
           value: "Architecture, frontend, backend & deployment",
@@ -527,7 +524,7 @@ export const DATA = {
         "Kids playdates coordination",
         "Request-a-buddy on arrival (mentorship matching)",
         "Cheap flight finder",
-        "Group travel — join or create trips",
+        "Group travel, join or create trips",
         "Accommodation & room-share board",
         "Luggage / kg sharing board",
         "Group subscription pools",
@@ -581,9 +578,9 @@ export const DATA = {
         { label: "Platform reach", value: "Millions of low-income earners" },
       ],
       features: [
-        "Role-based dashboards — Customer, Field Agent, Marketer, Entrepreneur, and Admin",
+        "Role-based dashboards, Customer, Field Agent, Marketer, Entrepreneur, and Admin",
         "Finance and banking tools",
-        "Third-party partner products — loans, airtime, data, and insurance",
+        "Third-party partner products, loans, airtime, data, and insurance",
         "Rebuilt landing pages",
         "New customer-facing savings tools",
       ],

@@ -22,7 +22,7 @@ I'm a Fullstack Software Engineer — I build products from the ground up, and I
 
 - 💼 Currently open to **contract & part-time roles**
 - 🔭 Core engineer at **Seamailer** (promoted from frontend to fullstack), plus contract/part-time work with **SBSC** and **Assist Factory**
-- 🌱 Exploring **Flutter, Rust, Solidity & Python**
+- 🌱 Exploring **Angular, Flutter, Rust, Solidity & Python**
 - 👯 Looking to collaborate on **fullstack & mobile projects**
 - 💬 Ask me about **React, Vue, Node.js**, or turning around a struggling codebase
 - 📫 Reach me at udonsichisom02@gmail.com

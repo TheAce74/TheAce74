@@ -7,7 +7,7 @@ export default function Hero() {
   const diffInMilliseconds =
     new Date().getTime() - new Date(2021, 2, 1).getTime();
   const diffInYears = Math.floor(
-    diffInMilliseconds / (1000 * 60 * 60 * 24 * 365.25)
+    diffInMilliseconds / (1000 * 60 * 60 * 24 * 365.25),
   );
 
   return (
@@ -19,9 +19,9 @@ export default function Hero() {
             <h1>Talk is cheap.</h1>
             <h2>Show me the code.</h2>
             <p>
-              I architect and develop robust, scalable backend systems — REST
-              APIs, databases, and cloud infrastructure — with Node.js and
-              Express. Open to contract & part-time work.
+              I architect and develop robust, scalable backend systems, REST
+              APIs, databases, and cloud infrastructure, with Node.js and
+              Express.
             </p>
             <a
               href="https://api.whatsapp.com/send?phone=2347063265056"

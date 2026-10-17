@@ -12,7 +12,7 @@ function About({ title, icon }: AboutProps) {
   const diffInMilliseconds =
     new Date().getTime() - new Date(2021, 2, 1).getTime();
   const diffInYears = Math.floor(
-    diffInMilliseconds / (1000 * 60 * 60 * 24 * 365.25)
+    diffInMilliseconds / (1000 * 60 * 60 * 24 * 365.25),
   );
 
   return (
@@ -35,21 +35,21 @@ function About({ title, icon }: AboutProps) {
         Unleashing the Power of <span>Frontend Magic</span>
       </h2>
       <p className="about__info">
-        Since 2021, frontend development has been my craft — from HTML and
-        CSS fundamentals to building production interfaces with React,
+        Since 2021, frontend development has been my craft, from HTML and CSS
+        fundamentals to building production interfaces with React, Vue,
         TypeScript, and modern component architecture. I&apos;ve shipped real
-        products for real users, and I sweat the details that separate
-        &quot;it works&quot; from &quot;it&apos;s great.&quot;
+        products for real users, and I sweat the details that separate &quot;it
+        works&quot; from &quot;it&apos;s great.&quot;
       </p>
       <div className="about__extra">
         <div>
           <h3>{diffInYears}+</h3>
           <p>YEARS OF EXPERIENCE</p>
         </div>
-        <div>
+        {/* <div>
           <h3>100+</h3>
           <p>PROJECTS COMPLETED</p>
-        </div>
+        </div> */}
         <a
           href="/resume.pdf"
           className="resume"

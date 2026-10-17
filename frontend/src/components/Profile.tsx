@@ -29,7 +29,7 @@ function Profile() {
           />
         </div>
         <p aria-label="email">udonsichisom02@gmail.com</p>
-        <p aria-label="location">Based in Port Harcourt, Nigeria</p>
+        <p aria-label="location">Based in Nigeria</p>
         <p>&copy; {new Date().getFullYear()} Chisom. All Rights Reserved</p>
         <ul role="list" className="profile__socials" aria-label="social links">
           <li>

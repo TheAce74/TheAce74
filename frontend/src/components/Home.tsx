@@ -32,8 +32,8 @@ function Home({ title, icon }: HomeProps) {
       <p className="home__info">
         I&apos;m a Frontend Software Engineer building fast, accessible
         interfaces with React, TypeScript, and modern CSS. I care about the
-        details most people scroll past — the 200ms of polish that makes an
-        interface feel alive. Open to contract &amp; part-time work.
+        details most people scroll past, the 200ms of polish that makes an
+        interface feel alive.
       </p>
     </InView>
   );
